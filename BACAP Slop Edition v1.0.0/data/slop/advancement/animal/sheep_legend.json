@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pink_wool"
+    },
+    "title": {
+      "translate": "Sheep legend"
+    },
+    "description": {
+      "translate": "Kill 1000 pink sheep"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "slop:animal/back_to_sheep",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
+        }
+      },
+  "rewards": {
+    "function": "slop_rewards:animal/sheep_legend"
+  }
+}

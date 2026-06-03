@@ -1,0 +1,7 @@
+{
+  "pack": {
+    "description": "Complete Collection 2.0",
+    "min_format": [101, 1],
+    "max_format": [101, 1]
+  }
+}

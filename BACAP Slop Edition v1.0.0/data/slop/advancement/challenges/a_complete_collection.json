@@ -1,0 +1,1247 @@
+{
+  	"display": {
+		"icon": {
+			"id": "minecraft:command_block"
+		},
+      	"title": {"translate":"A Complete Collection!"},
+        "description": {"color":"light_purple","translate":"Obtain a stack of all the blocks and items!","extra":[{"text":"\n\n"},{"italic":true,"color":"dark_gray","translate":"This would include the following:"},{"color":"gray","text":"\n"},{"color":"gray","translate":"block.minecraft.netherite_block"},{"color":"gray","text":", "},{"color":"gray","translate":"block.minecraft.deepslate_emerald_ore"},{"color":"gray","text":", "},{"color":"gray","translate":"block.minecraft.heavy_core"},{"color":"gray","text":", "},{"color":"gray","translate":"block.minecraft.suspicious_sand"},{"color":"gray","text":", "},{"color":"gray","translate":"block.minecraft.suspicious_gravel"},{"color":"gray","text":", "},{"color":"gray","translate":"block.minecraft.tall_grass"},{"color":"gray","text":", "},{"color":"gray","translate":"block.minecraft.large_fern"},{"color":"gray","text":", "},{"color":"gray","translate":"item.minecraft.recovery_compass"},{"color":"gray","text":", "},{"color":"gray","translate":"item.minecraft.smithing_template"},{"color":"gray","text":", "},{"color":"gray","translate":"Pottery Sherds"},{"color":"gray","text":", "},{"color":"gray","translate":"All Tipped Arrows"},{"color":"gray","text":", "},{"color":"gray","translate":"All 5 levels of Ominous Bottles"}]},
+      	"announce_to_chat": true,
+       	"frame": "challenge",
+		"hidden": true
+	},
+	"parent": "blazeandcave:challenges/stack_all_the_items",
+	"rewards": {
+		"function":"slop_rewards:challenges/a_complete_collection"
+	},		
+	"criteria": {
+		"stack_all_the_blocks": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:challenges/stack_all_the_blocks": true
+						}
+					}
+				}
+			}
+		},
+		"stack_all_the_items": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:challenges/stack_all_the_items": true
+						}
+					}
+				}
+			}
+		},
+		"netherite_mad_lad": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:nether/netherite_mad_lad": true
+						}
+					}
+				}
+			}
+		},
+		"stacked_smither": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:adventure/stacked_smither": true
+						}
+					}
+				}
+			}
+		},
+		"core_keeper": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:adventure/core_keeper": true
+						}
+					}
+				}
+			}
+		},
+		"sus": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:adventure/sus": true
+						}
+					}
+				}
+			}
+		},
+		"large_fern": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:large_fern"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"tall_grass": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:tall_grass"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"deepslate_emerald_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:deepslate_emerald_ore"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"recovery_compass": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:recovery_compass"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"prize_pottery_sherd": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:prize_pottery_sherd"
+						],
+                       	"count": 64
+					}
+				]
+			}
+		},
+		"skull_pottery_sherd": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:skull_pottery_sherd"
+						],
+                       	"count": 64
+					}
+				]
+			}
+		},
+		"archer_pottery_sherd": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:archer_pottery_sherd"
+						],
+                       	"count": 64
+					}
+				]
+			}
+		},
+		"arms_up_pottery_sherd": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:arms_up_pottery_sherd"
+						],
+                       	"count": 64
+					}
+				]
+			}
+		},
+		"angler_pottery_sherd": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:angler_pottery_sherd"
+						],
+                       	"count": 64
+					}
+				]
+			}
+		},
+		"blade_pottery_sherd": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:blade_pottery_sherd"
+						],
+                       	"count": 64
+					}
+				]
+			}
+		},
+		"brewer_pottery_sherd": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:brewer_pottery_sherd"
+						],
+                       	"count": 64
+					}
+				]
+			}
+		},
+		"burn_pottery_sherd": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:burn_pottery_sherd"
+						],
+                       	"count": 64
+					}
+				]
+			}
+		},
+		"danger_pottery_sherd": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:danger_pottery_sherd"
+						],
+                       	"count": 64
+					}
+				]
+			}
+		},
+		"explorer_pottery_sherd": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:explorer_pottery_sherd"
+						],
+                       	"count": 64
+					}
+				]
+			}
+		},
+		"friend_pottery_sherd": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:friend_pottery_sherd"
+						],
+                       	"count": 64
+					}
+				]
+			}
+		},
+		"heart_pottery_sherd": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:heart_pottery_sherd"
+						],
+                       	"count": 64
+					}
+				]
+			}
+		},
+		"heartbreak_pottery_sherd": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:heartbreak_pottery_sherd"
+						],
+                       	"count": 64
+					}
+				]
+			}
+		},
+		"howl_pottery_sherd": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:howl_pottery_sherd"
+						],
+                       	"count": 64
+					}
+				]
+			}
+		},
+		"miner_pottery_sherd": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:miner_pottery_sherd"
+						],
+                       	"count": 64
+					}
+				]
+			}
+		},
+		"mourner_pottery_sherd": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:mourner_pottery_sherd"
+						],
+                       	"count": 64
+					}
+				]
+			}
+		},
+		"plenty_pottery_sherd": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:plenty_pottery_sherd"
+						],
+                       	"count": 64
+					}
+				]
+			}
+		},
+		"sheaf_pottery_sherd": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:sheaf_pottery_sherd"
+						],
+                       	"count": 64
+					}
+				]
+			}
+		},
+		"shelter_pottery_sherd": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:shelter_pottery_sherd"
+						],
+                       	"count": 64
+					}
+				]
+			}
+		},
+		"snort_pottery_sherd": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:snort_pottery_sherd"
+						],
+                       	"count": 64
+					}
+				]
+			}
+		},
+		"flow_pottery_sherd": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:flow_pottery_sherd"
+						],
+                       	"count": 64
+					}
+				]
+			}
+		},
+		"guster_pottery_sherd": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:guster_pottery_sherd"
+						],
+                       	"count": 64
+					}
+				]
+			}
+		},
+		"scrape_pottery_sherd": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:scrape_pottery_sherd"
+						],
+                       	"count": 64
+					}
+				]
+			}
+		},
+		"tipped_arrow.effect.water": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:tipped_arrow"
+						],
+						"count": 64,
+						"predicates": {
+							"potion_contents": "minecraft:water"
+						}
+					}
+				]
+			}
+		},
+		"tipped_thick_arrow": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:tipped_arrow"
+						],
+						"count": 64,
+						"predicates": {
+							"potion_contents": "minecraft:thick"
+						}
+					}
+				]
+			}
+		},
+		"tipped_mundane_arrow": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:tipped_arrow"
+						],
+						"count": 64,
+						"predicates": {
+							"potion_contents": "minecraft:mundane"
+						}
+					}
+				]
+			}
+		},
+		"tipped_awkward_arrow": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:tipped_arrow"
+						],
+						"count": 64,
+						"predicates": {
+							"potion_contents": "minecraft:awkward"
+						}
+					}
+				]
+			}
+		},		
+		"tipped_arrow.effect.night_vision": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:tipped_arrow"
+						],
+						"count": 64,
+						"predicates": {
+							"potion_contents": "minecraft:night_vision"
+						}
+					}
+				]
+			}
+		},
+		"arrow_of_long_night_vision": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:tipped_arrow"
+						],
+						"count": 64,
+						"predicates": {
+							"potion_contents": "minecraft:long_night_vision"
+						}
+					}
+				]
+			}
+		},	
+		"tipped_arrow.effect.invisibility": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:tipped_arrow"
+						],
+						"count": 64,
+						"predicates": {
+							"potion_contents": "minecraft:invisibility"
+						}
+					}
+				]
+			}
+		},
+		"arrow_of_long_invisibility": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:tipped_arrow"
+						],
+						"count": 64,
+						"predicates": {
+							"potion_contents": "minecraft:long_invisibility"
+						}
+					}
+				]
+			}
+		},	
+		"tipped_arrow.effect.leaping": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:tipped_arrow"
+						],
+						"count": 64,
+						"predicates": {
+							"potion_contents": "minecraft:leaping"
+						}
+					}
+				]
+			}
+		},		
+		"arrow_of_long_leaping": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:tipped_arrow"
+						],
+						"count": 64,
+						"predicates": {
+							"potion_contents": "minecraft:long_leaping"
+						}
+					}
+				]
+			}
+		},
+		"arrow_of_strong_leaping": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:tipped_arrow"
+						],
+						"count": 64,
+						"predicates": {
+							"potion_contents": "minecraft:strong_leaping"
+						}
+					}
+				]
+			}
+		},
+		"tipped_arrow.effect.fire_resistance": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:tipped_arrow"
+						],
+						"count": 64,
+						"predicates": {
+							"potion_contents": "minecraft:fire_resistance"
+						}
+					}
+				]
+			}
+		},		
+		"arrow_of_long_fire_resistance": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:tipped_arrow"
+						],
+						"count": 64,
+						"predicates": {
+							"potion_contents": "minecraft:long_fire_resistance"
+						}
+					}
+				]
+			}
+		},	
+		"tipped_arrow.effect.swiftness": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:tipped_arrow"
+						],
+						"count": 64,
+						"predicates": {
+							"potion_contents": "minecraft:swiftness"
+						}
+					}
+				]
+			}
+		},		
+		"arrow_of_long_swiftness": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:tipped_arrow"
+						],
+						"count": 64,
+						"predicates": {
+							"potion_contents": "minecraft:long_swiftness"
+						}
+					}
+				]
+			}
+		},
+		"arrow_of_strong_swiftness": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:tipped_arrow"
+						],
+						"count": 64,
+						"predicates": {
+							"potion_contents": "minecraft:strong_swiftness"
+						}
+					}
+				]
+			}
+		},		
+		"tipped_arrow.effect.slowness": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:tipped_arrow"
+						],
+						"count": 64,
+						"predicates": {
+							"potion_contents": "minecraft:slowness"
+						}
+					}
+				]
+			}
+		},		
+		"arrow_of_long_slowness": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:tipped_arrow"
+						],
+						"count": 64,
+						"predicates": {
+							"potion_contents": "minecraft:long_slowness"
+						}
+					}
+				]
+			}
+		},
+		"arrow_of_strong_slowness": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:tipped_arrow"
+						],
+						"count": 64,
+						"predicates": {
+							"potion_contents": "minecraft:strong_slowness"
+						}
+					}
+				]
+			}
+		},
+		"tipped_arrow.effect.water_breathing": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:tipped_arrow"
+						],
+						"count": 64,
+							"predicates": {
+							"potion_contents": "minecraft:water_breathing"
+						}
+					}
+				]
+			}
+		},		
+		"arrow_of_long_water_breathing": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:tipped_arrow"
+						],
+						"count": 64,
+						"predicates": {
+							"potion_contents": "minecraft:long_water_breathing"
+						}
+					}
+				]
+			}
+		},		
+		"tipped_arrow.effect.healing": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:tipped_arrow"
+						],
+						"count": 64,
+						"predicates": {
+							"potion_contents": "minecraft:healing"
+						}
+					}
+				]
+			}
+		},		
+		"arrow_of_strong_healing": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:tipped_arrow"
+						],
+						"count": 64,
+						"predicates": {
+							"potion_contents": "minecraft:strong_healing"
+						}
+					}
+				]
+			}
+		},		
+		"tipped_arrow.effect.harming": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:tipped_arrow"
+						],
+						"count": 64,
+						"predicates": {
+							"potion_contents": "minecraft:harming"
+						}
+					}
+				]
+			}
+		},		
+		"arrow_of_strong_harming": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:tipped_arrow"
+						],
+						"count": 64,
+						"predicates": {
+							"potion_contents": "minecraft:strong_harming"
+						}
+					}
+				]
+			}
+		},		
+		"tipped_arrow.effect.poison": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:tipped_arrow"
+						],
+						"count": 64,
+						"predicates": {
+							"potion_contents": "minecraft:poison"
+						}
+					}
+				]
+			}
+		},		
+		"arrow_of_long_poison": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:tipped_arrow"
+						],
+						"count": 64,
+						"predicates": {
+							"potion_contents": "minecraft:long_poison"
+						}
+					}
+				]
+			}
+		},
+		"arrow_of_strong_poison": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:tipped_arrow"
+						],
+						"count": 64,
+						"predicates": {
+							"potion_contents": "minecraft:strong_poison"
+						}
+					}
+				]
+			}
+		},
+		"tipped_arrow.effect.regeneration": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:tipped_arrow"
+						],
+						"count": 64,
+						"predicates": {
+							"potion_contents": "minecraft:regeneration"
+						}
+					}
+				]
+			}
+		},		
+		"arrow_of_long_regeneration": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:tipped_arrow"
+						],
+						"count": 64,
+						"predicates": {
+							"potion_contents": "minecraft:long_regeneration"
+						}
+					}
+				]
+			}
+		},
+		"arrow_of_strong_regeneration": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:tipped_arrow"
+						],
+						"count": 64,
+						"predicates": {
+							"potion_contents": "minecraft:strong_regeneration"
+						}
+					}
+				]
+			}
+		},	
+		"tipped_arrow.effect.strength": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:tipped_arrow"
+						],
+						"count": 64,
+						"predicates": {
+							"potion_contents": "minecraft:strength"
+						}
+					}
+				]
+			}
+		},		
+		"arrow_of_long_strength": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:tipped_arrow"
+						],
+						"count": 64,
+						"predicates": {
+							"potion_contents": "minecraft:long_strength"
+						}
+					}
+				]
+			}
+		},
+		"arrow_of_strong_strength": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:tipped_arrow"
+						],
+						"count": 64,
+						"predicates": {
+							"potion_contents": "minecraft:strong_strength"
+						}
+					}
+				]
+			}
+		},	
+		"tipped_arrow.effect.weakness": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:tipped_arrow"
+						],
+						"count": 64,
+						"predicates": {
+							"potion_contents": "minecraft:weakness"
+						}
+					}
+				]
+			}
+		},		
+		"arrow_of_long_weakness": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:tipped_arrow"
+						],
+						"count": 64,
+						"predicates": {
+							"potion_contents": "minecraft:long_weakness"
+						}
+					}
+				]
+			}
+		},	
+		"tipped_arrow.effect.turtle_master": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:tipped_arrow"
+						],
+						"count": 64,
+						"predicates": {
+							"potion_contents": "minecraft:turtle_master"
+						}
+					}
+				]
+			}
+		},		
+		"arrow_of_long_turtle_master": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:tipped_arrow"
+						],
+						"count": 64,
+						"predicates": {
+							"potion_contents": "minecraft:long_turtle_master"
+						}
+					}
+				]
+			}
+		},
+		"arrow_of_strong_turtle_master": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:tipped_arrow"
+						],
+						"count": 64,
+						"predicates": {
+							"potion_contents": "minecraft:strong_turtle_master"
+						}
+					}
+				]
+			}
+		},		
+		"tipped_arrow.effect.slow_falling": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:tipped_arrow"
+						],
+						"count": 64,
+						"predicates": {
+							"potion_contents": "minecraft:slow_falling"
+						}
+					}
+				]
+			}
+		},
+		"arrow_of_long_slow_falling": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:tipped_arrow"
+						],
+						"count": 64,
+						"predicates": {
+							"potion_contents": "minecraft:long_slow_falling"
+						}
+					}
+				]
+			}
+		},
+		"tipped_arrow.effect.oozing": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:tipped_arrow"
+						],
+						"count": 64,
+						"predicates": {
+							"potion_contents": "minecraft:oozing"
+						}
+					}
+				]
+			}
+		},
+		"tipped_arrow.effect.weaving": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:tipped_arrow"
+						],
+						"count": 64,
+						"predicates": {
+							"potion_contents": "minecraft:weaving"
+						}
+					}
+				]
+			}
+		},
+		"tipped_arrow.effect.infested": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:tipped_arrow"
+						],
+						"count": 64,
+						"predicates": {
+							"potion_contents": "minecraft:infested"
+						}
+					}
+				]
+			}
+		},
+		"tipped_arrow.effect.wind_charged": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:tipped_arrow"
+						],
+						"count": 64,
+						"predicates": {
+							"potion_contents": "minecraft:wind_charged"
+						}
+					}
+				]
+			}
+		},
+		"ominous_1_bottle": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:ominous_bottle"
+						],
+						"count": 64,
+						"components": {
+							"minecraft:ominous_bottle_amplifier": 0
+						}
+					}
+				]
+			}
+		},
+		"ominous_2_bottle": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:ominous_bottle"
+						],
+						"count": 64,
+						"components": {
+							"minecraft:ominous_bottle_amplifier": 1
+						}
+					}
+				]
+			}
+		},
+		"ominous_3_bottle": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:ominous_bottle"
+						],
+						"count": 64,
+						"components": {
+							"minecraft:ominous_bottle_amplifier": 2
+						}
+					}
+				]
+			}
+		},
+		"ominous_4_bottle": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:ominous_bottle"
+						],
+						"count": 64,
+						"components": {
+							"minecraft:ominous_bottle_amplifier": 3
+						}
+					}
+				]
+			}
+		},
+		"ominous_5_bottle": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:ominous_bottle"
+						],
+						"count": 64,
+						"components": {
+							"minecraft:ominous_bottle_amplifier": 4
+						}
+					}
+				]
+			}
+		}
+	}
+}

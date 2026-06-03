@@ -1,0 +1,48 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:potion",
+			"components": {
+				"minecraft:potion_contents": {
+					"potion": "minecraft:fire_resistance"
+				},
+				"minecraft:enchantment_glint_override": true
+			}
+		},
+		"title": {"translate":"Ildmotstandsbrygg"},
+		"description": {"color":"green","translate":"Get fire resistance from a piglin barter"},
+		"announce_to_chat": true,
+		"frame": "task"
+	},
+	"parent": "minecraft:nether/distract_piglin",
+	"rewards": {
+		"function": "slop_rewards:nether/ildmotstandsbrygg"
+	},
+	"criteria": {
+		"fire_res": {
+			"trigger": "minecraft:thrown_item_picked_up_by_player",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:piglin"
+						}
+					}
+				],
+				"item": {
+					"items": [
+						"minecraft:splash_potion",
+						"minecraft:potion"
+					],
+					"components": {
+						"minecraft:potion_contents": {
+							"potion": "minecraft:fire_resistance"
+						}
+					}
+				}
+			}
+		}
+	}
+}

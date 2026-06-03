@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:smoker"
+		},
+		"title": {"translate":"Back to sheep"},
+		"description": {"color":"#75E1FF","translate":"Kill a pink sheep named stovinator54"},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "blazeandcave:animal/wooly",
+	"rewards": {
+		"function": "slop_rewards:animal/back_to_sheep"
+	},		
+	"criteria": {
+		"slenderman": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "sheep",
+					"nbt": "{CustomName:\"stovinator54\"}",
+           "components": {
+            "minecraft:sheep/color": "pink"
+          }
+				}
+			}
+		}
+	}
+}

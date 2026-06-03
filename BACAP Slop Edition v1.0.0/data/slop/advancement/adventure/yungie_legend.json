@@ -1,0 +1,65 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tipped_arrow",
+      "components": {
+        "minecraft:potion_contents": "minecraft:long_slowness"
+      }
+    },
+    "title": {
+      "translate": "Yungie Legend"
+    },
+    "description": {
+      "translate": "Kill a Blue Axolotl named ED, a Blue Axolotl named BACAP3, a Blue Axolotl named honestlytzadok and a Blue Axolotl named NH with one piercing arrow",
+      "color": "dark_purple"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/justice",
+  "criteria": {
+    "exctinction": {
+      "trigger": "minecraft:killed_by_arrow",
+      "conditions": {
+        "player": {
+        },
+        "fired_from_weapon": {
+          "items": "minecraft:crossbow"
+        },
+        "victims": [
+          {
+             "type": "minecraft:axolotl",
+            "nbt": "{CustomName:\"ED\"}",
+            "components": {
+              "minecraft:axolotl/variant": "blue"
+            }
+          },
+          {
+             "type": "minecraft:axolotl",
+            "nbt": "{CustomName:\"BACAP3\"}",
+            "components": {
+              "minecraft:axolotl/variant": "blue"
+            }
+          },
+          {
+             "type": "minecraft:axolotl",
+            "nbt": "{CustomName:\"honestlytzadok\"}",
+            "components": {
+              "minecraft:axolotl/variant": "blue"
+            }
+          }, 
+          {
+             "type": "minecraft:axolotl",
+            "nbt": "{CustomName:\"NH\"}",
+            "components": {
+              "minecraft:axolotl/variant": "blue"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "slop_rewards:adventure/yungie_legend"
+  }
+}

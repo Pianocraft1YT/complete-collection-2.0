@@ -1,0 +1,137 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:wet_sponge"
+		},
+		"title": {"translate":"ED Slop"},
+		"description": {"color":"#FF2A2A","translate":"Kill an Elder guardian with specific requirements. Good Luck!"},
+		"announce_to_chat": true,
+		"frame": "challenge"
+	},
+	"parent": "blazeandcave:challenges/endergeddon",
+	"rewards": {
+		"function": "slop_rewards:challenges/ed_slop"
+	},		
+	"criteria": {
+		"slenderman": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"equipment": {
+								"mainhand": {
+									"items": "minecraft:bow",
+									"components": {
+										"minecraft:enchantments": {
+											"minecraft:power": 2,
+											"minecraft:punch": 1
+										},
+										"minecraft:custom_name": "Bacinator"
+									}
+								},
+								"offhand": {
+									"items": "minecraft:deepslate_emerald_ore",
+									"components": {
+										"minecraft:custom_name": "Emerals"
+									},
+									"count": 3
+								},
+								"head": {
+									"items": "minecraft:chainmail_helmet",
+									"components": {
+										"minecraft:trim": {
+											"material": "minecraft:netherite",
+											"pattern": "minecraft:raiser"
+										},
+										"minecraft:enchantments": {
+											"minecraft:fire_protection": 1,
+											"minecraft:respiration": 2,
+											"minecraft:vanishing_curse": 1
+										},
+										"minecraft:custom_name": "Temporay Name"
+									}
+								},
+								"chest": {
+									"items": "minecraft:copper_chestplate",
+									"components": {
+										"minecraft:trim": {
+											"material": "minecraft:emerald",
+											"pattern": "minecraft:silence"
+										},
+										"minecraft:enchantments": {
+											"minecraft:thorns": 1,
+											"minecraft:binding_curse": 1,
+											"minecraft:protection": 2
+										},
+										"minecraft:custom_name": "Emerald Chestpla"
+									}
+								},
+								"legs": {
+									"items": "minecraft:golden_leggings",
+									"components": {
+										"minecraft:trim": {
+											"material": "minecraft:redstone",
+											"pattern": "minecraft:vex"
+										},
+										"minecraft:enchantments": {
+											"minecraft:unbreaking": 1,
+											"minecraft:thorns": 3,
+											"minecraft:blast_protection": 4
+										},
+										"minecraft:custom_name": "Redstone Boss"
+									}
+								},
+								"feet": {
+									"items": "minecraft:netherite_boots",
+									"components": {
+										"minecraft:trim": {
+											"material": "minecraft:diamond",
+											"pattern": "minecraft:ward"
+										},
+										"minecraft:enchantments": {
+											"minecraft:soul_speed": 1,
+											"minecraft:feather_falling": 3,
+											"minecraft:depth_strider": 2
+										},
+										"minecraft:custom_name": "freddiehambhurger"
+									}
+								}
+							},
+							"effects": {
+								"minecraft:levitation": {},
+								"minecraft:hunger": {}
+							}
+						}
+					}
+				],
+				"entity": {
+					"type": "minecraft:elder_guardian",
+					"nbt": "{CustomName:\"honestlytzadok\"}",
+					"location": {
+						"position": {
+							"y": {
+								"min": 100,
+								"max": 105
+							}
+						},
+						"biomes": "minecraft:small_end_islands"
+					}
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "minecraft:is_projectile",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"type": "#blazeandcave:arrows"
+					}
+				}
+			}
+		}
+	}
+}

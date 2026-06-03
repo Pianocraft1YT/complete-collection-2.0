@@ -1,0 +1,3 @@
+give @s cooked_beef[custom_name=[{"text":"Sloppy Joe's","bold":true,"italic":false,"color":"#ff3333"}],lore=[[{"text":"Mom! What are having today?","color":"red"}],[{"text":"The usual, Sloppy Joe's.","color":"red"}],[{"text":"NO! I'm tired of this slop!","color":"red"}],"",[{"text":"Awarded for achieving","color":"gray"}],[{"text":"True Slop Legend","italic":false,"color":"#FFAEFF"}]],enchantment_glint_override=true]
+
+tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate": "Sloppy Joe's" }]}

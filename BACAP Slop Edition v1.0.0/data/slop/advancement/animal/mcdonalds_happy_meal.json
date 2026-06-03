@@ -1,0 +1,69 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "id": [
+            -827169446,
+            -1078963427,
+            -1455210452,
+            484982792
+          ],
+          "properties": [
+            {
+              "name": "textures",
+              "value": "e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWZlZDA3MTYyODA5OTYzODk1M2Q3ZmM0ZjE2OTJmMjQ4YmVlOTYzZDYxYzBmNTlkM2Y1ZmQ4MWI4ODNhMjlkMCJ9fX0="
+            }
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "McDonald's Happy Meal"
+    },
+    "description": {
+      "translate": "Have an Apple, Bread, Baked Potato, Steak and Cooked Chicken in your inventory all at once"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/so_good",
+  "criteria": {
+    "mcdonaldstrigger": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:apple"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:bread"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:baked_potato"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:cooked_chicken"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:cooked_beef"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "slop_rewards:animal/mcdonalds_happy_meal"
+  }
+}

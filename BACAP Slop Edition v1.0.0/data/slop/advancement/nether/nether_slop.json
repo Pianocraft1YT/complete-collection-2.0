@@ -1,0 +1,65 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tipped_arrow",
+      "components": {
+        "minecraft:potion_contents": "minecraft:luck"
+      }
+    },
+    "title": {
+      "translate": "Nether Slop"
+    },
+    "description": {
+      "translate": "Kill a Piglin Brute, Piglin, Hoglin, Zoglin and a Zombified Piglin with 1 Crossbow Shot in The Nether",
+      "color": "dark_purple"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/glows_in_the_dark",
+  "criteria": {
+    "exctinction": {
+      "trigger": "minecraft:killed_by_arrow",
+      "conditions": {
+        "victims": [
+          {
+            "type": "minecraft:piglin",
+						"location": {
+							"dimension": "the_nether"
+						}
+          },
+          {
+            "type": "minecraft:piglin_brute",
+						"location": {
+							"dimension": "the_nether"
+						}
+          },
+          {
+            "type": "minecraft:hoglin",
+						"location": {
+							"dimension": "the_nether"
+						}
+          },
+          {
+            "type": "minecraft:zoglin",
+						"location": {
+							"dimension": "the_nether"
+						}
+          },
+          {
+            "type": "minecraft:zombified_piglin",
+						"location": {
+							"dimension": "the_nether"
+						}
+          }
+        ],
+				"fired_from_weapon": {
+					"items": "minecraft:crossbow"
+				}
+      }
+    }
+  },
+  "rewards": {
+    "function": "slop_rewards:nether/nether_slop"
+  }
+}

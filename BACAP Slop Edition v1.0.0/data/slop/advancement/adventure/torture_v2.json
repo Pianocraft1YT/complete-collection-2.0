@@ -1,0 +1,57 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tipped_arrow",
+      "components": {
+        "minecraft:potion_contents": "minecraft:long_fire_resistance"
+      }
+    },
+    "title": {
+      "translate": "Torture V2"
+    },
+    "description": {
+      "translate": "Kill a Zombie Named Rounduction, a Creeper Named Rakete1011, a Villager Named CoolgirlΩ, a Skeleton Named honestlytzadok and a Zombie Villager Named Ashley with 1 Crossbow Shot",
+      "color": "dark_purple"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "slop:adventure/slop_ender",
+  "criteria": {
+    "exctinction": {
+      "trigger": "minecraft:killed_by_arrow",
+      "conditions": {
+        "player": {
+        },
+        "fired_from_weapon": {
+          "items": "minecraft:crossbow"
+        },
+        "victims": [
+          {
+            "type": "minecraft:zombie",
+            "nbt": "{CustomName:\"Rounduction\"}"
+          },
+          {
+            "type": "minecraft:creeper",
+            "nbt": "{CustomName:\"Rakete1011\"}"
+          },
+          {
+            "type": "minecraft:villager",
+            "nbt": "{CustomName:\"CoolgirlΩ\"}"
+          },
+          {
+            "type": "minecraft:skeleton",
+            "nbt": "{CustomName:\"honestlytzadok\"}"
+          },
+          {
+            "type": "minecraft:zombie_villager",
+            "nbt": "{CustomName:\"Ashley\"}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "slop_rewards:adventure/torture_v2"
+  }
+}

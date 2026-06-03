@@ -1,0 +1,56 @@
+{
+    "criteria": {
+		"dragon_egg": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:dragon_egg"
+					]
+				},
+				"entity": {
+                    "type":"minecraft:item_frame"
+                }
+            }
+        },
+        "nether_star": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:nether_star"
+					]
+				},
+				"entity": {
+                    "type":"minecraft:item_frame"
+                }
+            }
+        },
+        "ominous_banner": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:white_banner"
+					],
+                    "components":{
+                        "minecraft:rarity":"uncommon"
+                    }
+				},
+				"entity": {
+                    "type":"minecraft:item_frame"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "dragon_egg",
+            "nether_star",
+            "ominous_banner"
+        ]
+    ],
+    "rewards": {
+        "function": "blackbirds_torture_chamber:riddle/8"
+    }
+}

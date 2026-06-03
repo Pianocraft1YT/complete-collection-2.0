@@ -1,0 +1,20 @@
+{
+	"rewards": {
+		"function": "slop:statistics/consume_water_bottle"
+	},
+	"criteria": {
+		"consume_water_bottle": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:potion"
+					],
+					"predicates": {
+						"potion_contents": "minecraft:water"
+					}
+				}
+			}
+		}
+	}
+}

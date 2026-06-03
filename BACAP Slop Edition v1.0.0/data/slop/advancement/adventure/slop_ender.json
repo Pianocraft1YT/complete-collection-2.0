@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tipped_arrow",
+      "components": {
+        "minecraft:potion_contents": "minecraft:strong_poison"
+      }
+    },
+    "title": {
+      "translate": "Slop Ender"
+    },
+    "description": {
+      "translate": "Kill 3 Villagers named new horizons, suggestion edition and slop edition with 1 crossbow shot",
+      "color": "dark_purple"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/justice",
+  "criteria": {
+    "exctinction": {
+      "trigger": "minecraft:killed_by_arrow",
+      "conditions": {
+        "player": {
+        },
+        "fired_from_weapon": {
+          "items": "minecraft:crossbow"
+        },
+        "victims": [
+          {
+             "type": "minecraft:villager",
+            "nbt": "{CustomName:\"new horizons\"}"
+          },
+          {
+             "type": "minecraft:villager",
+            "nbt": "{CustomName:\"suggestion edition\"}"
+          },
+          {
+             "type": "minecraft:villager",
+            "nbt": "{CustomName:\"slop edition\"}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "slop_rewards:adventure/slop_ender"
+  }
+}

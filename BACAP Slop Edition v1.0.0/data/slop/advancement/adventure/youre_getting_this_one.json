@@ -1,0 +1,68 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tipped_arrow",
+      "components": {
+        "minecraft:potion_contents": "minecraft:long_turtle_master"
+      }
+    },
+    "title": {
+      "translate": "You're Getting This One"
+    },
+    "description": {
+      "translate": "Kill a Piglin, Villager, Guardian, Parrot and baby Cow with one piercing arrow shot in The Overworld",
+      "color": "dark_purple"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "slop:adventure/slop_ender",
+  "criteria": {
+    "exctinction": {
+      "trigger": "minecraft:killed_by_arrow",
+      "conditions": {
+        "victims": [
+          {
+            "type": "minecraft:parrot",
+            "location": {
+            "dimension": "minecraft:overworld"
+          }
+          },
+          {
+            "type": "minecraft:guardian",
+            "location": {
+            "dimension": "minecraft:overworld"
+          }
+          },
+          {
+            "type": "minecraft:villager",
+            "location": {
+            "dimension": "minecraft:overworld"
+          }
+          },
+          {
+            "type": "minecraft:piglin",
+            "location": {
+            "dimension": "minecraft:overworld"
+          }
+          },
+          {
+            "type": "minecraft:cow",
+            "flags": {
+							"is_baby": true
+						},
+            "location": {
+            "dimension": "minecraft:overworld"
+          }
+          }
+        ],
+        "fired_from_weapon": {
+          "items": "minecraft:crossbow"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "slop_rewards:adventure/youre_getting_this_one"
+  }
+}

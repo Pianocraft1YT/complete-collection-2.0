@@ -1,0 +1,32 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:potion"
+		},
+		"title": {"translate":"Fully Disabled"},
+		"description": {"color":"#75E1FF","translate":"Have weakness, slowness, blindness, nausea, poison, wither and hunger all active at once"},
+		"announce_to_chat": true,
+		"frame": "goal",
+		"hidden": false
+	},
+	"parent": "slop:potion/my_eyes",
+	"rewards": {
+		"function": "slop_rewards:potion/fully_disabled"
+	},	
+	"criteria": {
+		"all_effects": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"minecraft:weakness": {},
+					"minecraft:slowness": {},
+					"minecraft:blindness": {},
+					"minecraft:nausea": {},
+					"minecraft:wither": {},
+					"minecraft:poison": {},
+					"minecraft:hunger": {}
+				}
+			}
+		}
+	}
+}

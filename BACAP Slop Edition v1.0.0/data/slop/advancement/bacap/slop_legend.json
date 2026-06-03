@@ -1,0 +1,818 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "id": [
+            749532104,
+            599348585,
+            -1845371000,
+            -172535005
+          ],
+          "properties": [
+            {
+              "name": "textures",
+              "value": "e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTY0M2JjOWZkNGU4ZGZjZjdiYWZjNGYwYjRlNmJmMTA1M2U2MjQwY2UxNGViNTExNTgzOWE4OTM3OTAwNDE4NiJ9fX0="
+            }
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "Slop Legend"
+    },
+    "description": {
+      "translate": "Complete every single advancement in BACAP: Slop Edition",
+      "color": "gold"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:bacap/advancement_legend",
+  "criteria": {
+    "about_45_8kg": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "slop:adventure/about_45_8kg": true
+            }
+          }
+        }
+      }
+    },
+    "if_bacap_is_your_power_what_are_you_without_it": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "slop:adventure/if_bacap_is_your_power_what_are_you_without_it": true
+            }
+          }
+        }
+      }
+    },
+    "job_application": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "slop:adventure/job_application": true
+            }
+          }
+        }
+      }
+    },
+    "rounduction_legend": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "slop:adventure/rounduction_legend": true
+            }
+          }
+        }
+      }
+    },
+    "slop_ender": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "slop:adventure/slop_ender": true
+            }
+          }
+        }
+      }
+    },
+    "torture_v2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "slop:adventure/torture_v2": true
+            }
+          }
+        }
+      }
+    },
+    "youre_getting_this_one": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "slop:adventure/youre_getting_this_one": true
+            }
+          }
+        }
+      }
+    },
+    "yungie_legend": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "slop:adventure/yungie_legend": true
+            }
+          }
+        }
+      }
+    },
+    "back_to_sheep": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "slop:animal/back_to_sheep": true
+            }
+          }
+        }
+      }
+    },
+    "heavy_as_a_feather": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "slop:animal/heavy_as_a_feather": true
+            }
+          }
+        }
+      }
+    },
+    "kfc": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "slop:animal/kfc": true
+            }
+          }
+        }
+      }
+    },
+    "leatherworker": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "slop:animal/leatherworker": true
+            }
+          }
+        }
+      }
+    },
+    "mcdonalds_happy_meal": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "slop:animal/mcdonalds_happy_meal": true
+            }
+          }
+        }
+      }
+    },
+    "sheep_legend": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "slop:animal/sheep_legend": true
+            }
+          }
+        }
+      }
+    },
+    "yo_im_fine_berg": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "slop:biomes/yo_im_fine_berg": true
+            }
+          }
+        }
+      }
+    },
+    "a_decent_start": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "slop:building/a_decent_start": true
+            }
+          }
+        }
+      }
+    },
+    "coolgirl_legend": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "slop:building/coolgirl_legend": true
+            }
+          }
+        }
+      }
+    },
+    "dirty_daniel": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "slop:building/dirty_daniel": true
+            }
+          }
+        }
+      }
+    },
+    "flag422": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "slop:building/flag422": true
+            }
+          }
+        }
+      }
+    },
+    "master_mycelium_miner": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "slop:building/master_mycelium_miner": true
+            }
+          }
+        }
+      }
+    },
+    "mika_legend": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "slop:building/mika_legend": true
+            }
+          }
+        }
+      }
+    },
+    "mycelium_miner": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "slop:building/mycelium_miner": true
+            }
+          }
+        }
+      }
+    },
+    "prismarine_king": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "slop:building/prismarine_king": true
+            }
+          }
+        }
+      }
+    },
+    "stay_hydrated": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "slop:building/stay_hydrated": true
+            }
+          }
+        }
+      }
+    },
+    "the_jungler": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "slop:building/the_jungler": true
+            }
+          }
+        }
+      }
+    },
+    "yo": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "slop:building/yo": true
+            }
+          }
+        }
+      }
+    },
+    "ed_slop": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "slop:challenges/ed_slop": true
+            }
+          }
+        }
+      }
+    },
+    "nh_slop": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "slop:challenges/nh_slop": true
+            }
+          }
+        }
+      }
+    },
+    "yo_im_rounduction": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "slop:challenges/yo_im_rounduction": true
+            }
+          }
+        }
+      }
+    },
+    "not_infinite_storage": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "slop:end/not_infinite_storage": true
+            }
+          }
+        }
+      }
+    },
+    "rakete_legend": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "slop:end/rakete_legend": true
+            }
+          }
+        }
+      }
+    },
+    "you_have_to_get_this_one_aswell_sorry": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "slop:end/you_have_to_get_this_one_aswell_sorry": true
+            }
+          }
+        }
+      }
+    },
+    "gluttony": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "slop:farming/gluttony": true
+            }
+          }
+        }
+      }
+    },
+    "tastes_like_cardboard": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "slop:farming/tastes_like_cardboard": true
+            }
+          }
+        }
+      }
+    },
+    "the_meloncholy_dance": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "slop:farming/the_meloncholy_dance": true
+            }
+          }
+        }
+      }
+    },
+    "yo_im_not_fine_berg": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "slop:farming/yo_im_not_fine_berg": true
+            }
+          }
+        }
+      }
+    },
+    "boatload_of_cobblestone": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "slop:mining/boatload_of_cobblestone": true
+            }
+          }
+        }
+      }
+    },
+    "i_hate_bats": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "slop:mining/i_hate_bats": true
+            }
+          }
+        }
+      }
+    },
+    "master_obsidian_miner": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "slop:mining/master_obsidian_miner": true
+            }
+          }
+        }
+      }
+    },
+    "yo_im_blastfurnberg": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "slop:mining/yo_im_blastfurnberg": true
+            }
+          }
+        }
+      }
+    },
+    "yo_im_furnberg": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "slop:mining/yo_im_furnberg": true
+            }
+          }
+        }
+      }
+    },
+    "yo_im_furnberg_squared": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "slop:mining/yo_im_furnberg_squared": true
+            }
+          }
+        }
+      }
+    },
+    "yo_im_smokerg": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "slop:mining/yo_im_smokerg": true
+            }
+          }
+        }
+      }
+    },
+    "skeleton_king": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "slop:monsters/skeleton_king": true
+            }
+          }
+        }
+      }
+    },
+    "hair_follicles": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "slop:nether/hair_follicles": true
+            }
+          }
+        }
+      }
+    },
+    "hoglin_miner": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "slop:nether/hoglin_miner": true
+            }
+          }
+        }
+      }
+    },
+    "ildmotstandsbrygg": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "slop:nether/ildmotstandsbrygg": true
+            }
+          }
+        }
+      }
+    },
+    "nether_slop": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "slop:nether/nether_slop": true
+            }
+          }
+        }
+      }
+    },
+    "nice_rates": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "slop:nether/nice_rates": true
+            }
+          }
+        }
+      }
+    },
+    "oresome_lil_cousin": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "slop:nether/oresome_lil_cousin": true
+            }
+          }
+        }
+      }
+    },
+    "sloppy_ghast": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "slop:nether/sloppy_ghast": true
+            }
+          }
+        }
+      }
+    },
+    "tech_shroom": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "slop:nether/tech_shroom": true
+            }
+          }
+        }
+      }
+    },
+    "brush_your_teeth": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "slop:potion/brush_your_teeth": true
+            }
+          }
+        }
+      }
+    },
+    "fully_disabled": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "slop:potion/fully_disabled": true
+            }
+          }
+        }
+      }
+    },
+    "my_eyes": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "slop:potion/my_eyes": true
+            }
+          }
+        }
+      }
+    },
+    "edible_buttons": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "slop:redstone/edible_buttons": true
+            }
+          }
+        }
+      }
+    },
+    "more_crafters": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "slop:redstone/more_crafters": true
+            }
+          }
+        }
+      }
+    },
+    "no_more_crafters": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "slop:redstone/no_more_crafters": true
+            }
+          }
+        }
+      }
+    },
+    "between_1_and_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "slop:statistics/between_1_and_3": true
+            }
+          }
+        }
+      }
+    },
+    "between_1_and_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "slop:statistics/between_1_and_5": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "slop_rewards:bacap/slop_legend"
+  }
+}

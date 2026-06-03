@@ -1,0 +1,7 @@
+{
+  "pack": {
+        "min_format": [101.1],
+        "max_format": [101.1],
+        "description": [{"text":"\"BACAP Slop Edition\" ","color":"#f7a409"},{"text":"is an addon for BACAP with more slop!","color":"white"}]
+  }
+}

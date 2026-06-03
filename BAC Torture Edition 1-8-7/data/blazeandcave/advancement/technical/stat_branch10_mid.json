@@ -1,0 +1,18 @@
+{
+	"parent": "blackbirds_torture_chamber:stats/totem_50",	
+	"criteria": {
+		"root": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:statistics/root": true
+						}
+					}
+				}
+			}
+		}
+	}
+}

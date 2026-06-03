@@ -1,0 +1,67 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blue_ice",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": {
+      "translate": "Yo I'm fine, berg"
+    },
+    "description": {
+      "translate": "Get Struck by Lightning on Blue Ice",
+      "color": "dark_purple"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "blazeandcave:biomes/thick_ice",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:lightning_strike",
+      "conditions": {
+        "lightning": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "distance": {
+                "absolute": {
+                  "max": 3
+                }
+              },
+              "entity_struck": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "predicate": {
+                    "type": "minecraft:player"
+                  }
+                }
+              ]
+            },
+            "entity": "this"
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "stepping_on": {
+                "block": {
+                  "blocks": [
+                    "minecraft:blue_ice"
+                  ]
+                }
+              }
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "slop_rewards:biomes/yo_im_fine_berg"
+  }
+}

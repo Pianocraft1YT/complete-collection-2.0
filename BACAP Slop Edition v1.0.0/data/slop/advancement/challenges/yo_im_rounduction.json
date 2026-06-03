@@ -1,0 +1,53 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:warden_spawn_egg"
+		},
+		"title": {"translate":"Yo I'm Rounduction"},
+		"description": {"color":"#FF2A2A","translate":"Kill a Warden Named Rounduction in The Nether while under Every Potion Effect at The Same Time"},
+		"announce_to_chat": true,
+		"frame": "challenge"
+	},
+	"parent": "blazeandcave:challenges/highway_to_hell",
+	"rewards": {
+		"function": "slop_rewards:challenges/yo_im_rounduction"
+	},		
+	"criteria": {
+		"all_effects": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				 "player": {
+				"effects": {
+					"minecraft:speed": {},
+					"minecraft:slowness": {},
+					"minecraft:strength": {},
+					"minecraft:jump_boost": {},
+					"minecraft:regeneration": {},
+					"minecraft:fire_resistance": {},
+					"minecraft:water_breathing": {},
+					"minecraft:invisibility": {},
+					"minecraft:night_vision": {},
+					"minecraft:weakness": {},
+					"minecraft:poison": {},
+					"minecraft:slow_falling": {},
+					"minecraft:resistance": {},
+					"minecraft:oozing": {},
+					"minecraft:weaving": {},
+					"minecraft:infested": {},
+					"minecraft:wind_charged": {}
+				},
+					"location": {
+            		"dimension":"minecraft:the_nether"
+					},
+				"entity": {
+					"type": "warden",
+					"nbt": "{CustomName:\"Rounduction\"}",
+					"location": {
+            		"dimension":"minecraft:the_nether"
+				}
+			}
+		}
+	}
+}
+}	
+}

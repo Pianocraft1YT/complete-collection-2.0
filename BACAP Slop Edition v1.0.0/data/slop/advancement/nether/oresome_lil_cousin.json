@@ -1,0 +1,56 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:nether_gold_ore"
+		},
+		"title": {"translate":"Oresome Lil Cousin"},
+		"description": {"color":"#75E1FF","translate":"Collect a Stack of Every Nether Ore"},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "blazeandcave:nether/netherite_miner",
+	"rewards": {
+		"function": "slop_rewards:nether/oresome_lil_cousin"
+	},
+	"criteria": {
+		"nether_quartz_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:nether_quartz_ore"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"nether_gold_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:nether_gold_ore"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"ancient_debris": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:ancient_debris"
+						],
+						"count": 64
+					}
+				]
+			}
+		}
+	}
+}

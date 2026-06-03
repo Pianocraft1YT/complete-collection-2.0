@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:potion"
+    },
+    "title": {
+      "translate": "Stay Hydrated!"
+    },
+    "description": {
+      "translate": "Drink 100 water bottles",
+      "color": "#75E1FF"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/bubble_bubble_toil_and_trouble",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
+        }
+      },
+  "rewards": {
+    "function": "slop_rewards:building/stay_hydrated"
+  }
+}

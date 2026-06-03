@@ -1,0 +1,33 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:redstone_lamp",
+			"components": {
+				"minecraft:enchantment_glint_override": false
+			}
+		},
+		"title": {"translate":"Whats Between 1 and 3"},
+		"description": {"color":"dark_purple","translate":"Reach 200 experience levels"},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "blazeandcave:statistics/overlevelling",
+	"rewards": {
+		"function": "slop_rewards:statistics/between_1_and_3"
+	},		
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"level": {
+							"min": 200
+						}
+					}
+				}
+			}
+		}
+	}
+}

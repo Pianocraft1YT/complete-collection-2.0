@@ -1,0 +1,3 @@
+give @s player_head[profile={properties:[{value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGEyNjQ4YTllNTM2MTNmMGFiMTI2NmI3MjkxOGY0MDc4OGY4NGUxNjBhNTIzNDhjZDY3MTM4NDEwMjYyZjM5ZiJ9fX0=",name:textures}]},custom_name=[{"text":"Maybe a Beacon","bold":true,"italic":false,"color":"green"}],lore=[[{"text":"First Yes, then No???, and now Maybe?!","italic":false,"color":"green"}],["",{"text":"W","italic":false,"color":"green"},{"text":"hat next? Perhaps?","italic":false,"color":"green"}],"",[{"text":"Awarded for achieving","italic":true,"color":"gray"}],[{"text":"Maybe?!","italic":false,"color":"#ffaeff"}]]]
+
+tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate": "Maybe a Beacon" }]}

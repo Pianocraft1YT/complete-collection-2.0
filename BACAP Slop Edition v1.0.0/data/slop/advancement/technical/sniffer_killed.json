@@ -1,0 +1,16 @@
+{
+	"rewards": {
+		"function": "slop:statistics/sniffer_killed"
+	},
+	"criteria": {
+		"consume_water_bottle": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "sniffer",
+					"nbt": "{CustomName:\"Rakete1011\"}"
+				}
+			}
+		}
+	}
+}

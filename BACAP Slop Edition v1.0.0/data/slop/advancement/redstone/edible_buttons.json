@@ -1,0 +1,2223 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_button",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": {
+      "translate": "Edible Buttons"
+    },
+    "description": {
+      "translate": "Fill your inventory with every single type of button"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "blazeandcave:redstone/click",
+  "criteria": {
+    "oak_button": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "slots": {
+            "inventory.0": {
+              "items": "minecraft:oak_button",
+              "count": 64
+            },
+            "inventory.1": {
+              "items": "minecraft:oak_button",
+              "count": 64
+            },
+            "inventory.2": {
+              "items": "minecraft:oak_button",
+              "count": 64
+            },
+            "inventory.3": {
+              "items": "minecraft:oak_button",
+              "count": 64
+            },
+            "inventory.4": {
+              "items": "minecraft:oak_button",
+              "count": 64
+            },
+            "inventory.5": {
+              "items": "minecraft:oak_button",
+              "count": 64
+            },
+            "inventory.6": {
+              "items": "minecraft:oak_button",
+              "count": 64
+            },
+            "inventory.7": {
+              "items": "minecraft:oak_button",
+              "count": 64
+            },
+            "inventory.8": {
+              "items": "minecraft:oak_button",
+              "count": 64
+            },
+            "inventory.9": {
+              "items": "minecraft:oak_button",
+              "count": 64
+            },
+            "inventory.10": {
+              "items": "minecraft:oak_button",
+              "count": 64
+            },
+            "inventory.11": {
+              "items": "minecraft:oak_button",
+              "count": 64
+            },
+            "inventory.12": {
+              "items": "minecraft:oak_button",
+              "count": 64
+            },
+            "inventory.13": {
+              "items": "minecraft:oak_button",
+              "count": 64
+            },
+            "inventory.14": {
+              "items": "minecraft:oak_button",
+              "count": 64
+            },
+            "inventory.15": {
+              "items": "minecraft:oak_button",
+              "count": 64
+            },
+            "inventory.16": {
+              "items": "minecraft:oak_button",
+              "count": 64
+            },
+            "inventory.17": {
+              "items": "minecraft:oak_button",
+              "count": 64
+            },
+            "inventory.18": {
+              "items": "minecraft:oak_button",
+              "count": 64
+            },
+            "inventory.19": {
+              "items": "minecraft:oak_button",
+              "count": 64
+            },
+            "inventory.20": {
+              "items": "minecraft:oak_button",
+              "count": 64
+            },
+            "inventory.21": {
+              "items": "minecraft:oak_button",
+              "count": 64
+            },
+            "inventory.22": {
+              "items": "minecraft:oak_button",
+              "count": 64
+            },
+            "inventory.23": {
+              "items": "minecraft:oak_button",
+              "count": 64
+            },
+            "inventory.24": {
+              "items": "minecraft:oak_button",
+              "count": 64
+            },
+            "inventory.25": {
+              "items": "minecraft:oak_button",
+              "count": 64
+            },
+            "inventory.26": {
+              "items": "minecraft:oak_button",
+              "count": 64
+            },
+            "hotbar.0": {
+              "items": "minecraft:oak_button",
+              "count": 64
+            },
+            "hotbar.1": {
+              "items": "minecraft:oak_button",
+              "count": 64
+            },
+            "hotbar.2": {
+              "items": "minecraft:oak_button",
+              "count": 64
+            },
+            "hotbar.3": {
+              "items": "minecraft:oak_button",
+              "count": 64
+            },
+            "hotbar.4": {
+              "items": "minecraft:oak_button",
+              "count": 64
+            },
+            "hotbar.5": {
+              "items": "minecraft:oak_button",
+              "count": 64
+            },
+            "hotbar.6": {
+              "items": "minecraft:oak_button",
+              "count": 64
+            },
+            "hotbar.7": {
+              "items": "minecraft:oak_button",
+              "count": 64
+            },
+            "hotbar.8": {
+              "items": "minecraft:oak_button",
+              "count": 64
+            },
+            "weapon.offhand": {
+              "items": "minecraft:oak_button",
+              "count": 64
+            }
+          }
+        }
+      }
+    },
+    "spruce_button": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "slots": {
+            "inventory.0": {
+              "items": "minecraft:spruce_button",
+              "count": 64
+            },
+            "inventory.1": {
+              "items": "minecraft:spruce_button",
+              "count": 64
+            },
+            "inventory.2": {
+              "items": "minecraft:spruce_button",
+              "count": 64
+            },
+            "inventory.3": {
+              "items": "minecraft:spruce_button",
+              "count": 64
+            },
+            "inventory.4": {
+              "items": "minecraft:spruce_button",
+              "count": 64
+            },
+            "inventory.5": {
+              "items": "minecraft:spruce_button",
+              "count": 64
+            },
+            "inventory.6": {
+              "items": "minecraft:spruce_button",
+              "count": 64
+            },
+            "inventory.7": {
+              "items": "minecraft:spruce_button",
+              "count": 64
+            },
+            "inventory.8": {
+              "items": "minecraft:spruce_button",
+              "count": 64
+            },
+            "inventory.9": {
+              "items": "minecraft:spruce_button",
+              "count": 64
+            },
+            "inventory.10": {
+              "items": "minecraft:spruce_button",
+              "count": 64
+            },
+            "inventory.11": {
+              "items": "minecraft:spruce_button",
+              "count": 64
+            },
+            "inventory.12": {
+              "items": "minecraft:spruce_button",
+              "count": 64
+            },
+            "inventory.13": {
+              "items": "minecraft:spruce_button",
+              "count": 64
+            },
+            "inventory.14": {
+              "items": "minecraft:spruce_button",
+              "count": 64
+            },
+            "inventory.15": {
+              "items": "minecraft:spruce_button",
+              "count": 64
+            },
+            "inventory.16": {
+              "items": "minecraft:spruce_button",
+              "count": 64
+            },
+            "inventory.17": {
+              "items": "minecraft:spruce_button",
+              "count": 64
+            },
+            "inventory.18": {
+              "items": "minecraft:spruce_button",
+              "count": 64
+            },
+            "inventory.19": {
+              "items": "minecraft:spruce_button",
+              "count": 64
+            },
+            "inventory.20": {
+              "items": "minecraft:spruce_button",
+              "count": 64
+            },
+            "inventory.21": {
+              "items": "minecraft:spruce_button",
+              "count": 64
+            },
+            "inventory.22": {
+              "items": "minecraft:spruce_button",
+              "count": 64
+            },
+            "inventory.23": {
+              "items": "minecraft:spruce_button",
+              "count": 64
+            },
+            "inventory.24": {
+              "items": "minecraft:spruce_button",
+              "count": 64
+            },
+            "inventory.25": {
+              "items": "minecraft:spruce_button",
+              "count": 64
+            },
+            "inventory.26": {
+              "items": "minecraft:spruce_button",
+              "count": 64
+            },
+            "hotbar.0": {
+              "items": "minecraft:spruce_button",
+              "count": 64
+            },
+            "hotbar.1": {
+              "items": "minecraft:spruce_button",
+              "count": 64
+            },
+            "hotbar.2": {
+              "items": "minecraft:spruce_button",
+              "count": 64
+            },
+            "hotbar.3": {
+              "items": "minecraft:spruce_button",
+              "count": 64
+            },
+            "hotbar.4": {
+              "items": "minecraft:spruce_button",
+              "count": 64
+            },
+            "hotbar.5": {
+              "items": "minecraft:spruce_button",
+              "count": 64
+            },
+            "hotbar.6": {
+              "items": "minecraft:spruce_button",
+              "count": 64
+            },
+            "hotbar.7": {
+              "items": "minecraft:spruce_button",
+              "count": 64
+            },
+            "hotbar.8": {
+              "items": "minecraft:spruce_button",
+              "count": 64
+            },
+            "weapon.offhand": {
+              "items": "minecraft:spruce_button",
+              "count": 64
+            }
+          }
+        }
+      }
+    },
+    "birch_button": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "slots": {
+            "inventory.0": {
+              "items": "minecraft:birch_button",
+              "count": 64
+            },
+            "inventory.1": {
+              "items": "minecraft:birch_button",
+              "count": 64
+            },
+            "inventory.2": {
+              "items": "minecraft:birch_button",
+              "count": 64
+            },
+            "inventory.3": {
+              "items": "minecraft:birch_button",
+              "count": 64
+            },
+            "inventory.4": {
+              "items": "minecraft:birch_button",
+              "count": 64
+            },
+            "inventory.5": {
+              "items": "minecraft:birch_button",
+              "count": 64
+            },
+            "inventory.6": {
+              "items": "minecraft:birch_button",
+              "count": 64
+            },
+            "inventory.7": {
+              "items": "minecraft:birch_button",
+              "count": 64
+            },
+            "inventory.8": {
+              "items": "minecraft:birch_button",
+              "count": 64
+            },
+            "inventory.9": {
+              "items": "minecraft:birch_button",
+              "count": 64
+            },
+            "inventory.10": {
+              "items": "minecraft:birch_button",
+              "count": 64
+            },
+            "inventory.11": {
+              "items": "minecraft:birch_button",
+              "count": 64
+            },
+            "inventory.12": {
+              "items": "minecraft:birch_button",
+              "count": 64
+            },
+            "inventory.13": {
+              "items": "minecraft:birch_button",
+              "count": 64
+            },
+            "inventory.14": {
+              "items": "minecraft:birch_button",
+              "count": 64
+            },
+            "inventory.15": {
+              "items": "minecraft:birch_button",
+              "count": 64
+            },
+            "inventory.16": {
+              "items": "minecraft:birch_button",
+              "count": 64
+            },
+            "inventory.17": {
+              "items": "minecraft:birch_button",
+              "count": 64
+            },
+            "inventory.18": {
+              "items": "minecraft:birch_button",
+              "count": 64
+            },
+            "inventory.19": {
+              "items": "minecraft:birch_button",
+              "count": 64
+            },
+            "inventory.20": {
+              "items": "minecraft:birch_button",
+              "count": 64
+            },
+            "inventory.21": {
+              "items": "minecraft:birch_button",
+              "count": 64
+            },
+            "inventory.22": {
+              "items": "minecraft:birch_button",
+              "count": 64
+            },
+            "inventory.23": {
+              "items": "minecraft:birch_button",
+              "count": 64
+            },
+            "inventory.24": {
+              "items": "minecraft:birch_button",
+              "count": 64
+            },
+            "inventory.25": {
+              "items": "minecraft:birch_button",
+              "count": 64
+            },
+            "inventory.26": {
+              "items": "minecraft:birch_button",
+              "count": 64
+            },
+            "hotbar.0": {
+              "items": "minecraft:birch_button",
+              "count": 64
+            },
+            "hotbar.1": {
+              "items": "minecraft:birch_button",
+              "count": 64
+            },
+            "hotbar.2": {
+              "items": "minecraft:birch_button",
+              "count": 64
+            },
+            "hotbar.3": {
+              "items": "minecraft:birch_button",
+              "count": 64
+            },
+            "hotbar.4": {
+              "items": "minecraft:birch_button",
+              "count": 64
+            },
+            "hotbar.5": {
+              "items": "minecraft:birch_button",
+              "count": 64
+            },
+            "hotbar.6": {
+              "items": "minecraft:birch_button",
+              "count": 64
+            },
+            "hotbar.7": {
+              "items": "minecraft:birch_button",
+              "count": 64
+            },
+            "hotbar.8": {
+              "items": "minecraft:birch_button",
+              "count": 64
+            },
+            "weapon.offhand": {
+              "items": "minecraft:birch_button",
+              "count": 64
+            }
+          }
+        }
+      }
+    },
+    "jungle_button": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "slots": {
+            "inventory.0": {
+              "items": "minecraft:jungle_button",
+              "count": 64
+            },
+            "inventory.1": {
+              "items": "minecraft:jungle_button",
+              "count": 64
+            },
+            "inventory.2": {
+              "items": "minecraft:jungle_button",
+              "count": 64
+            },
+            "inventory.3": {
+              "items": "minecraft:jungle_button",
+              "count": 64
+            },
+            "inventory.4": {
+              "items": "minecraft:jungle_button",
+              "count": 64
+            },
+            "inventory.5": {
+              "items": "minecraft:jungle_button",
+              "count": 64
+            },
+            "inventory.6": {
+              "items": "minecraft:jungle_button",
+              "count": 64
+            },
+            "inventory.7": {
+              "items": "minecraft:jungle_button",
+              "count": 64
+            },
+            "inventory.8": {
+              "items": "minecraft:jungle_button",
+              "count": 64
+            },
+            "inventory.9": {
+              "items": "minecraft:jungle_button",
+              "count": 64
+            },
+            "inventory.10": {
+              "items": "minecraft:jungle_button",
+              "count": 64
+            },
+            "inventory.11": {
+              "items": "minecraft:jungle_button",
+              "count": 64
+            },
+            "inventory.12": {
+              "items": "minecraft:jungle_button",
+              "count": 64
+            },
+            "inventory.13": {
+              "items": "minecraft:jungle_button",
+              "count": 64
+            },
+            "inventory.14": {
+              "items": "minecraft:jungle_button",
+              "count": 64
+            },
+            "inventory.15": {
+              "items": "minecraft:jungle_button",
+              "count": 64
+            },
+            "inventory.16": {
+              "items": "minecraft:jungle_button",
+              "count": 64
+            },
+            "inventory.17": {
+              "items": "minecraft:jungle_button",
+              "count": 64
+            },
+            "inventory.18": {
+              "items": "minecraft:jungle_button",
+              "count": 64
+            },
+            "inventory.19": {
+              "items": "minecraft:jungle_button",
+              "count": 64
+            },
+            "inventory.20": {
+              "items": "minecraft:jungle_button",
+              "count": 64
+            },
+            "inventory.21": {
+              "items": "minecraft:jungle_button",
+              "count": 64
+            },
+            "inventory.22": {
+              "items": "minecraft:jungle_button",
+              "count": 64
+            },
+            "inventory.23": {
+              "items": "minecraft:jungle_button",
+              "count": 64
+            },
+            "inventory.24": {
+              "items": "minecraft:jungle_button",
+              "count": 64
+            },
+            "inventory.25": {
+              "items": "minecraft:jungle_button",
+              "count": 64
+            },
+            "inventory.26": {
+              "items": "minecraft:jungle_button",
+              "count": 64
+            },
+            "hotbar.0": {
+              "items": "minecraft:jungle_button",
+              "count": 64
+            },
+            "hotbar.1": {
+              "items": "minecraft:jungle_button",
+              "count": 64
+            },
+            "hotbar.2": {
+              "items": "minecraft:jungle_button",
+              "count": 64
+            },
+            "hotbar.3": {
+              "items": "minecraft:jungle_button",
+              "count": 64
+            },
+            "hotbar.4": {
+              "items": "minecraft:jungle_button",
+              "count": 64
+            },
+            "hotbar.5": {
+              "items": "minecraft:jungle_button",
+              "count": 64
+            },
+            "hotbar.6": {
+              "items": "minecraft:jungle_button",
+              "count": 64
+            },
+            "hotbar.7": {
+              "items": "minecraft:jungle_button",
+              "count": 64
+            },
+            "hotbar.8": {
+              "items": "minecraft:jungle_button",
+              "count": 64
+            },
+            "weapon.offhand": {
+              "items": "minecraft:jungle_button",
+              "count": 64
+            }
+          }
+        }
+      }
+    },
+    "acacia_button": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "slots": {
+            "inventory.0": {
+              "items": "minecraft:acacia_button",
+              "count": 64
+            },
+            "inventory.1": {
+              "items": "minecraft:acacia_button",
+              "count": 64
+            },
+            "inventory.2": {
+              "items": "minecraft:acacia_button",
+              "count": 64
+            },
+            "inventory.3": {
+              "items": "minecraft:acacia_button",
+              "count": 64
+            },
+            "inventory.4": {
+              "items": "minecraft:acacia_button",
+              "count": 64
+            },
+            "inventory.5": {
+              "items": "minecraft:acacia_button",
+              "count": 64
+            },
+            "inventory.6": {
+              "items": "minecraft:acacia_button",
+              "count": 64
+            },
+            "inventory.7": {
+              "items": "minecraft:acacia_button",
+              "count": 64
+            },
+            "inventory.8": {
+              "items": "minecraft:acacia_button",
+              "count": 64
+            },
+            "inventory.9": {
+              "items": "minecraft:acacia_button",
+              "count": 64
+            },
+            "inventory.10": {
+              "items": "minecraft:acacia_button",
+              "count": 64
+            },
+            "inventory.11": {
+              "items": "minecraft:acacia_button",
+              "count": 64
+            },
+            "inventory.12": {
+              "items": "minecraft:acacia_button",
+              "count": 64
+            },
+            "inventory.13": {
+              "items": "minecraft:acacia_button",
+              "count": 64
+            },
+            "inventory.14": {
+              "items": "minecraft:acacia_button",
+              "count": 64
+            },
+            "inventory.15": {
+              "items": "minecraft:acacia_button",
+              "count": 64
+            },
+            "inventory.16": {
+              "items": "minecraft:acacia_button",
+              "count": 64
+            },
+            "inventory.17": {
+              "items": "minecraft:acacia_button",
+              "count": 64
+            },
+            "inventory.18": {
+              "items": "minecraft:acacia_button",
+              "count": 64
+            },
+            "inventory.19": {
+              "items": "minecraft:acacia_button",
+              "count": 64
+            },
+            "inventory.20": {
+              "items": "minecraft:acacia_button",
+              "count": 64
+            },
+            "inventory.21": {
+              "items": "minecraft:acacia_button",
+              "count": 64
+            },
+            "inventory.22": {
+              "items": "minecraft:acacia_button",
+              "count": 64
+            },
+            "inventory.23": {
+              "items": "minecraft:acacia_button",
+              "count": 64
+            },
+            "inventory.24": {
+              "items": "minecraft:acacia_button",
+              "count": 64
+            },
+            "inventory.25": {
+              "items": "minecraft:acacia_button",
+              "count": 64
+            },
+            "inventory.26": {
+              "items": "minecraft:acacia_button",
+              "count": 64
+            },
+            "hotbar.0": {
+              "items": "minecraft:acacia_button",
+              "count": 64
+            },
+            "hotbar.1": {
+              "items": "minecraft:acacia_button",
+              "count": 64
+            },
+            "hotbar.2": {
+              "items": "minecraft:acacia_button",
+              "count": 64
+            },
+            "hotbar.3": {
+              "items": "minecraft:acacia_button",
+              "count": 64
+            },
+            "hotbar.4": {
+              "items": "minecraft:acacia_button",
+              "count": 64
+            },
+            "hotbar.5": {
+              "items": "minecraft:acacia_button",
+              "count": 64
+            },
+            "hotbar.6": {
+              "items": "minecraft:acacia_button",
+              "count": 64
+            },
+            "hotbar.7": {
+              "items": "minecraft:acacia_button",
+              "count": 64
+            },
+            "hotbar.8": {
+              "items": "minecraft:acacia_button",
+              "count": 64
+            },
+            "weapon.offhand": {
+              "items": "minecraft:acacia_button",
+              "count": 64
+            }
+          }
+        }
+      }
+    },
+    "dark_oak_button": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "slots": {
+            "inventory.0": {
+              "items": "minecraft:dark_oak_button",
+              "count": 64
+            },
+            "inventory.1": {
+              "items": "minecraft:dark_oak_button",
+              "count": 64
+            },
+            "inventory.2": {
+              "items": "minecraft:dark_oak_button",
+              "count": 64
+            },
+            "inventory.3": {
+              "items": "minecraft:dark_oak_button",
+              "count": 64
+            },
+            "inventory.4": {
+              "items": "minecraft:dark_oak_button",
+              "count": 64
+            },
+            "inventory.5": {
+              "items": "minecraft:dark_oak_button",
+              "count": 64
+            },
+            "inventory.6": {
+              "items": "minecraft:dark_oak_button",
+              "count": 64
+            },
+            "inventory.7": {
+              "items": "minecraft:dark_oak_button",
+              "count": 64
+            },
+            "inventory.8": {
+              "items": "minecraft:dark_oak_button",
+              "count": 64
+            },
+            "inventory.9": {
+              "items": "minecraft:dark_oak_button",
+              "count": 64
+            },
+            "inventory.10": {
+              "items": "minecraft:dark_oak_button",
+              "count": 64
+            },
+            "inventory.11": {
+              "items": "minecraft:dark_oak_button",
+              "count": 64
+            },
+            "inventory.12": {
+              "items": "minecraft:dark_oak_button",
+              "count": 64
+            },
+            "inventory.13": {
+              "items": "minecraft:dark_oak_button",
+              "count": 64
+            },
+            "inventory.14": {
+              "items": "minecraft:dark_oak_button",
+              "count": 64
+            },
+            "inventory.15": {
+              "items": "minecraft:dark_oak_button",
+              "count": 64
+            },
+            "inventory.16": {
+              "items": "minecraft:dark_oak_button",
+              "count": 64
+            },
+            "inventory.17": {
+              "items": "minecraft:dark_oak_button",
+              "count": 64
+            },
+            "inventory.18": {
+              "items": "minecraft:dark_oak_button",
+              "count": 64
+            },
+            "inventory.19": {
+              "items": "minecraft:dark_oak_button",
+              "count": 64
+            },
+            "inventory.20": {
+              "items": "minecraft:dark_oak_button",
+              "count": 64
+            },
+            "inventory.21": {
+              "items": "minecraft:dark_oak_button",
+              "count": 64
+            },
+            "inventory.22": {
+              "items": "minecraft:dark_oak_button",
+              "count": 64
+            },
+            "inventory.23": {
+              "items": "minecraft:dark_oak_button",
+              "count": 64
+            },
+            "inventory.24": {
+              "items": "minecraft:dark_oak_button",
+              "count": 64
+            },
+            "inventory.25": {
+              "items": "minecraft:dark_oak_button",
+              "count": 64
+            },
+            "inventory.26": {
+              "items": "minecraft:dark_oak_button",
+              "count": 64
+            },
+            "hotbar.0": {
+              "items": "minecraft:dark_oak_button",
+              "count": 64
+            },
+            "hotbar.1": {
+              "items": "minecraft:dark_oak_button",
+              "count": 64
+            },
+            "hotbar.2": {
+              "items": "minecraft:dark_oak_button",
+              "count": 64
+            },
+            "hotbar.3": {
+              "items": "minecraft:dark_oak_button",
+              "count": 64
+            },
+            "hotbar.4": {
+              "items": "minecraft:dark_oak_button",
+              "count": 64
+            },
+            "hotbar.5": {
+              "items": "minecraft:dark_oak_button",
+              "count": 64
+            },
+            "hotbar.6": {
+              "items": "minecraft:dark_oak_button",
+              "count": 64
+            },
+            "hotbar.7": {
+              "items": "minecraft:dark_oak_button",
+              "count": 64
+            },
+            "hotbar.8": {
+              "items": "minecraft:dark_oak_button",
+              "count": 64
+            },
+            "weapon.offhand": {
+              "items": "minecraft:dark_oak_button",
+              "count": 64
+            }
+          }
+        }
+      }
+    },
+    "mangrove_button": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "slots": {
+            "inventory.0": {
+              "items": "minecraft:mangrove_button",
+              "count": 64
+            },
+            "inventory.1": {
+              "items": "minecraft:mangrove_button",
+              "count": 64
+            },
+            "inventory.2": {
+              "items": "minecraft:mangrove_button",
+              "count": 64
+            },
+            "inventory.3": {
+              "items": "minecraft:mangrove_button",
+              "count": 64
+            },
+            "inventory.4": {
+              "items": "minecraft:mangrove_button",
+              "count": 64
+            },
+            "inventory.5": {
+              "items": "minecraft:mangrove_button",
+              "count": 64
+            },
+            "inventory.6": {
+              "items": "minecraft:mangrove_button",
+              "count": 64
+            },
+            "inventory.7": {
+              "items": "minecraft:mangrove_button",
+              "count": 64
+            },
+            "inventory.8": {
+              "items": "minecraft:mangrove_button",
+              "count": 64
+            },
+            "inventory.9": {
+              "items": "minecraft:mangrove_button",
+              "count": 64
+            },
+            "inventory.10": {
+              "items": "minecraft:mangrove_button",
+              "count": 64
+            },
+            "inventory.11": {
+              "items": "minecraft:mangrove_button",
+              "count": 64
+            },
+            "inventory.12": {
+              "items": "minecraft:mangrove_button",
+              "count": 64
+            },
+            "inventory.13": {
+              "items": "minecraft:mangrove_button",
+              "count": 64
+            },
+            "inventory.14": {
+              "items": "minecraft:mangrove_button",
+              "count": 64
+            },
+            "inventory.15": {
+              "items": "minecraft:mangrove_button",
+              "count": 64
+            },
+            "inventory.16": {
+              "items": "minecraft:mangrove_button",
+              "count": 64
+            },
+            "inventory.17": {
+              "items": "minecraft:mangrove_button",
+              "count": 64
+            },
+            "inventory.18": {
+              "items": "minecraft:mangrove_button",
+              "count": 64
+            },
+            "inventory.19": {
+              "items": "minecraft:mangrove_button",
+              "count": 64
+            },
+            "inventory.20": {
+              "items": "minecraft:mangrove_button",
+              "count": 64
+            },
+            "inventory.21": {
+              "items": "minecraft:mangrove_button",
+              "count": 64
+            },
+            "inventory.22": {
+              "items": "minecraft:mangrove_button",
+              "count": 64
+            },
+            "inventory.23": {
+              "items": "minecraft:mangrove_button",
+              "count": 64
+            },
+            "inventory.24": {
+              "items": "minecraft:mangrove_button",
+              "count": 64
+            },
+            "inventory.25": {
+              "items": "minecraft:mangrove_button",
+              "count": 64
+            },
+            "inventory.26": {
+              "items": "minecraft:mangrove_button",
+              "count": 64
+            },
+            "hotbar.0": {
+              "items": "minecraft:mangrove_button",
+              "count": 64
+            },
+            "hotbar.1": {
+              "items": "minecraft:mangrove_button",
+              "count": 64
+            },
+            "hotbar.2": {
+              "items": "minecraft:mangrove_button",
+              "count": 64
+            },
+            "hotbar.3": {
+              "items": "minecraft:mangrove_button",
+              "count": 64
+            },
+            "hotbar.4": {
+              "items": "minecraft:mangrove_button",
+              "count": 64
+            },
+            "hotbar.5": {
+              "items": "minecraft:mangrove_button",
+              "count": 64
+            },
+            "hotbar.6": {
+              "items": "minecraft:mangrove_button",
+              "count": 64
+            },
+            "hotbar.7": {
+              "items": "minecraft:mangrove_button",
+              "count": 64
+            },
+            "hotbar.8": {
+              "items": "minecraft:mangrove_button",
+              "count": 64
+            },
+            "weapon.offhand": {
+              "items": "minecraft:mangrove_button",
+              "count": 64
+            }
+          }
+        }
+      }
+    },
+    "cherry_button": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "slots": {
+            "inventory.0": {
+              "items": "minecraft:cherry_button",
+              "count": 64
+            },
+            "inventory.1": {
+              "items": "minecraft:cherry_button",
+              "count": 64
+            },
+            "inventory.2": {
+              "items": "minecraft:cherry_button",
+              "count": 64
+            },
+            "inventory.3": {
+              "items": "minecraft:cherry_button",
+              "count": 64
+            },
+            "inventory.4": {
+              "items": "minecraft:cherry_button",
+              "count": 64
+            },
+            "inventory.5": {
+              "items": "minecraft:cherry_button",
+              "count": 64
+            },
+            "inventory.6": {
+              "items": "minecraft:cherry_button",
+              "count": 64
+            },
+            "inventory.7": {
+              "items": "minecraft:cherry_button",
+              "count": 64
+            },
+            "inventory.8": {
+              "items": "minecraft:cherry_button",
+              "count": 64
+            },
+            "inventory.9": {
+              "items": "minecraft:cherry_button",
+              "count": 64
+            },
+            "inventory.10": {
+              "items": "minecraft:cherry_button",
+              "count": 64
+            },
+            "inventory.11": {
+              "items": "minecraft:cherry_button",
+              "count": 64
+            },
+            "inventory.12": {
+              "items": "minecraft:cherry_button",
+              "count": 64
+            },
+            "inventory.13": {
+              "items": "minecraft:cherry_button",
+              "count": 64
+            },
+            "inventory.14": {
+              "items": "minecraft:cherry_button",
+              "count": 64
+            },
+            "inventory.15": {
+              "items": "minecraft:cherry_button",
+              "count": 64
+            },
+            "inventory.16": {
+              "items": "minecraft:cherry_button",
+              "count": 64
+            },
+            "inventory.17": {
+              "items": "minecraft:cherry_button",
+              "count": 64
+            },
+            "inventory.18": {
+              "items": "minecraft:cherry_button",
+              "count": 64
+            },
+            "inventory.19": {
+              "items": "minecraft:cherry_button",
+              "count": 64
+            },
+            "inventory.20": {
+              "items": "minecraft:cherry_button",
+              "count": 64
+            },
+            "inventory.21": {
+              "items": "minecraft:cherry_button",
+              "count": 64
+            },
+            "inventory.22": {
+              "items": "minecraft:cherry_button",
+              "count": 64
+            },
+            "inventory.23": {
+              "items": "minecraft:cherry_button",
+              "count": 64
+            },
+            "inventory.24": {
+              "items": "minecraft:cherry_button",
+              "count": 64
+            },
+            "inventory.25": {
+              "items": "minecraft:cherry_button",
+              "count": 64
+            },
+            "inventory.26": {
+              "items": "minecraft:cherry_button",
+              "count": 64
+            },
+            "hotbar.0": {
+              "items": "minecraft:cherry_button",
+              "count": 64
+            },
+            "hotbar.1": {
+              "items": "minecraft:cherry_button",
+              "count": 64
+            },
+            "hotbar.2": {
+              "items": "minecraft:cherry_button",
+              "count": 64
+            },
+            "hotbar.3": {
+              "items": "minecraft:cherry_button",
+              "count": 64
+            },
+            "hotbar.4": {
+              "items": "minecraft:cherry_button",
+              "count": 64
+            },
+            "hotbar.5": {
+              "items": "minecraft:cherry_button",
+              "count": 64
+            },
+            "hotbar.6": {
+              "items": "minecraft:cherry_button",
+              "count": 64
+            },
+            "hotbar.7": {
+              "items": "minecraft:cherry_button",
+              "count": 64
+            },
+            "hotbar.8": {
+              "items": "minecraft:cherry_button",
+              "count": 64
+            },
+            "weapon.offhand": {
+              "items": "minecraft:cherry_button",
+              "count": 64
+            }
+          }
+        }
+      }
+    },
+    "pale_oak_button": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "slots": {
+            "inventory.0": {
+              "items": "minecraft:pale_oak_button",
+              "count": 64
+            },
+            "inventory.1": {
+              "items": "minecraft:pale_oak_button",
+              "count": 64
+            },
+            "inventory.2": {
+              "items": "minecraft:pale_oak_button",
+              "count": 64
+            },
+            "inventory.3": {
+              "items": "minecraft:pale_oak_button",
+              "count": 64
+            },
+            "inventory.4": {
+              "items": "minecraft:pale_oak_button",
+              "count": 64
+            },
+            "inventory.5": {
+              "items": "minecraft:pale_oak_button",
+              "count": 64
+            },
+            "inventory.6": {
+              "items": "minecraft:pale_oak_button",
+              "count": 64
+            },
+            "inventory.7": {
+              "items": "minecraft:pale_oak_button",
+              "count": 64
+            },
+            "inventory.8": {
+              "items": "minecraft:pale_oak_button",
+              "count": 64
+            },
+            "inventory.9": {
+              "items": "minecraft:pale_oak_button",
+              "count": 64
+            },
+            "inventory.10": {
+              "items": "minecraft:pale_oak_button",
+              "count": 64
+            },
+            "inventory.11": {
+              "items": "minecraft:pale_oak_button",
+              "count": 64
+            },
+            "inventory.12": {
+              "items": "minecraft:pale_oak_button",
+              "count": 64
+            },
+            "inventory.13": {
+              "items": "minecraft:pale_oak_button",
+              "count": 64
+            },
+            "inventory.14": {
+              "items": "minecraft:pale_oak_button",
+              "count": 64
+            },
+            "inventory.15": {
+              "items": "minecraft:pale_oak_button",
+              "count": 64
+            },
+            "inventory.16": {
+              "items": "minecraft:pale_oak_button",
+              "count": 64
+            },
+            "inventory.17": {
+              "items": "minecraft:pale_oak_button",
+              "count": 64
+            },
+            "inventory.18": {
+              "items": "minecraft:pale_oak_button",
+              "count": 64
+            },
+            "inventory.19": {
+              "items": "minecraft:pale_oak_button",
+              "count": 64
+            },
+            "inventory.20": {
+              "items": "minecraft:pale_oak_button",
+              "count": 64
+            },
+            "inventory.21": {
+              "items": "minecraft:pale_oak_button",
+              "count": 64
+            },
+            "inventory.22": {
+              "items": "minecraft:pale_oak_button",
+              "count": 64
+            },
+            "inventory.23": {
+              "items": "minecraft:pale_oak_button",
+              "count": 64
+            },
+            "inventory.24": {
+              "items": "minecraft:pale_oak_button",
+              "count": 64
+            },
+            "inventory.25": {
+              "items": "minecraft:pale_oak_button",
+              "count": 64
+            },
+            "inventory.26": {
+              "items": "minecraft:pale_oak_button",
+              "count": 64
+            },
+            "hotbar.0": {
+              "items": "minecraft:pale_oak_button",
+              "count": 64
+            },
+            "hotbar.1": {
+              "items": "minecraft:pale_oak_button",
+              "count": 64
+            },
+            "hotbar.2": {
+              "items": "minecraft:pale_oak_button",
+              "count": 64
+            },
+            "hotbar.3": {
+              "items": "minecraft:pale_oak_button",
+              "count": 64
+            },
+            "hotbar.4": {
+              "items": "minecraft:pale_oak_button",
+              "count": 64
+            },
+            "hotbar.5": {
+              "items": "minecraft:pale_oak_button",
+              "count": 64
+            },
+            "hotbar.6": {
+              "items": "minecraft:pale_oak_button",
+              "count": 64
+            },
+            "hotbar.7": {
+              "items": "minecraft:pale_oak_button",
+              "count": 64
+            },
+            "hotbar.8": {
+              "items": "minecraft:pale_oak_button",
+              "count": 64
+            },
+            "weapon.offhand": {
+              "items": "minecraft:pale_oak_button",
+              "count": 64
+            }
+          }
+        }
+      }
+    },
+    "bamboo_button": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "slots": {
+            "inventory.0": {
+              "items": "minecraft:bamboo_button",
+              "count": 64
+            },
+            "inventory.1": {
+              "items": "minecraft:bamboo_button",
+              "count": 64
+            },
+            "inventory.2": {
+              "items": "minecraft:bamboo_button",
+              "count": 64
+            },
+            "inventory.3": {
+              "items": "minecraft:bamboo_button",
+              "count": 64
+            },
+            "inventory.4": {
+              "items": "minecraft:bamboo_button",
+              "count": 64
+            },
+            "inventory.5": {
+              "items": "minecraft:bamboo_button",
+              "count": 64
+            },
+            "inventory.6": {
+              "items": "minecraft:bamboo_button",
+              "count": 64
+            },
+            "inventory.7": {
+              "items": "minecraft:bamboo_button",
+              "count": 64
+            },
+            "inventory.8": {
+              "items": "minecraft:bamboo_button",
+              "count": 64
+            },
+            "inventory.9": {
+              "items": "minecraft:bamboo_button",
+              "count": 64
+            },
+            "inventory.10": {
+              "items": "minecraft:bamboo_button",
+              "count": 64
+            },
+            "inventory.11": {
+              "items": "minecraft:bamboo_button",
+              "count": 64
+            },
+            "inventory.12": {
+              "items": "minecraft:bamboo_button",
+              "count": 64
+            },
+            "inventory.13": {
+              "items": "minecraft:bamboo_button",
+              "count": 64
+            },
+            "inventory.14": {
+              "items": "minecraft:bamboo_button",
+              "count": 64
+            },
+            "inventory.15": {
+              "items": "minecraft:bamboo_button",
+              "count": 64
+            },
+            "inventory.16": {
+              "items": "minecraft:bamboo_button",
+              "count": 64
+            },
+            "inventory.17": {
+              "items": "minecraft:bamboo_button",
+              "count": 64
+            },
+            "inventory.18": {
+              "items": "minecraft:bamboo_button",
+              "count": 64
+            },
+            "inventory.19": {
+              "items": "minecraft:bamboo_button",
+              "count": 64
+            },
+            "inventory.20": {
+              "items": "minecraft:bamboo_button",
+              "count": 64
+            },
+            "inventory.21": {
+              "items": "minecraft:bamboo_button",
+              "count": 64
+            },
+            "inventory.22": {
+              "items": "minecraft:bamboo_button",
+              "count": 64
+            },
+            "inventory.23": {
+              "items": "minecraft:bamboo_button",
+              "count": 64
+            },
+            "inventory.24": {
+              "items": "minecraft:bamboo_button",
+              "count": 64
+            },
+            "inventory.25": {
+              "items": "minecraft:bamboo_button",
+              "count": 64
+            },
+            "inventory.26": {
+              "items": "minecraft:bamboo_button",
+              "count": 64
+            },
+            "hotbar.0": {
+              "items": "minecraft:bamboo_button",
+              "count": 64
+            },
+            "hotbar.1": {
+              "items": "minecraft:bamboo_button",
+              "count": 64
+            },
+            "hotbar.2": {
+              "items": "minecraft:bamboo_button",
+              "count": 64
+            },
+            "hotbar.3": {
+              "items": "minecraft:bamboo_button",
+              "count": 64
+            },
+            "hotbar.4": {
+              "items": "minecraft:bamboo_button",
+              "count": 64
+            },
+            "hotbar.5": {
+              "items": "minecraft:bamboo_button",
+              "count": 64
+            },
+            "hotbar.6": {
+              "items": "minecraft:bamboo_button",
+              "count": 64
+            },
+            "hotbar.7": {
+              "items": "minecraft:bamboo_button",
+              "count": 64
+            },
+            "hotbar.8": {
+              "items": "minecraft:bamboo_button",
+              "count": 64
+            },
+            "weapon.offhand": {
+              "items": "minecraft:bamboo_button",
+              "count": 64
+            }
+          }
+        }
+      }
+    },
+    "crimson_button": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "slots": {
+            "inventory.0": {
+              "items": "minecraft:crimson_button",
+              "count": 64
+            },
+            "inventory.1": {
+              "items": "minecraft:crimson_button",
+              "count": 64
+            },
+            "inventory.2": {
+              "items": "minecraft:crimson_button",
+              "count": 64
+            },
+            "inventory.3": {
+              "items": "minecraft:crimson_button",
+              "count": 64
+            },
+            "inventory.4": {
+              "items": "minecraft:crimson_button",
+              "count": 64
+            },
+            "inventory.5": {
+              "items": "minecraft:crimson_button",
+              "count": 64
+            },
+            "inventory.6": {
+              "items": "minecraft:crimson_button",
+              "count": 64
+            },
+            "inventory.7": {
+              "items": "minecraft:crimson_button",
+              "count": 64
+            },
+            "inventory.8": {
+              "items": "minecraft:crimson_button",
+              "count": 64
+            },
+            "inventory.9": {
+              "items": "minecraft:crimson_button",
+              "count": 64
+            },
+            "inventory.10": {
+              "items": "minecraft:crimson_button",
+              "count": 64
+            },
+            "inventory.11": {
+              "items": "minecraft:crimson_button",
+              "count": 64
+            },
+            "inventory.12": {
+              "items": "minecraft:crimson_button",
+              "count": 64
+            },
+            "inventory.13": {
+              "items": "minecraft:crimson_button",
+              "count": 64
+            },
+            "inventory.14": {
+              "items": "minecraft:crimson_button",
+              "count": 64
+            },
+            "inventory.15": {
+              "items": "minecraft:crimson_button",
+              "count": 64
+            },
+            "inventory.16": {
+              "items": "minecraft:crimson_button",
+              "count": 64
+            },
+            "inventory.17": {
+              "items": "minecraft:crimson_button",
+              "count": 64
+            },
+            "inventory.18": {
+              "items": "minecraft:crimson_button",
+              "count": 64
+            },
+            "inventory.19": {
+              "items": "minecraft:crimson_button",
+              "count": 64
+            },
+            "inventory.20": {
+              "items": "minecraft:crimson_button",
+              "count": 64
+            },
+            "inventory.21": {
+              "items": "minecraft:crimson_button",
+              "count": 64
+            },
+            "inventory.22": {
+              "items": "minecraft:crimson_button",
+              "count": 64
+            },
+            "inventory.23": {
+              "items": "minecraft:crimson_button",
+              "count": 64
+            },
+            "inventory.24": {
+              "items": "minecraft:crimson_button",
+              "count": 64
+            },
+            "inventory.25": {
+              "items": "minecraft:crimson_button",
+              "count": 64
+            },
+            "inventory.26": {
+              "items": "minecraft:crimson_button",
+              "count": 64
+            },
+            "hotbar.0": {
+              "items": "minecraft:crimson_button",
+              "count": 64
+            },
+            "hotbar.1": {
+              "items": "minecraft:crimson_button",
+              "count": 64
+            },
+            "hotbar.2": {
+              "items": "minecraft:crimson_button",
+              "count": 64
+            },
+            "hotbar.3": {
+              "items": "minecraft:crimson_button",
+              "count": 64
+            },
+            "hotbar.4": {
+              "items": "minecraft:crimson_button",
+              "count": 64
+            },
+            "hotbar.5": {
+              "items": "minecraft:crimson_button",
+              "count": 64
+            },
+            "hotbar.6": {
+              "items": "minecraft:crimson_button",
+              "count": 64
+            },
+            "hotbar.7": {
+              "items": "minecraft:crimson_button",
+              "count": 64
+            },
+            "hotbar.8": {
+              "items": "minecraft:crimson_button",
+              "count": 64
+            },
+            "weapon.offhand": {
+              "items": "minecraft:crimson_button",
+              "count": 64
+            }
+          }
+        }
+      }
+    },
+    "warped_button": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "slots": {
+            "inventory.0": {
+              "items": "minecraft:warped_button",
+              "count": 64
+            },
+            "inventory.1": {
+              "items": "minecraft:warped_button",
+              "count": 64
+            },
+            "inventory.2": {
+              "items": "minecraft:warped_button",
+              "count": 64
+            },
+            "inventory.3": {
+              "items": "minecraft:warped_button",
+              "count": 64
+            },
+            "inventory.4": {
+              "items": "minecraft:warped_button",
+              "count": 64
+            },
+            "inventory.5": {
+              "items": "minecraft:warped_button",
+              "count": 64
+            },
+            "inventory.6": {
+              "items": "minecraft:warped_button",
+              "count": 64
+            },
+            "inventory.7": {
+              "items": "minecraft:warped_button",
+              "count": 64
+            },
+            "inventory.8": {
+              "items": "minecraft:warped_button",
+              "count": 64
+            },
+            "inventory.9": {
+              "items": "minecraft:warped_button",
+              "count": 64
+            },
+            "inventory.10": {
+              "items": "minecraft:warped_button",
+              "count": 64
+            },
+            "inventory.11": {
+              "items": "minecraft:warped_button",
+              "count": 64
+            },
+            "inventory.12": {
+              "items": "minecraft:warped_button",
+              "count": 64
+            },
+            "inventory.13": {
+              "items": "minecraft:warped_button",
+              "count": 64
+            },
+            "inventory.14": {
+              "items": "minecraft:warped_button",
+              "count": 64
+            },
+            "inventory.15": {
+              "items": "minecraft:warped_button",
+              "count": 64
+            },
+            "inventory.16": {
+              "items": "minecraft:warped_button",
+              "count": 64
+            },
+            "inventory.17": {
+              "items": "minecraft:warped_button",
+              "count": 64
+            },
+            "inventory.18": {
+              "items": "minecraft:warped_button",
+              "count": 64
+            },
+            "inventory.19": {
+              "items": "minecraft:warped_button",
+              "count": 64
+            },
+            "inventory.20": {
+              "items": "minecraft:warped_button",
+              "count": 64
+            },
+            "inventory.21": {
+              "items": "minecraft:warped_button",
+              "count": 64
+            },
+            "inventory.22": {
+              "items": "minecraft:warped_button",
+              "count": 64
+            },
+            "inventory.23": {
+              "items": "minecraft:warped_button",
+              "count": 64
+            },
+            "inventory.24": {
+              "items": "minecraft:warped_button",
+              "count": 64
+            },
+            "inventory.25": {
+              "items": "minecraft:warped_button",
+              "count": 64
+            },
+            "inventory.26": {
+              "items": "minecraft:warped_button",
+              "count": 64
+            },
+            "hotbar.0": {
+              "items": "minecraft:warped_button",
+              "count": 64
+            },
+            "hotbar.1": {
+              "items": "minecraft:warped_button",
+              "count": 64
+            },
+            "hotbar.2": {
+              "items": "minecraft:warped_button",
+              "count": 64
+            },
+            "hotbar.3": {
+              "items": "minecraft:warped_button",
+              "count": 64
+            },
+            "hotbar.4": {
+              "items": "minecraft:warped_button",
+              "count": 64
+            },
+            "hotbar.5": {
+              "items": "minecraft:warped_button",
+              "count": 64
+            },
+            "hotbar.6": {
+              "items": "minecraft:warped_button",
+              "count": 64
+            },
+            "hotbar.7": {
+              "items": "minecraft:warped_button",
+              "count": 64
+            },
+            "hotbar.8": {
+              "items": "minecraft:warped_button",
+              "count": 64
+            },
+            "weapon.offhand": {
+              "items": "minecraft:warped_button",
+              "count": 64
+            }
+          }
+        }
+      }
+    },
+    "stone_button": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "slots": {
+            "inventory.0": {
+              "items": "minecraft:stone_button",
+              "count": 64
+            },
+            "inventory.1": {
+              "items": "minecraft:stone_button",
+              "count": 64
+            },
+            "inventory.2": {
+              "items": "minecraft:stone_button",
+              "count": 64
+            },
+            "inventory.3": {
+              "items": "minecraft:stone_button",
+              "count": 64
+            },
+            "inventory.4": {
+              "items": "minecraft:stone_button",
+              "count": 64
+            },
+            "inventory.5": {
+              "items": "minecraft:stone_button",
+              "count": 64
+            },
+            "inventory.6": {
+              "items": "minecraft:stone_button",
+              "count": 64
+            },
+            "inventory.7": {
+              "items": "minecraft:stone_button",
+              "count": 64
+            },
+            "inventory.8": {
+              "items": "minecraft:stone_button",
+              "count": 64
+            },
+            "inventory.9": {
+              "items": "minecraft:stone_button",
+              "count": 64
+            },
+            "inventory.10": {
+              "items": "minecraft:stone_button",
+              "count": 64
+            },
+            "inventory.11": {
+              "items": "minecraft:stone_button",
+              "count": 64
+            },
+            "inventory.12": {
+              "items": "minecraft:stone_button",
+              "count": 64
+            },
+            "inventory.13": {
+              "items": "minecraft:stone_button",
+              "count": 64
+            },
+            "inventory.14": {
+              "items": "minecraft:stone_button",
+              "count": 64
+            },
+            "inventory.15": {
+              "items": "minecraft:stone_button",
+              "count": 64
+            },
+            "inventory.16": {
+              "items": "minecraft:stone_button",
+              "count": 64
+            },
+            "inventory.17": {
+              "items": "minecraft:stone_button",
+              "count": 64
+            },
+            "inventory.18": {
+              "items": "minecraft:stone_button",
+              "count": 64
+            },
+            "inventory.19": {
+              "items": "minecraft:stone_button",
+              "count": 64
+            },
+            "inventory.20": {
+              "items": "minecraft:stone_button",
+              "count": 64
+            },
+            "inventory.21": {
+              "items": "minecraft:stone_button",
+              "count": 64
+            },
+            "inventory.22": {
+              "items": "minecraft:stone_button",
+              "count": 64
+            },
+            "inventory.23": {
+              "items": "minecraft:stone_button",
+              "count": 64
+            },
+            "inventory.24": {
+              "items": "minecraft:stone_button",
+              "count": 64
+            },
+            "inventory.25": {
+              "items": "minecraft:stone_button",
+              "count": 64
+            },
+            "inventory.26": {
+              "items": "minecraft:stone_button",
+              "count": 64
+            },
+            "hotbar.0": {
+              "items": "minecraft:stone_button",
+              "count": 64
+            },
+            "hotbar.1": {
+              "items": "minecraft:stone_button",
+              "count": 64
+            },
+            "hotbar.2": {
+              "items": "minecraft:stone_button",
+              "count": 64
+            },
+            "hotbar.3": {
+              "items": "minecraft:stone_button",
+              "count": 64
+            },
+            "hotbar.4": {
+              "items": "minecraft:stone_button",
+              "count": 64
+            },
+            "hotbar.5": {
+              "items": "minecraft:stone_button",
+              "count": 64
+            },
+            "hotbar.6": {
+              "items": "minecraft:stone_button",
+              "count": 64
+            },
+            "hotbar.7": {
+              "items": "minecraft:stone_button",
+              "count": 64
+            },
+            "hotbar.8": {
+              "items": "minecraft:stone_button",
+              "count": 64
+            },
+            "weapon.offhand": {
+              "items": "minecraft:stone_button",
+              "count": 64
+            }
+          }
+        }
+      }
+    },
+    "polished_blackstone_button": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "slots": {
+            "inventory.0": {
+              "items": "minecraft:polished_blackstone_button",
+              "count": 64
+            },
+            "inventory.1": {
+              "items": "minecraft:polished_blackstone_button",
+              "count": 64
+            },
+            "inventory.2": {
+              "items": "minecraft:polished_blackstone_button",
+              "count": 64
+            },
+            "inventory.3": {
+              "items": "minecraft:polished_blackstone_button",
+              "count": 64
+            },
+            "inventory.4": {
+              "items": "minecraft:polished_blackstone_button",
+              "count": 64
+            },
+            "inventory.5": {
+              "items": "minecraft:polished_blackstone_button",
+              "count": 64
+            },
+            "inventory.6": {
+              "items": "minecraft:polished_blackstone_button",
+              "count": 64
+            },
+            "inventory.7": {
+              "items": "minecraft:polished_blackstone_button",
+              "count": 64
+            },
+            "inventory.8": {
+              "items": "minecraft:polished_blackstone_button",
+              "count": 64
+            },
+            "inventory.9": {
+              "items": "minecraft:polished_blackstone_button",
+              "count": 64
+            },
+            "inventory.10": {
+              "items": "minecraft:polished_blackstone_button",
+              "count": 64
+            },
+            "inventory.11": {
+              "items": "minecraft:polished_blackstone_button",
+              "count": 64
+            },
+            "inventory.12": {
+              "items": "minecraft:polished_blackstone_button",
+              "count": 64
+            },
+            "inventory.13": {
+              "items": "minecraft:polished_blackstone_button",
+              "count": 64
+            },
+            "inventory.14": {
+              "items": "minecraft:polished_blackstone_button",
+              "count": 64
+            },
+            "inventory.15": {
+              "items": "minecraft:polished_blackstone_button",
+              "count": 64
+            },
+            "inventory.16": {
+              "items": "minecraft:polished_blackstone_button",
+              "count": 64
+            },
+            "inventory.17": {
+              "items": "minecraft:polished_blackstone_button",
+              "count": 64
+            },
+            "inventory.18": {
+              "items": "minecraft:polished_blackstone_button",
+              "count": 64
+            },
+            "inventory.19": {
+              "items": "minecraft:polished_blackstone_button",
+              "count": 64
+            },
+            "inventory.20": {
+              "items": "minecraft:polished_blackstone_button",
+              "count": 64
+            },
+            "inventory.21": {
+              "items": "minecraft:polished_blackstone_button",
+              "count": 64
+            },
+            "inventory.22": {
+              "items": "minecraft:polished_blackstone_button",
+              "count": 64
+            },
+            "inventory.23": {
+              "items": "minecraft:polished_blackstone_button",
+              "count": 64
+            },
+            "inventory.24": {
+              "items": "minecraft:polished_blackstone_button",
+              "count": 64
+            },
+            "inventory.25": {
+              "items": "minecraft:polished_blackstone_button",
+              "count": 64
+            },
+            "inventory.26": {
+              "items": "minecraft:polished_blackstone_button",
+              "count": 64
+            },
+            "hotbar.0": {
+              "items": "minecraft:polished_blackstone_button",
+              "count": 64
+            },
+            "hotbar.1": {
+              "items": "minecraft:polished_blackstone_button",
+              "count": 64
+            },
+            "hotbar.2": {
+              "items": "minecraft:polished_blackstone_button",
+              "count": 64
+            },
+            "hotbar.3": {
+              "items": "minecraft:polished_blackstone_button",
+              "count": 64
+            },
+            "hotbar.4": {
+              "items": "minecraft:polished_blackstone_button",
+              "count": 64
+            },
+            "hotbar.5": {
+              "items": "minecraft:polished_blackstone_button",
+              "count": 64
+            },
+            "hotbar.6": {
+              "items": "minecraft:polished_blackstone_button",
+              "count": 64
+            },
+            "hotbar.7": {
+              "items": "minecraft:polished_blackstone_button",
+              "count": 64
+            },
+            "hotbar.8": {
+              "items": "minecraft:polished_blackstone_button",
+              "count": 64
+            },
+            "weapon.offhand": {
+              "items": "minecraft:polished_blackstone_button",
+              "count": 64
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "slop_rewards:redstone/edible_buttons"
+  }
+}

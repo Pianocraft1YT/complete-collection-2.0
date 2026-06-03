@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:golden_helmet"
+		},
+		"title": {"translate":"Skeleton king"},
+		"description": {"color":"#75E1FF","translate":"Kill the skeleton king"},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "blazeandcave:monsters/spooky_skeleton",
+	"rewards": {
+		"function": "slop_rewards:mining/skeleton_king"
+	},		
+	"criteria": {
+		"slenderman": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "skeleton",
+					"nbt": "{CustomName:\"Skeleton King\"}"
+				}
+			}
+		}
+	}
+}

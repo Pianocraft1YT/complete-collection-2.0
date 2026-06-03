@@ -1,0 +1,5 @@
+tellraw @a {"bold":true,"translate":"%1$s has completed every advancement in BACAP: Slop Edition, earning them the coveted title of %2$s%3$s%4$s","with":[{"selector":"@s"},{"color":"gold","text":"["},{"color":"gold","translate":"Slop Legend","hover_event":{"action":"show_text","value":{"color":"gold","translate":"Slop Legend","extra":[{"text":"\n"},{"color":"#E19400","translate":"Complete every single advancement in BACAP: Slop Edition"},{"text":"\n\n"},{"color":"gray","italic":true,"translate":"%1$s tab","with":[{"translate":"BlazeandCave's Advancements"}]}]}}},{"color":"gold","text":"]"}]}
+# Special title
+title @s title {"text":"Congratulations!","color":"light_purple","bold":true}
+title @s subtitle {"text":"You have completed ","color":"white","extra":[{"text":"BACAP: Slop Edition","color":"#f7a409"},{"text":""},{"text":"!","color":"white"}]}
+title @s times 20 200 20

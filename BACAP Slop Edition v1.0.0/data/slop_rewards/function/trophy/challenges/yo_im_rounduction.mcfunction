@@ -1,0 +1,3 @@
+give @s player_head[profile={properties:[{value:"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGZhYzgzNTg0OTdmNDhlN2QwZGY0NWQ3MTBjMWNlOGI3ZTk1NjZlMmE2ZGY0NDU5Njc5ODRlODFmN2Q3NDcyOSJ9fX0=",name:textures}]},custom_name=[{"text":"Not Rounduction's Head","bold":true,"italic":false,"color":"dark_aqua"}],lore=[[{"text":"Yo, I'm Rounduction","italic":false,"color":"dark_aqua"}],"",[{"text":"Awarded for achieving","color":"gray"}],[{"text":"Yo I'm Rounduction","italic":false,"color":"#ff2a2a"}]]]
+
+tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Not Rounduction's Head"}]}

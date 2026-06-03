@@ -1,0 +1,1 @@
+execute if score complete_collection_2:collect/complete_collection_2 bac_obtained_white matches 1.. run advancement grant @a[team=bac_team_white] only complete_collection_2:collect/complete_collection_2

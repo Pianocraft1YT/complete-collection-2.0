@@ -1,0 +1,442 @@
+{
+  "display": {
+    "icon": {
+      "id":"minecraft:player_head",
+            "components": {
+        "profile": {
+          "id": [
+            652293181,
+            -950186350,
+            -1857676489,
+            -1403293903
+          ],
+          "properties": [
+            {
+              "name": "textures",
+              "value": "ewogICJ0aW1lc3RhbXAiIDogMTc3NDAyNzA4Mjc4MiwKICAicHJvZmlsZUlkIiA6ICJhMDc0MTYyOWI5OGM0MTZiOWQ0OWI0M2RiNDJhM2YxNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJob25lc3RseXR6YWRvayIsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kN2RkMjgzOTVmMzUxNzNkMmNkNGZiOWQwYWNmMzU3NzViNGJiZTIyODk3NjUwMzg3MmJkZWVmNjAxYjY5NDc5IgogICAgfQogIH0KfQ=="
+            }
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "True Slop Legend"
+    },
+    "description": {
+      "translate": "Complete every single advancement in BACAP: Slop Edition, Suggestion Edition and New Horizons",
+      "color": "light_purple"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "slop:bacap/slop_legend",
+  "criteria": {
+    "slop_legend": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "slop:bacap/slop_legend": true
+            }
+          }
+        }
+      }
+    },
+    "maybe": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "slop:challenges/maybe": true
+            }
+          }
+        }
+      }
+    },
+    "a_complete_collection": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "slop:challenges/a_complete_collection": true
+            }
+          }
+        }
+      }
+    },
+    "mineral_collection_big_cousin": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "slop:mining/mineral_collection_big_cousin": true
+            }
+          }
+        }
+      }
+    },
+    "no_core_keeper_yet": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "slop:adventure/no_core_keeper_yet": true
+            }
+          }
+        }
+      }
+    },
+    "new_horizons_legend": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "ashley:bacap/new_horizons_legend": true
+            }
+          }
+        }
+      }
+    },
+    "hidden_legend": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "ashley:bacap/hidden_legend": true
+            }
+          }
+        }
+      }
+    },
+    "suggestion_advancement_legend": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "terrible_suggestions:suggestions/suggestion_advancement_legend": true
+            }
+          }
+        }
+      }
+    },
+  "boss_rush_idk": {
+    "trigger": "minecraft:location",
+    "conditions": {
+      "player" : {
+        "type_specific":{
+          "type": "player",
+          "advancements": {
+            "terrible_suggestions:suggestions/boss_rush_idk": true
+          }
+        }
+      }
+    }
+  },
+ "youre_not_getting_this_one": {
+    "trigger": "minecraft:location",
+    "conditions": {
+      "player" : {
+        "type_specific":{
+          "type": "player",
+          "advancements": {
+            "terrible_suggestions:suggestions/youre_not_getting_this_one": true
+          }
+        }
+      }
+    }
+  },
+   "wandering_caravan": {
+    "trigger": "minecraft:location",
+    "conditions": {
+      "player" : {
+        "type_specific":{
+          "type": "player",
+          "advancements": {
+            "terrible_suggestions:suggestions/wandering_caravan": true
+          }
+        }
+      }
+    }
+  },
+   "caseohs_unbalanced_diet": {
+    "trigger": "minecraft:location",
+    "conditions": {
+      "player" : {
+        "type_specific":{
+          "type": "player",
+          "advancements": {
+            "terrible_suggestions:suggestions/caseohs_unbalanced_diet": true
+          }
+        }
+      }
+    }
+  },
+   "complete_collection_se": {
+    "trigger": "minecraft:location",
+    "conditions": {
+      "player" : {
+        "type_specific":{
+          "type": "player",
+          "advancements": {
+            "terrible_suggestions:suggestions/complete_collection": true
+          }
+        }
+      }
+    }
+  },
+   "riddle_me_azure_bluet_sequel": {
+    "trigger": "minecraft:location",
+    "conditions": {
+      "player" : {
+        "type_specific":{
+          "type": "player",
+          "advancements": {
+            "terrible_suggestions:suggestions/riddle_me_azure_bluet_sequel": true
+          }
+        }
+      }
+    }
+  },
+   "plantsman": {
+    "trigger": "minecraft:location",
+    "conditions": {
+      "player" : {
+        "type_specific":{
+          "type": "player",
+          "advancements": {
+            "terrible_suggestions:suggestions/plantsman": true
+          }
+        }
+      }
+    }
+  },
+   "kings_mace": {
+    "trigger": "minecraft:location",
+    "conditions": {
+      "player" : {
+        "type_specific":{
+          "type": "player",
+          "advancements": {
+            "terrible_suggestions:suggestions/kings_mace": true
+          }
+        }
+      }
+    }
+  },
+   "riddle_me_not": {
+    "trigger": "minecraft:location",
+    "conditions": {
+      "player" : {
+        "type_specific":{
+          "type": "player",
+          "advancements": {
+            "terrible_suggestions:suggestions/riddle_me_not": true
+          }
+        }
+      }
+    }
+  },
+   "thrift_master": {
+    "trigger": "minecraft:location",
+    "conditions": {
+      "player" : {
+        "type_specific":{
+          "type": "player",
+          "advancements": {
+            "terrible_suggestions:suggestions/thrift_master": true
+          }
+        }
+      }
+    }
+  },
+   "i_should_riddle_you_a_job": {
+    "trigger": "minecraft:location",
+    "conditions": {
+      "player" : {
+        "type_specific":{
+          "type": "player",
+          "advancements": {
+            "terrible_suggestions:suggestions/i_should_riddle_you_a_job": true
+          }
+        }
+      }
+    }
+  },
+   "a_final_tribute": {
+    "trigger": "minecraft:location",
+    "conditions": {
+      "player" : {
+        "type_specific":{
+          "type": "player",
+          "advancements": {
+            "terrible_suggestions:suggestions/a_final_tribute": true
+          }
+        }
+      }
+    }
+  },
+   "crazy_home": {
+    "trigger": "minecraft:location",
+    "conditions": {
+      "player" : {
+        "type_specific":{
+          "type": "player",
+          "advancements": {
+            "terrible_suggestions:suggestions/crazy_home": true
+          }
+        }
+      }
+    }
+  },
+   "animals": {
+    "trigger": "minecraft:location",
+    "conditions": {
+      "player" : {
+        "type_specific":{
+          "type": "player",
+          "advancements": {
+            "terrible_suggestions:suggestions/animals": true
+          }
+        }
+      }
+    }
+  },
+   "5_stones_1_bird": {
+    "trigger": "minecraft:location",
+    "conditions": {
+      "player" : {
+        "type_specific":{
+          "type": "player",
+          "advancements": {
+            "terrible_suggestions:suggestions/5_stones_1_bird": true
+          }
+        }
+      }
+    }
+  },
+   "this_is_fun_haha": {
+    "trigger": "minecraft:location",
+    "conditions": {
+      "player" : {
+        "type_specific":{
+          "type": "player",
+          "advancements": {
+            "terrible_suggestions:suggestions/this_is_fun_haha": true
+          }
+        }
+      }
+    }
+  },
+   "know_your_abcs": {
+    "trigger": "minecraft:location",
+    "conditions": {
+      "player" : {
+        "type_specific":{
+          "type": "player",
+          "advancements": {
+            "terrible_suggestions:suggestions/know_your_abcs": true
+          }
+        }
+      }
+    }
+  }, 
+  "supersonic_arrow": {
+    "trigger": "minecraft:location",
+    "conditions": {
+      "player" : {
+        "type_specific":{
+          "type": "player",
+          "advancements": {
+            "terrible_suggestions:suggestions/supersonic_arrow": true
+          }
+        }
+      }
+    }
+  },
+   "the_super_tadpole_ice_bear_victimized_vehicular_brown_mushroom_feeder": {
+    "trigger": "minecraft:location",
+    "conditions": {
+      "player" : {
+        "type_specific":{
+          "type": "player",
+          "advancements": {
+            "terrible_suggestions:suggestions/the_super_tadpole": true
+          }
+        }
+      }
+    }
+  },
+   "ashley_percent": {
+    "trigger": "minecraft:location",
+    "conditions": {
+      "player" : {
+        "type_specific":{
+          "type": "player",
+          "advancements": {
+            "terrible_suggestions:suggestions/ashley_percent": true
+          }
+        }
+      }
+    }
+  },
+   "ashleys_edition_sneak_peek": {
+    "trigger": "minecraft:location",
+    "conditions": {
+      "player" : {
+        "type_specific":{
+          "type": "player",
+          "advancements": {
+            "terrible_suggestions:suggestions/ashleys_edition_sneak_peek": true
+          }
+        }
+      }
+    }
+  },
+   "on_the_1st_day_of_torture": {
+    "trigger": "minecraft:location",
+    "conditions": {
+      "player" : {
+        "type_specific":{
+          "type": "player",
+          "advancements": {
+            "terrible_suggestions:suggestions/on_the_1st_day_of_torture": true
+          }
+        }
+      }
+    }
+  },
+   "the_void_is_with_me": {
+    "trigger": "minecraft:location",
+    "conditions": {
+      "player" : {
+        "type_specific":{
+          "type": "player",
+          "advancements": {
+            "terrible_suggestions:suggestions/the_void_is_with_me": true
+          }
+        }
+      }
+    }
+  }
+},
+  "rewards": {
+    "function": "slop_rewards:bacap/true_slop_legend"
+  }
+}
