@@ -1,0 +1,25 @@
+{
+    "display":{
+        "icon":{
+            "id":"minecraft:end_stone",
+            "components":{
+                "minecraft:enchantment_glint_override":true
+            }
+
+        },
+        "title":{
+            "translate": "CC2 - End Items"
+        },
+        "description":{
+            "translate": "Obtain a shulker filled with stacks of each item for every item that comes from the end"
+        },
+        "frame":"challenge",
+        "announce_to_chat":true
+        },
+        "parent": "complete_collection_2:collect/collect_nether",
+        "criteria":{
+            ""
+        
+        
+}
+}

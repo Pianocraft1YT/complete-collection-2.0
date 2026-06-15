@@ -16,19 +16,49 @@
         "frame":"challenge",
         "announce_to_chat":true
         },
-        "parent": "none",
+        "parent": "complete_collection_2:collect/collect_end",
         "criteria":{
-            "overworld":{
-
-            },
-            "nether":{
-
-            },
-            "end":{
-                
-            }
-        }
+            "overworld": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"complete_collection_2:collect/collect_overworld": true
+						}
+					}
+				}
+			}
+		},
+                        "nether": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"complete_collection_2:collect/collect_nether": true
+						}
+					}
+				}
+			}
+		},
+                        "end": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"complete_collection_2:collect/collect_end": true
+						}
+					}
+				}
+			}
+		}
 
         
         
+}
 }
