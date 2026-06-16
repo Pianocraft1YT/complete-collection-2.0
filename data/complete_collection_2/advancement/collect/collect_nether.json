@@ -8,17 +8,1041 @@
 
         },
         "title":{
-            "translate": "CC2 - Nether Items"
+            "translate": "CC2 - Stacks of 16"
         },
         "description":{
-            "translate": "Obtain a shulker filled with stacks of each item for every item that comes from the nether"
+            "translate": "Obtain a shulker filled with stacks of each item for every item that stacks to 16"
         },
         "frame":"challenge",
         "announce_to_chat":true
         },
         "parent": "complete_collection_2:collect/collect_overworld",
         "criteria":{
-            ""
+"black_banner": {
+"trigger": "minecraft:inventory_changed",
+"conditions": {
+"items": [
+{
+"items": "minecraft:shulker_box",
+"components": {
+"minecraft:container": [
+{"slot": 0, "item": {"id": "minecraft:black_banner", "count": 16}},
+{"slot": 1, "item": {"id": "minecraft:black_banner", "count": 16}},
+{"slot": 2, "item": {"id": "minecraft:black_banner", "count": 16}},
+{"slot": 3, "item": {"id": "minecraft:black_banner", "count": 16}},
+{"slot": 4, "item": {"id": "minecraft:black_banner", "count": 16}},
+{"slot": 5, "item": {"id": "minecraft:black_banner", "count": 16}},
+{"slot": 6, "item": {"id": "minecraft:black_banner", "count": 16}},
+{"slot": 7, "item": {"id": "minecraft:black_banner", "count": 16}},
+{"slot": 8, "item": {"id": "minecraft:black_banner", "count": 16}},
+{"slot": 9, "item": {"id": "minecraft:black_banner", "count": 16}},
+{"slot": 10, "item": {"id": "minecraft:black_banner", "count": 16}},
+{"slot": 11, "item": {"id": "minecraft:black_banner", "count": 16}},
+{"slot": 12, "item": {"id": "minecraft:black_banner", "count": 16}},
+{"slot": 13, "item": {"id": "minecraft:black_banner", "count": 16}},
+{"slot": 14, "item": {"id": "minecraft:black_banner", "count": 16}},
+{"slot": 15, "item": {"id": "minecraft:black_banner", "count": 16}},
+{"slot": 16, "item": {"id": "minecraft:black_banner", "count": 16}},
+{"slot": 17, "item": {"id": "minecraft:black_banner", "count": 16}},
+{"slot": 18, "item": {"id": "minecraft:black_banner", "count": 16}},
+{"slot": 19, "item": {"id": "minecraft:black_banner", "count": 16}},
+{"slot": 20, "item": {"id": "minecraft:black_banner", "count": 16}},
+{"slot": 21, "item": {"id": "minecraft:black_banner", "count": 16}},
+{"slot": 22, "item": {"id": "minecraft:black_banner", "count": 16}},
+{"slot": 23, "item": {"id": "minecraft:black_banner", "count": 16}},
+{"slot": 24, "item": {"id": "minecraft:black_banner", "count": 16}},
+{"slot": 25, "item": {"id": "minecraft:black_banner", "count": 16}},
+{"slot": 26, "item": {"id": "minecraft:black_banner", "count": 16}}
+]
+}
+}
+]
+}
+},
+"brown_banner": {
+"trigger": "minecraft:inventory_changed",
+"conditions": {
+"items": [
+{
+"items": "minecraft:shulker_box",
+"components": {
+"minecraft:container": [
+{"slot": 0, "item": {"id": "minecraft:brown_banner", "count": 16}},
+{"slot": 1, "item": {"id": "minecraft:brown_banner", "count": 16}},
+{"slot": 2, "item": {"id": "minecraft:brown_banner", "count": 16}},
+{"slot": 3, "item": {"id": "minecraft:brown_banner", "count": 16}},
+{"slot": 4, "item": {"id": "minecraft:brown_banner", "count": 16}},
+{"slot": 5, "item": {"id": "minecraft:brown_banner", "count": 16}},
+{"slot": 6, "item": {"id": "minecraft:brown_banner", "count": 16}},
+{"slot": 7, "item": {"id": "minecraft:brown_banner", "count": 16}},
+{"slot": 8, "item": {"id": "minecraft:brown_banner", "count": 16}},
+{"slot": 9, "item": {"id": "minecraft:brown_banner", "count": 16}},
+{"slot": 10, "item": {"id": "minecraft:brown_banner", "count": 16}},
+{"slot": 11, "item": {"id": "minecraft:brown_banner", "count": 16}},
+{"slot": 12, "item": {"id": "minecraft:brown_banner", "count": 16}},
+{"slot": 13, "item": {"id": "minecraft:brown_banner", "count": 16}},
+{"slot": 14, "item": {"id": "minecraft:brown_banner", "count": 16}},
+{"slot": 15, "item": {"id": "minecraft:brown_banner", "count": 16}},
+{"slot": 16, "item": {"id": "minecraft:brown_banner", "count": 16}},
+{"slot": 17, "item": {"id": "minecraft:brown_banner", "count": 16}},
+{"slot": 18, "item": {"id": "minecraft:brown_banner", "count": 16}},
+{"slot": 19, "item": {"id": "minecraft:brown_banner", "count": 16}},
+{"slot": 20, "item": {"id": "minecraft:brown_banner", "count": 16}},
+{"slot": 21, "item": {"id": "minecraft:brown_banner", "count": 16}},
+{"slot": 22, "item": {"id": "minecraft:brown_banner", "count": 16}},
+{"slot": 23, "item": {"id": "minecraft:brown_banner", "count": 16}},
+{"slot": 24, "item": {"id": "minecraft:brown_banner", "count": 16}},
+{"slot": 25, "item": {"id": "minecraft:brown_banner", "count": 16}},
+{"slot": 26, "item": {"id": "minecraft:brown_banner", "count": 16}}
+]
+}
+}
+]
+}
+},
+"cyan_banner": {
+"trigger": "minecraft:inventory_changed",
+"conditions": {
+"items": [
+{
+"items": "minecraft:shulker_box",
+"components": {
+"minecraft:container": [
+{"slot": 0, "item": {"id": "minecraft:cyan_banner", "count": 16}},
+{"slot": 1, "item": {"id": "minecraft:cyan_banner", "count": 16}},
+{"slot": 2, "item": {"id": "minecraft:cyan_banner", "count": 16}},
+{"slot": 3, "item": {"id": "minecraft:cyan_banner", "count": 16}},
+{"slot": 4, "item": {"id": "minecraft:cyan_banner", "count": 16}},
+{"slot": 5, "item": {"id": "minecraft:cyan_banner", "count": 16}},
+{"slot": 6, "item": {"id": "minecraft:cyan_banner", "count": 16}},
+{"slot": 7, "item": {"id": "minecraft:cyan_banner", "count": 16}},
+{"slot": 8, "item": {"id": "minecraft:cyan_banner", "count": 16}},
+{"slot": 9, "item": {"id": "minecraft:cyan_banner", "count": 16}},
+{"slot": 10, "item": {"id": "minecraft:cyan_banner", "count": 16}},
+{"slot": 11, "item": {"id": "minecraft:cyan_banner", "count": 16}},
+{"slot": 12, "item": {"id": "minecraft:cyan_banner", "count": 16}},
+{"slot": 13, "item": {"id": "minecraft:cyan_banner", "count": 16}},
+{"slot": 14, "item": {"id": "minecraft:cyan_banner", "count": 16}},
+{"slot": 15, "item": {"id": "minecraft:cyan_banner", "count": 16}},
+{"slot": 16, "item": {"id": "minecraft:cyan_banner", "count": 16}},
+{"slot": 17, "item": {"id": "minecraft:cyan_banner", "count": 16}},
+{"slot": 18, "item": {"id": "minecraft:cyan_banner", "count": 16}},
+{"slot": 19, "item": {"id": "minecraft:cyan_banner", "count": 16}},
+{"slot": 20, "item": {"id": "minecraft:cyan_banner", "count": 16}},
+{"slot": 21, "item": {"id": "minecraft:cyan_banner", "count": 16}},
+{"slot": 22, "item": {"id": "minecraft:cyan_banner", "count": 16}},
+{"slot": 23, "item": {"id": "minecraft:cyan_banner", "count": 16}},
+{"slot": 24, "item": {"id": "minecraft:cyan_banner", "count": 16}},
+{"slot": 25, "item": {"id": "minecraft:cyan_banner", "count": 16}},
+{"slot": 26, "item": {"id": "minecraft:cyan_banner", "count": 16}}
+]
+}
+}
+]
+}
+},
+"dark_oak_sign": {
+"trigger": "minecraft:inventory_changed",
+"conditions": {
+"items": [
+{
+"items": "minecraft:shulker_box",
+"components": {
+"minecraft:container": [
+{"slot": 0, "item": {"id": "minecraft:dark_oak_sign", "count": 16}},
+{"slot": 1, "item": {"id": "minecraft:dark_oak_sign", "count": 16}},
+{"slot": 2, "item": {"id": "minecraft:dark_oak_sign", "count": 16}},
+{"slot": 3, "item": {"id": "minecraft:dark_oak_sign", "count": 16}},
+{"slot": 4, "item": {"id": "minecraft:dark_oak_sign", "count": 16}},
+{"slot": 5, "item": {"id": "minecraft:dark_oak_sign", "count": 16}},
+{"slot": 6, "item": {"id": "minecraft:dark_oak_sign", "count": 16}},
+{"slot": 7, "item": {"id": "minecraft:dark_oak_sign", "count": 16}},
+{"slot": 8, "item": {"id": "minecraft:dark_oak_sign", "count": 16}},
+{"slot": 9, "item": {"id": "minecraft:dark_oak_sign", "count": 16}},
+{"slot": 10, "item": {"id": "minecraft:dark_oak_sign", "count": 16}},
+{"slot": 11, "item": {"id": "minecraft:dark_oak_sign", "count": 16}},
+{"slot": 12, "item": {"id": "minecraft:dark_oak_sign", "count": 16}},
+{"slot": 13, "item": {"id": "minecraft:dark_oak_sign", "count": 16}},
+{"slot": 14, "item": {"id": "minecraft:dark_oak_sign", "count": 16}},
+{"slot": 15, "item": {"id": "minecraft:dark_oak_sign", "count": 16}},
+{"slot": 16, "item": {"id": "minecraft:dark_oak_sign", "count": 16}},
+{"slot": 17, "item": {"id": "minecraft:dark_oak_sign", "count": 16}},
+{"slot": 18, "item": {"id": "minecraft:dark_oak_sign", "count": 16}},
+{"slot": 19, "item": {"id": "minecraft:dark_oak_sign", "count": 16}},
+{"slot": 20, "item": {"id": "minecraft:dark_oak_sign", "count": 16}},
+{"slot": 21, "item": {"id": "minecraft:dark_oak_sign", "count": 16}},
+{"slot": 22, "item": {"id": "minecraft:dark_oak_sign", "count": 16}},
+{"slot": 23, "item": {"id": "minecraft:dark_oak_sign", "count": 16}},
+{"slot": 24, "item": {"id": "minecraft:dark_oak_sign", "count": 16}},
+{"slot": 25, "item": {"id": "minecraft:dark_oak_sign", "count": 16}},
+{"slot": 26, "item": {"id": "minecraft:dark_oak_sign", "count": 16}}
+]
+}
+}
+]
+}
+},
+"green_banner": {
+"trigger": "minecraft:inventory_changed",
+"conditions": {
+"items": [
+{
+"items": "minecraft:shulker_box",
+"components": {
+"minecraft:container": [
+{"slot": 0, "item": {"id": "minecraft:green_banner", "count": 16}},
+{"slot": 1, "item": {"id": "minecraft:green_banner", "count": 16}},
+{"slot": 2, "item": {"id": "minecraft:green_banner", "count": 16}},
+{"slot": 3, "item": {"id": "minecraft:green_banner", "count": 16}},
+{"slot": 4, "item": {"id": "minecraft:green_banner", "count": 16}},
+{"slot": 5, "item": {"id": "minecraft:green_banner", "count": 16}},
+{"slot": 6, "item": {"id": "minecraft:green_banner", "count": 16}},
+{"slot": 7, "item": {"id": "minecraft:green_banner", "count": 16}},
+{"slot": 8, "item": {"id": "minecraft:green_banner", "count": 16}},
+{"slot": 9, "item": {"id": "minecraft:green_banner", "count": 16}},
+{"slot": 10, "item": {"id": "minecraft:green_banner", "count": 16}},
+{"slot": 11, "item": {"id": "minecraft:green_banner", "count": 16}},
+{"slot": 12, "item": {"id": "minecraft:green_banner", "count": 16}},
+{"slot": 13, "item": {"id": "minecraft:green_banner", "count": 16}},
+{"slot": 14, "item": {"id": "minecraft:green_banner", "count": 16}},
+{"slot": 15, "item": {"id": "minecraft:green_banner", "count": 16}},
+{"slot": 16, "item": {"id": "minecraft:green_banner", "count": 16}},
+{"slot": 17, "item": {"id": "minecraft:green_banner", "count": 16}},
+{"slot": 18, "item": {"id": "minecraft:green_banner", "count": 16}},
+{"slot": 19, "item": {"id": "minecraft:green_banner", "count": 16}},
+{"slot": 20, "item": {"id": "minecraft:green_banner", "count": 16}},
+{"slot": 21, "item": {"id": "minecraft:green_banner", "count": 16}},
+{"slot": 22, "item": {"id": "minecraft:green_banner", "count": 16}},
+{"slot": 23, "item": {"id": "minecraft:green_banner", "count": 16}},
+{"slot": 24, "item": {"id": "minecraft:green_banner", "count": 16}},
+{"slot": 25, "item": {"id": "minecraft:green_banner", "count": 16}},
+{"slot": 26, "item": {"id": "minecraft:green_banner", "count": 16}}
+]
+}
+}
+]
+}
+},
+"jungle_sign": {
+"trigger": "minecraft:inventory_changed",
+"conditions": {
+"items": [
+{
+"items": "minecraft:shulker_box",
+"components": {
+"minecraft:container": [
+{"slot": 0, "item": {"id": "minecraft:jungle_sign", "count": 16}},
+{"slot": 1, "item": {"id": "minecraft:jungle_sign", "count": 16}},
+{"slot": 2, "item": {"id": "minecraft:jungle_sign", "count": 16}},
+{"slot": 3, "item": {"id": "minecraft:jungle_sign", "count": 16}},
+{"slot": 4, "item": {"id": "minecraft:jungle_sign", "count": 16}},
+{"slot": 5, "item": {"id": "minecraft:jungle_sign", "count": 16}},
+{"slot": 6, "item": {"id": "minecraft:jungle_sign", "count": 16}},
+{"slot": 7, "item": {"id": "minecraft:jungle_sign", "count": 16}},
+{"slot": 8, "item": {"id": "minecraft:jungle_sign", "count": 16}},
+{"slot": 9, "item": {"id": "minecraft:jungle_sign", "count": 16}},
+{"slot": 10, "item": {"id": "minecraft:jungle_sign", "count": 16}},
+{"slot": 11, "item": {"id": "minecraft:jungle_sign", "count": 16}},
+{"slot": 12, "item": {"id": "minecraft:jungle_sign", "count": 16}},
+{"slot": 13, "item": {"id": "minecraft:jungle_sign", "count": 16}},
+{"slot": 14, "item": {"id": "minecraft:jungle_sign", "count": 16}},
+{"slot": 15, "item": {"id": "minecraft:jungle_sign", "count": 16}},
+{"slot": 16, "item": {"id": "minecraft:jungle_sign", "count": 16}},
+{"slot": 17, "item": {"id": "minecraft:jungle_sign", "count": 16}},
+{"slot": 18, "item": {"id": "minecraft:jungle_sign", "count": 16}},
+{"slot": 19, "item": {"id": "minecraft:jungle_sign", "count": 16}},
+{"slot": 20, "item": {"id": "minecraft:jungle_sign", "count": 16}},
+{"slot": 21, "item": {"id": "minecraft:jungle_sign", "count": 16}},
+{"slot": 22, "item": {"id": "minecraft:jungle_sign", "count": 16}},
+{"slot": 23, "item": {"id": "minecraft:jungle_sign", "count": 16}},
+{"slot": 24, "item": {"id": "minecraft:jungle_sign", "count": 16}},
+{"slot": 25, "item": {"id": "minecraft:jungle_sign", "count": 16}},
+{"slot": 26, "item": {"id": "minecraft:jungle_sign", "count": 16}}
+]
+}
+}
+]
+}
+},
+"light_gray_banner": {
+"trigger": "minecraft:inventory_changed",
+"conditions": {
+"items": [
+{
+"items": "minecraft:shulker_box",
+"components": {
+"minecraft:container": [
+{"slot": 0, "item": {"id": "minecraft:light_gray_banner", "count": 16}},
+{"slot": 1, "item": {"id": "minecraft:light_gray_banner", "count": 16}},
+{"slot": 2, "item": {"id": "minecraft:light_gray_banner", "count": 16}},
+{"slot": 3, "item": {"id": "minecraft:light_gray_banner", "count": 16}},
+{"slot": 4, "item": {"id": "minecraft:light_gray_banner", "count": 16}},
+{"slot": 5, "item": {"id": "minecraft:light_gray_banner", "count": 16}},
+{"slot": 6, "item": {"id": "minecraft:light_gray_banner", "count": 16}},
+{"slot": 7, "item": {"id": "minecraft:light_gray_banner", "count": 16}},
+{"slot": 8, "item": {"id": "minecraft:light_gray_banner", "count": 16}},
+{"slot": 9, "item": {"id": "minecraft:light_gray_banner", "count": 16}},
+{"slot": 10, "item": {"id": "minecraft:light_gray_banner", "count": 16}},
+{"slot": 11, "item": {"id": "minecraft:light_gray_banner", "count": 16}},
+{"slot": 12, "item": {"id": "minecraft:light_gray_banner", "count": 16}},
+{"slot": 13, "item": {"id": "minecraft:light_gray_banner", "count": 16}},
+{"slot": 14, "item": {"id": "minecraft:light_gray_banner", "count": 16}},
+{"slot": 15, "item": {"id": "minecraft:light_gray_banner", "count": 16}},
+{"slot": 16, "item": {"id": "minecraft:light_gray_banner", "count": 16}},
+{"slot": 17, "item": {"id": "minecraft:light_gray_banner", "count": 16}},
+{"slot": 18, "item": {"id": "minecraft:light_gray_banner", "count": 16}},
+{"slot": 19, "item": {"id": "minecraft:light_gray_banner", "count": 16}},
+{"slot": 20, "item": {"id": "minecraft:light_gray_banner", "count": 16}},
+{"slot": 21, "item": {"id": "minecraft:light_gray_banner", "count": 16}},
+{"slot": 22, "item": {"id": "minecraft:light_gray_banner", "count": 16}},
+{"slot": 23, "item": {"id": "minecraft:light_gray_banner", "count": 16}},
+{"slot": 24, "item": {"id": "minecraft:light_gray_banner", "count": 16}},
+{"slot": 25, "item": {"id": "minecraft:light_gray_banner", "count": 16}},
+{"slot": 26, "item": {"id": "minecraft:light_gray_banner", "count": 16}}
+]
+}
+}
+]
+}
+},
+"oak_sign": {
+"trigger": "minecraft:inventory_changed",
+"conditions": {
+"items": [
+{
+"items": "minecraft:shulker_box",
+"components": {
+"minecraft:container": [
+{"slot": 0, "item": {"id": "minecraft:oak_sign", "count": 16}},
+{"slot": 1, "item": {"id": "minecraft:oak_sign", "count": 16}},
+{"slot": 2, "item": {"id": "minecraft:oak_sign", "count": 16}},
+{"slot": 3, "item": {"id": "minecraft:oak_sign", "count": 16}},
+{"slot": 4, "item": {"id": "minecraft:oak_sign", "count": 16}},
+{"slot": 5, "item": {"id": "minecraft:oak_sign", "count": 16}},
+{"slot": 6, "item": {"id": "minecraft:oak_sign", "count": 16}},
+{"slot": 7, "item": {"id": "minecraft:oak_sign", "count": 16}},
+{"slot": 8, "item": {"id": "minecraft:oak_sign", "count": 16}},
+{"slot": 9, "item": {"id": "minecraft:oak_sign", "count": 16}},
+{"slot": 10, "item": {"id": "minecraft:oak_sign", "count": 16}},
+{"slot": 11, "item": {"id": "minecraft:oak_sign", "count": 16}},
+{"slot": 12, "item": {"id": "minecraft:oak_sign", "count": 16}},
+{"slot": 13, "item": {"id": "minecraft:oak_sign", "count": 16}},
+{"slot": 14, "item": {"id": "minecraft:oak_sign", "count": 16}},
+{"slot": 15, "item": {"id": "minecraft:oak_sign", "count": 16}},
+{"slot": 16, "item": {"id": "minecraft:oak_sign", "count": 16}},
+{"slot": 17, "item": {"id": "minecraft:oak_sign", "count": 16}},
+{"slot": 18, "item": {"id": "minecraft:oak_sign", "count": 16}},
+{"slot": 19, "item": {"id": "minecraft:oak_sign", "count": 16}},
+{"slot": 20, "item": {"id": "minecraft:oak_sign", "count": 16}},
+{"slot": 21, "item": {"id": "minecraft:oak_sign", "count": 16}},
+{"slot": 22, "item": {"id": "minecraft:oak_sign", "count": 16}},
+{"slot": 23, "item": {"id": "minecraft:oak_sign", "count": 16}},
+{"slot": 24, "item": {"id": "minecraft:oak_sign", "count": 16}},
+{"slot": 25, "item": {"id": "minecraft:oak_sign", "count": 16}},
+{"slot": 26, "item": {"id": "minecraft:oak_sign", "count": 16}}
+]
+}
+}
+]
+}
+},
+"pink_banner": {
+"trigger": "minecraft:inventory_changed",
+"conditions": {
+"items": [
+{
+"items": "minecraft:shulker_box",
+"components": {
+"minecraft:container": [
+{"slot": 0, "item": {"id": "minecraft:pink_banner", "count": 16}},
+{"slot": 1, "item": {"id": "minecraft:pink_banner", "count": 16}},
+{"slot": 2, "item": {"id": "minecraft:pink_banner", "count": 16}},
+{"slot": 3, "item": {"id": "minecraft:pink_banner", "count": 16}},
+{"slot": 4, "item": {"id": "minecraft:pink_banner", "count": 16}},
+{"slot": 5, "item": {"id": "minecraft:pink_banner", "count": 16}},
+{"slot": 6, "item": {"id": "minecraft:pink_banner", "count": 16}},
+{"slot": 7, "item": {"id": "minecraft:pink_banner", "count": 16}},
+{"slot": 8, "item": {"id": "minecraft:pink_banner", "count": 16}},
+{"slot": 9, "item": {"id": "minecraft:pink_banner", "count": 16}},
+{"slot": 10, "item": {"id": "minecraft:pink_banner", "count": 16}},
+{"slot": 11, "item": {"id": "minecraft:pink_banner", "count": 16}},
+{"slot": 12, "item": {"id": "minecraft:pink_banner", "count": 16}},
+{"slot": 13, "item": {"id": "minecraft:pink_banner", "count": 16}},
+{"slot": 14, "item": {"id": "minecraft:pink_banner", "count": 16}},
+{"slot": 15, "item": {"id": "minecraft:pink_banner", "count": 16}},
+{"slot": 16, "item": {"id": "minecraft:pink_banner", "count": 16}},
+{"slot": 17, "item": {"id": "minecraft:pink_banner", "count": 16}},
+{"slot": 18, "item": {"id": "minecraft:pink_banner", "count": 16}},
+{"slot": 19, "item": {"id": "minecraft:pink_banner", "count": 16}},
+{"slot": 20, "item": {"id": "minecraft:pink_banner", "count": 16}},
+{"slot": 21, "item": {"id": "minecraft:pink_banner", "count": 16}},
+{"slot": 22, "item": {"id": "minecraft:pink_banner", "count": 16}},
+{"slot": 23, "item": {"id": "minecraft:pink_banner", "count": 16}},
+{"slot": 24, "item": {"id": "minecraft:pink_banner", "count": 16}},
+{"slot": 25, "item": {"id": "minecraft:pink_banner", "count": 16}},
+{"slot": 26, "item": {"id": "minecraft:pink_banner", "count": 16}}
+]
+}
+}
+]
+}
+},
+"red_banner": {
+"trigger": "minecraft:inventory_changed",
+"conditions": {
+"items": [
+{
+"items": "minecraft:shulker_box",
+"components": {
+"minecraft:container": [
+{"slot": 0, "item": {"id": "minecraft:red_banner", "count": 16}},
+{"slot": 1, "item": {"id": "minecraft:red_banner", "count": 16}},
+{"slot": 2, "item": {"id": "minecraft:red_banner", "count": 16}},
+{"slot": 3, "item": {"id": "minecraft:red_banner", "count": 16}},
+{"slot": 4, "item": {"id": "minecraft:red_banner", "count": 16}},
+{"slot": 5, "item": {"id": "minecraft:red_banner", "count": 16}},
+{"slot": 6, "item": {"id": "minecraft:red_banner", "count": 16}},
+{"slot": 7, "item": {"id": "minecraft:red_banner", "count": 16}},
+{"slot": 8, "item": {"id": "minecraft:red_banner", "count": 16}},
+{"slot": 9, "item": {"id": "minecraft:red_banner", "count": 16}},
+{"slot": 10, "item": {"id": "minecraft:red_banner", "count": 16}},
+{"slot": 11, "item": {"id": "minecraft:red_banner", "count": 16}},
+{"slot": 12, "item": {"id": "minecraft:red_banner", "count": 16}},
+{"slot": 13, "item": {"id": "minecraft:red_banner", "count": 16}},
+{"slot": 14, "item": {"id": "minecraft:red_banner", "count": 16}},
+{"slot": 15, "item": {"id": "minecraft:red_banner", "count": 16}},
+{"slot": 16, "item": {"id": "minecraft:red_banner", "count": 16}},
+{"slot": 17, "item": {"id": "minecraft:red_banner", "count": 16}},
+{"slot": 18, "item": {"id": "minecraft:red_banner", "count": 16}},
+{"slot": 19, "item": {"id": "minecraft:red_banner", "count": 16}},
+{"slot": 20, "item": {"id": "minecraft:red_banner", "count": 16}},
+{"slot": 21, "item": {"id": "minecraft:red_banner", "count": 16}},
+{"slot": 22, "item": {"id": "minecraft:red_banner", "count": 16}},
+{"slot": 23, "item": {"id": "minecraft:red_banner", "count": 16}},
+{"slot": 24, "item": {"id": "minecraft:red_banner", "count": 16}},
+{"slot": 25, "item": {"id": "minecraft:red_banner", "count": 16}},
+{"slot": 26, "item": {"id": "minecraft:red_banner", "count": 16}}
+]
+}
+}
+]
+}
+},
+"spruce_sign": {
+"trigger": "minecraft:inventory_changed",
+"conditions": {
+"items": [
+{
+"items": "minecraft:shulker_box",
+"components": {
+"minecraft:container": [
+{"slot": 0, "item": {"id": "minecraft:spruce_sign", "count": 16}},
+{"slot": 1, "item": {"id": "minecraft:spruce_sign", "count": 16}},
+{"slot": 2, "item": {"id": "minecraft:spruce_sign", "count": 16}},
+{"slot": 3, "item": {"id": "minecraft:spruce_sign", "count": 16}},
+{"slot": 4, "item": {"id": "minecraft:spruce_sign", "count": 16}},
+{"slot": 5, "item": {"id": "minecraft:spruce_sign", "count": 16}},
+{"slot": 6, "item": {"id": "minecraft:spruce_sign", "count": 16}},
+{"slot": 7, "item": {"id": "minecraft:spruce_sign", "count": 16}},
+{"slot": 8, "item": {"id": "minecraft:spruce_sign", "count": 16}},
+{"slot": 9, "item": {"id": "minecraft:spruce_sign", "count": 16}},
+{"slot": 10, "item": {"id": "minecraft:spruce_sign", "count": 16}},
+{"slot": 11, "item": {"id": "minecraft:spruce_sign", "count": 16}},
+{"slot": 12, "item": {"id": "minecraft:spruce_sign", "count": 16}},
+{"slot": 13, "item": {"id": "minecraft:spruce_sign", "count": 16}},
+{"slot": 14, "item": {"id": "minecraft:spruce_sign", "count": 16}},
+{"slot": 15, "item": {"id": "minecraft:spruce_sign", "count": 16}},
+{"slot": 16, "item": {"id": "minecraft:spruce_sign", "count": 16}},
+{"slot": 17, "item": {"id": "minecraft:spruce_sign", "count": 16}},
+{"slot": 18, "item": {"id": "minecraft:spruce_sign", "count": 16}},
+{"slot": 19, "item": {"id": "minecraft:spruce_sign", "count": 16}},
+{"slot": 20, "item": {"id": "minecraft:spruce_sign", "count": 16}},
+{"slot": 21, "item": {"id": "minecraft:spruce_sign", "count": 16}},
+{"slot": 22, "item": {"id": "minecraft:spruce_sign", "count": 16}},
+{"slot": 23, "item": {"id": "minecraft:spruce_sign", "count": 16}},
+{"slot": 24, "item": {"id": "minecraft:spruce_sign", "count": 16}},
+{"slot": 25, "item": {"id": "minecraft:spruce_sign", "count": 16}},
+{"slot": 26, "item": {"id": "minecraft:spruce_sign", "count": 16}}
+]
+}
+}
+]
+}
+},
+"white_banner": {
+"trigger": "minecraft:inventory_changed",
+"conditions": {
+"items": [
+{
+"items": "minecraft:shulker_box",
+"components": {
+"minecraft:container": [
+{"slot": 0, "item": {"id": "minecraft:white_banner", "count": 16}},
+{"slot": 1, "item": {"id": "minecraft:white_banner", "count": 16}},
+{"slot": 2, "item": {"id": "minecraft:white_banner", "count": 16}},
+{"slot": 3, "item": {"id": "minecraft:white_banner", "count": 16}},
+{"slot": 4, "item": {"id": "minecraft:white_banner", "count": 16}},
+{"slot": 5, "item": {"id": "minecraft:white_banner", "count": 16}},
+{"slot": 6, "item": {"id": "minecraft:white_banner", "count": 16}},
+{"slot": 7, "item": {"id": "minecraft:white_banner", "count": 16}},
+{"slot": 8, "item": {"id": "minecraft:white_banner", "count": 16}},
+{"slot": 9, "item": {"id": "minecraft:white_banner", "count": 16}},
+{"slot": 10, "item": {"id": "minecraft:white_banner", "count": 16}},
+{"slot": 11, "item": {"id": "minecraft:white_banner", "count": 16}},
+{"slot": 12, "item": {"id": "minecraft:white_banner", "count": 16}},
+{"slot": 13, "item": {"id": "minecraft:white_banner", "count": 16}},
+{"slot": 14, "item": {"id": "minecraft:white_banner", "count": 16}},
+{"slot": 15, "item": {"id": "minecraft:white_banner", "count": 16}},
+{"slot": 16, "item": {"id": "minecraft:white_banner", "count": 16}},
+{"slot": 17, "item": {"id": "minecraft:white_banner", "count": 16}},
+{"slot": 18, "item": {"id": "minecraft:white_banner", "count": 16}},
+{"slot": 19, "item": {"id": "minecraft:white_banner", "count": 16}},
+{"slot": 20, "item": {"id": "minecraft:white_banner", "count": 16}},
+{"slot": 21, "item": {"id": "minecraft:white_banner", "count": 16}},
+{"slot": 22, "item": {"id": "minecraft:white_banner", "count": 16}},
+{"slot": 23, "item": {"id": "minecraft:white_banner", "count": 16}},
+{"slot": 24, "item": {"id": "minecraft:white_banner", "count": 16}},
+{"slot": 25, "item": {"id": "minecraft:white_banner", "count": 16}},
+{"slot": 26, "item": {"id": "minecraft:white_banner", "count": 16}}
+]
+}
+}
+]
+}
+},
+"yellow_banner": {
+"trigger": "minecraft:inventory_changed",
+"conditions": {
+"items": [
+{
+"items": "minecraft:shulker_box",
+"components": {
+"minecraft:container": [
+{"slot": 0, "item": {"id": "minecraft:yellow_banner", "count": 16}},
+{"slot": 1, "item": {"id": "minecraft:yellow_banner", "count": 16}},
+{"slot": 2, "item": {"id": "minecraft:yellow_banner", "count": 16}},
+{"slot": 3, "item": {"id": "minecraft:yellow_banner", "count": 16}},
+{"slot": 4, "item": {"id": "minecraft:yellow_banner", "count": 16}},
+{"slot": 5, "item": {"id": "minecraft:yellow_banner", "count": 16}},
+{"slot": 6, "item": {"id": "minecraft:yellow_banner", "count": 16}},
+{"slot": 7, "item": {"id": "minecraft:yellow_banner", "count": 16}},
+{"slot": 8, "item": {"id": "minecraft:yellow_banner", "count": 16}},
+{"slot": 9, "item": {"id": "minecraft:yellow_banner", "count": 16}},
+{"slot": 10, "item": {"id": "minecraft:yellow_banner", "count": 16}},
+{"slot": 11, "item": {"id": "minecraft:yellow_banner", "count": 16}},
+{"slot": 12, "item": {"id": "minecraft:yellow_banner", "count": 16}},
+{"slot": 13, "item": {"id": "minecraft:yellow_banner", "count": 16}},
+{"slot": 14, "item": {"id": "minecraft:yellow_banner", "count": 16}},
+{"slot": 15, "item": {"id": "minecraft:yellow_banner", "count": 16}},
+{"slot": 16, "item": {"id": "minecraft:yellow_banner", "count": 16}},
+{"slot": 17, "item": {"id": "minecraft:yellow_banner", "count": 16}},
+{"slot": 18, "item": {"id": "minecraft:yellow_banner", "count": 16}},
+{"slot": 19, "item": {"id": "minecraft:yellow_banner", "count": 16}},
+{"slot": 20, "item": {"id": "minecraft:yellow_banner", "count": 16}},
+{"slot": 21, "item": {"id": "minecraft:yellow_banner", "count": 16}},
+{"slot": 22, "item": {"id": "minecraft:yellow_banner", "count": 16}},
+{"slot": 23, "item": {"id": "minecraft:yellow_banner", "count": 16}},
+{"slot": 24, "item": {"id": "minecraft:yellow_banner", "count": 16}},
+{"slot": 25, "item": {"id": "minecraft:yellow_banner", "count": 16}},
+{"slot": 26, "item": {"id": "minecraft:yellow_banner", "count": 16}}
+]
+}
+}
+]
+}
+},
+"cherry_sign": {
+"trigger": "minecraft:inventory_changed",
+"conditions": {
+"items": [
+{
+"items": "minecraft:shulker_box",
+"components": {
+"minecraft:container": [
+{"slot": 0, "item": {"id": "minecraft:cherry_sign", "count": 16}},
+{"slot": 1, "item": {"id": "minecraft:cherry_sign", "count": 16}},
+{"slot": 2, "item": {"id": "minecraft:cherry_sign", "count": 16}},
+{"slot": 3, "item": {"id": "minecraft:cherry_sign", "count": 16}},
+{"slot": 4, "item": {"id": "minecraft:cherry_sign", "count": 16}},
+{"slot": 5, "item": {"id": "minecraft:cherry_sign", "count": 16}},
+{"slot": 6, "item": {"id": "minecraft:cherry_sign", "count": 16}},
+{"slot": 7, "item": {"id": "minecraft:cherry_sign", "count": 16}},
+{"slot": 8, "item": {"id": "minecraft:cherry_sign", "count": 16}},
+{"slot": 9, "item": {"id": "minecraft:cherry_sign", "count": 16}},
+{"slot": 10, "item": {"id": "minecraft:cherry_sign", "count": 16}},
+{"slot": 11, "item": {"id": "minecraft:cherry_sign", "count": 16}},
+{"slot": 12, "item": {"id": "minecraft:cherry_sign", "count": 16}},
+{"slot": 13, "item": {"id": "minecraft:cherry_sign", "count": 16}},
+{"slot": 14, "item": {"id": "minecraft:cherry_sign", "count": 16}},
+{"slot": 15, "item": {"id": "minecraft:cherry_sign", "count": 16}},
+{"slot": 16, "item": {"id": "minecraft:cherry_sign", "count": 16}},
+{"slot": 17, "item": {"id": "minecraft:cherry_sign", "count": 16}},
+{"slot": 18, "item": {"id": "minecraft:cherry_sign", "count": 16}},
+{"slot": 19, "item": {"id": "minecraft:cherry_sign", "count": 16}},
+{"slot": 20, "item": {"id": "minecraft:cherry_sign", "count": 16}},
+{"slot": 21, "item": {"id": "minecraft:cherry_sign", "count": 16}},
+{"slot": 22, "item": {"id": "minecraft:cherry_sign", "count": 16}},
+{"slot": 23, "item": {"id": "minecraft:cherry_sign", "count": 16}},
+{"slot": 24, "item": {"id": "minecraft:cherry_sign", "count": 16}},
+{"slot": 25, "item": {"id": "minecraft:cherry_sign", "count": 16}},
+{"slot": 26, "item": {"id": "minecraft:cherry_sign", "count": 16}}
+]
+}
+}
+]
+}
+},
+"oak_hanging_sign": {
+"trigger": "minecraft:inventory_changed",
+"conditions": {
+"items": [
+{
+"items": "minecraft:shulker_box",
+"components": {
+"minecraft:container": [
+{"slot": 0, "item": {"id": "minecraft:oak_hanging_sign", "count": 16}},
+{"slot": 1, "item": {"id": "minecraft:oak_hanging_sign", "count": 16}},
+{"slot": 2, "item": {"id": "minecraft:oak_hanging_sign", "count": 16}},
+{"slot": 3, "item": {"id": "minecraft:oak_hanging_sign", "count": 16}},
+{"slot": 4, "item": {"id": "minecraft:oak_hanging_sign", "count": 16}},
+{"slot": 5, "item": {"id": "minecraft:oak_hanging_sign", "count": 16}},
+{"slot": 6, "item": {"id": "minecraft:oak_hanging_sign", "count": 16}},
+{"slot": 7, "item": {"id": "minecraft:oak_hanging_sign", "count": 16}},
+{"slot": 8, "item": {"id": "minecraft:oak_hanging_sign", "count": 16}},
+{"slot": 9, "item": {"id": "minecraft:oak_hanging_sign", "count": 16}},
+{"slot": 10, "item": {"id": "minecraft:oak_hanging_sign", "count": 16}},
+{"slot": 11, "item": {"id": "minecraft:oak_hanging_sign", "count": 16}},
+{"slot": 12, "item": {"id": "minecraft:oak_hanging_sign", "count": 16}},
+{"slot": 13, "item": {"id": "minecraft:oak_hanging_sign", "count": 16}},
+{"slot": 14, "item": {"id": "minecraft:oak_hanging_sign", "count": 16}},
+{"slot": 15, "item": {"id": "minecraft:oak_hanging_sign", "count": 16}},
+{"slot": 16, "item": {"id": "minecraft:oak_hanging_sign", "count": 16}},
+{"slot": 17, "item": {"id": "minecraft:oak_hanging_sign", "count": 16}},
+{"slot": 18, "item": {"id": "minecraft:oak_hanging_sign", "count": 16}},
+{"slot": 19, "item": {"id": "minecraft:oak_hanging_sign", "count": 16}},
+{"slot": 20, "item": {"id": "minecraft:oak_hanging_sign", "count": 16}},
+{"slot": 21, "item": {"id": "minecraft:oak_hanging_sign", "count": 16}},
+{"slot": 22, "item": {"id": "minecraft:oak_hanging_sign", "count": 16}},
+{"slot": 23, "item": {"id": "minecraft:oak_hanging_sign", "count": 16}},
+{"slot": 24, "item": {"id": "minecraft:oak_hanging_sign", "count": 16}},
+{"slot": 25, "item": {"id": "minecraft:oak_hanging_sign", "count": 16}},
+{"slot": 26, "item": {"id": "minecraft:oak_hanging_sign", "count": 16}}
+]
+}
+}
+]
+}
+},
+"birch_hanging_sign": {
+"trigger": "minecraft:inventory_changed",
+"conditions": {
+"items": [
+{
+"items": "minecraft:shulker_box",
+"components": {
+"minecraft:container": [
+{"slot": 0, "item": {"id": "minecraft:birch_hanging_sign", "count": 16}},
+{"slot": 1, "item": {"id": "minecraft:birch_hanging_sign", "count": 16}},
+{"slot": 2, "item": {"id": "minecraft:birch_hanging_sign", "count": 16}},
+{"slot": 3, "item": {"id": "minecraft:birch_hanging_sign", "count": 16}},
+{"slot": 4, "item": {"id": "minecraft:birch_hanging_sign", "count": 16}},
+{"slot": 5, "item": {"id": "minecraft:birch_hanging_sign", "count": 16}},
+{"slot": 6, "item": {"id": "minecraft:birch_hanging_sign", "count": 16}},
+{"slot": 7, "item": {"id": "minecraft:birch_hanging_sign", "count": 16}},
+{"slot": 8, "item": {"id": "minecraft:birch_hanging_sign", "count": 16}},
+{"slot": 9, "item": {"id": "minecraft:birch_hanging_sign", "count": 16}},
+{"slot": 10, "item": {"id": "minecraft:birch_hanging_sign", "count": 16}},
+{"slot": 11, "item": {"id": "minecraft:birch_hanging_sign", "count": 16}},
+{"slot": 12, "item": {"id": "minecraft:birch_hanging_sign", "count": 16}},
+{"slot": 13, "item": {"id": "minecraft:birch_hanging_sign", "count": 16}},
+{"slot": 14, "item": {"id": "minecraft:birch_hanging_sign", "count": 16}},
+{"slot": 15, "item": {"id": "minecraft:birch_hanging_sign", "count": 16}},
+{"slot": 16, "item": {"id": "minecraft:birch_hanging_sign", "count": 16}},
+{"slot": 17, "item": {"id": "minecraft:birch_hanging_sign", "count": 16}},
+{"slot": 18, "item": {"id": "minecraft:birch_hanging_sign", "count": 16}},
+{"slot": 19, "item": {"id": "minecraft:birch_hanging_sign", "count": 16}},
+{"slot": 20, "item": {"id": "minecraft:birch_hanging_sign", "count": 16}},
+{"slot": 21, "item": {"id": "minecraft:birch_hanging_sign", "count": 16}},
+{"slot": 22, "item": {"id": "minecraft:birch_hanging_sign", "count": 16}},
+{"slot": 23, "item": {"id": "minecraft:birch_hanging_sign", "count": 16}},
+{"slot": 24, "item": {"id": "minecraft:birch_hanging_sign", "count": 16}},
+{"slot": 25, "item": {"id": "minecraft:birch_hanging_sign", "count": 16}},
+{"slot": 26, "item": {"id": "minecraft:birch_hanging_sign", "count": 16}}
+]
+}
+}
+]
+}
+},
+"acacia_hanging_sign": {
+"trigger": "minecraft:inventory_changed",
+"conditions": {
+"items": [
+{
+"items": "minecraft:shulker_box",
+"components": {
+"minecraft:container": [
+{"slot": 0, "item": {"id": "minecraft:acacia_hanging_sign", "count": 16}},
+{"slot": 1, "item": {"id": "minecraft:acacia_hanging_sign", "count": 16}},
+{"slot": 2, "item": {"id": "minecraft:acacia_hanging_sign", "count": 16}},
+{"slot": 3, "item": {"id": "minecraft:acacia_hanging_sign", "count": 16}},
+{"slot": 4, "item": {"id": "minecraft:acacia_hanging_sign", "count": 16}},
+{"slot": 5, "item": {"id": "minecraft:acacia_hanging_sign", "count": 16}},
+{"slot": 6, "item": {"id": "minecraft:acacia_hanging_sign", "count": 16}},
+{"slot": 7, "item": {"id": "minecraft:acacia_hanging_sign", "count": 16}},
+{"slot": 8, "item": {"id": "minecraft:acacia_hanging_sign", "count": 16}},
+{"slot": 9, "item": {"id": "minecraft:acacia_hanging_sign", "count": 16}},
+{"slot": 10, "item": {"id": "minecraft:acacia_hanging_sign", "count": 16}},
+{"slot": 11, "item": {"id": "minecraft:acacia_hanging_sign", "count": 16}},
+{"slot": 12, "item": {"id": "minecraft:acacia_hanging_sign", "count": 16}},
+{"slot": 13, "item": {"id": "minecraft:acacia_hanging_sign", "count": 16}},
+{"slot": 14, "item": {"id": "minecraft:acacia_hanging_sign", "count": 16}},
+{"slot": 15, "item": {"id": "minecraft:acacia_hanging_sign", "count": 16}},
+{"slot": 16, "item": {"id": "minecraft:acacia_hanging_sign", "count": 16}},
+{"slot": 17, "item": {"id": "minecraft:acacia_hanging_sign", "count": 16}},
+{"slot": 18, "item": {"id": "minecraft:acacia_hanging_sign", "count": 16}},
+{"slot": 19, "item": {"id": "minecraft:acacia_hanging_sign", "count": 16}},
+{"slot": 20, "item": {"id": "minecraft:acacia_hanging_sign", "count": 16}},
+{"slot": 21, "item": {"id": "minecraft:acacia_hanging_sign", "count": 16}},
+{"slot": 22, "item": {"id": "minecraft:acacia_hanging_sign", "count": 16}},
+{"slot": 23, "item": {"id": "minecraft:acacia_hanging_sign", "count": 16}},
+{"slot": 24, "item": {"id": "minecraft:acacia_hanging_sign", "count": 16}},
+{"slot": 25, "item": {"id": "minecraft:acacia_hanging_sign", "count": 16}},
+{"slot": 26, "item": {"id": "minecraft:acacia_hanging_sign", "count": 16}}
+]
+}
+}
+]
+}
+},
+"mangrove_hanging_sign": {
+"trigger": "minecraft:inventory_changed",
+"conditions": {
+"items": [
+{
+"items": "minecraft:shulker_box",
+"components": {
+"minecraft:container": [
+{"slot": 0, "item": {"id": "minecraft:mangrove_hanging_sign", "count": 16}},
+{"slot": 1, "item": {"id": "minecraft:mangrove_hanging_sign", "count": 16}},
+{"slot": 2, "item": {"id": "minecraft:mangrove_hanging_sign", "count": 16}},
+{"slot": 3, "item": {"id": "minecraft:mangrove_hanging_sign", "count": 16}},
+{"slot": 4, "item": {"id": "minecraft:mangrove_hanging_sign", "count": 16}},
+{"slot": 5, "item": {"id": "minecraft:mangrove_hanging_sign", "count": 16}},
+{"slot": 6, "item": {"id": "minecraft:mangrove_hanging_sign", "count": 16}},
+{"slot": 7, "item": {"id": "minecraft:mangrove_hanging_sign", "count": 16}},
+{"slot": 8, "item": {"id": "minecraft:mangrove_hanging_sign", "count": 16}},
+{"slot": 9, "item": {"id": "minecraft:mangrove_hanging_sign", "count": 16}},
+{"slot": 10, "item": {"id": "minecraft:mangrove_hanging_sign", "count": 16}},
+{"slot": 11, "item": {"id": "minecraft:mangrove_hanging_sign", "count": 16}},
+{"slot": 12, "item": {"id": "minecraft:mangrove_hanging_sign", "count": 16}},
+{"slot": 13, "item": {"id": "minecraft:mangrove_hanging_sign", "count": 16}},
+{"slot": 14, "item": {"id": "minecraft:mangrove_hanging_sign", "count": 16}},
+{"slot": 15, "item": {"id": "minecraft:mangrove_hanging_sign", "count": 16}},
+{"slot": 16, "item": {"id": "minecraft:mangrove_hanging_sign", "count": 16}},
+{"slot": 17, "item": {"id": "minecraft:mangrove_hanging_sign", "count": 16}},
+{"slot": 18, "item": {"id": "minecraft:mangrove_hanging_sign", "count": 16}},
+{"slot": 19, "item": {"id": "minecraft:mangrove_hanging_sign", "count": 16}},
+{"slot": 20, "item": {"id": "minecraft:mangrove_hanging_sign", "count": 16}},
+{"slot": 21, "item": {"id": "minecraft:mangrove_hanging_sign", "count": 16}},
+{"slot": 22, "item": {"id": "minecraft:mangrove_hanging_sign", "count": 16}},
+{"slot": 23, "item": {"id": "minecraft:mangrove_hanging_sign", "count": 16}},
+{"slot": 24, "item": {"id": "minecraft:mangrove_hanging_sign", "count": 16}},
+{"slot": 25, "item": {"id": "minecraft:mangrove_hanging_sign", "count": 16}},
+{"slot": 26, "item": {"id": "minecraft:mangrove_hanging_sign", "count": 16}}
+]
+}
+}
+]
+}
+},
+"warped_hanging_sign": {
+"trigger": "minecraft:inventory_changed",
+"conditions": {
+"items": [
+{
+"items": "minecraft:shulker_box",
+"components": {
+"minecraft:container": [
+{"slot": 0, "item": {"id": "minecraft:warped_hanging_sign", "count": 16}},
+{"slot": 1, "item": {"id": "minecraft:warped_hanging_sign", "count": 16}},
+{"slot": 2, "item": {"id": "minecraft:warped_hanging_sign", "count": 16}},
+{"slot": 3, "item": {"id": "minecraft:warped_hanging_sign", "count": 16}},
+{"slot": 4, "item": {"id": "minecraft:warped_hanging_sign", "count": 16}},
+{"slot": 5, "item": {"id": "minecraft:warped_hanging_sign", "count": 16}},
+{"slot": 6, "item": {"id": "minecraft:warped_hanging_sign", "count": 16}},
+{"slot": 7, "item": {"id": "minecraft:warped_hanging_sign", "count": 16}},
+{"slot": 8, "item": {"id": "minecraft:warped_hanging_sign", "count": 16}},
+{"slot": 9, "item": {"id": "minecraft:warped_hanging_sign", "count": 16}},
+{"slot": 10, "item": {"id": "minecraft:warped_hanging_sign", "count": 16}},
+{"slot": 11, "item": {"id": "minecraft:warped_hanging_sign", "count": 16}},
+{"slot": 12, "item": {"id": "minecraft:warped_hanging_sign", "count": 16}},
+{"slot": 13, "item": {"id": "minecraft:warped_hanging_sign", "count": 16}},
+{"slot": 14, "item": {"id": "minecraft:warped_hanging_sign", "count": 16}},
+{"slot": 15, "item": {"id": "minecraft:warped_hanging_sign", "count": 16}},
+{"slot": 16, "item": {"id": "minecraft:warped_hanging_sign", "count": 16}},
+{"slot": 17, "item": {"id": "minecraft:warped_hanging_sign", "count": 16}},
+{"slot": 18, "item": {"id": "minecraft:warped_hanging_sign", "count": 16}},
+{"slot": 19, "item": {"id": "minecraft:warped_hanging_sign", "count": 16}},
+{"slot": 20, "item": {"id": "minecraft:warped_hanging_sign", "count": 16}},
+{"slot": 21, "item": {"id": "minecraft:warped_hanging_sign", "count": 16}},
+{"slot": 22, "item": {"id": "minecraft:warped_hanging_sign", "count": 16}},
+{"slot": 23, "item": {"id": "minecraft:warped_hanging_sign", "count": 16}},
+{"slot": 24, "item": {"id": "minecraft:warped_hanging_sign", "count": 16}},
+{"slot": 25, "item": {"id": "minecraft:warped_hanging_sign", "count": 16}},
+{"slot": 26, "item": {"id": "minecraft:warped_hanging_sign", "count": 16}}
+]
+}
+}
+]
+}
+},
+"cherry_hanging_sign": {
+"trigger": "minecraft:inventory_changed",
+"conditions": {
+"items": [
+{
+"items": "minecraft:shulker_box",
+"components": {
+"minecraft:container": [
+{"slot": 0, "item": {"id": "minecraft:cherry_hanging_sign", "count": 16}},
+{"slot": 1, "item": {"id": "minecraft:cherry_hanging_sign", "count": 16}},
+{"slot": 2, "item": {"id": "minecraft:cherry_hanging_sign", "count": 16}},
+{"slot": 3, "item": {"id": "minecraft:cherry_hanging_sign", "count": 16}},
+{"slot": 4, "item": {"id": "minecraft:cherry_hanging_sign", "count": 16}},
+{"slot": 5, "item": {"id": "minecraft:cherry_hanging_sign", "count": 16}},
+{"slot": 6, "item": {"id": "minecraft:cherry_hanging_sign", "count": 16}},
+{"slot": 7, "item": {"id": "minecraft:cherry_hanging_sign", "count": 16}},
+{"slot": 8, "item": {"id": "minecraft:cherry_hanging_sign", "count": 16}},
+{"slot": 9, "item": {"id": "minecraft:cherry_hanging_sign", "count": 16}},
+{"slot": 10, "item": {"id": "minecraft:cherry_hanging_sign", "count": 16}},
+{"slot": 11, "item": {"id": "minecraft:cherry_hanging_sign", "count": 16}},
+{"slot": 12, "item": {"id": "minecraft:cherry_hanging_sign", "count": 16}},
+{"slot": 13, "item": {"id": "minecraft:cherry_hanging_sign", "count": 16}},
+{"slot": 14, "item": {"id": "minecraft:cherry_hanging_sign", "count": 16}},
+{"slot": 15, "item": {"id": "minecraft:cherry_hanging_sign", "count": 16}},
+{"slot": 16, "item": {"id": "minecraft:cherry_hanging_sign", "count": 16}},
+{"slot": 17, "item": {"id": "minecraft:cherry_hanging_sign", "count": 16}},
+{"slot": 18, "item": {"id": "minecraft:cherry_hanging_sign", "count": 16}},
+{"slot": 19, "item": {"id": "minecraft:cherry_hanging_sign", "count": 16}},
+{"slot": 20, "item": {"id": "minecraft:cherry_hanging_sign", "count": 16}},
+{"slot": 21, "item": {"id": "minecraft:cherry_hanging_sign", "count": 16}},
+{"slot": 22, "item": {"id": "minecraft:cherry_hanging_sign", "count": 16}},
+{"slot": 23, "item": {"id": "minecraft:cherry_hanging_sign", "count": 16}},
+{"slot": 24, "item": {"id": "minecraft:cherry_hanging_sign", "count": 16}},
+{"slot": 25, "item": {"id": "minecraft:cherry_hanging_sign", "count": 16}},
+{"slot": 26, "item": {"id": "minecraft:cherry_hanging_sign", "count": 16}}
+]
+}
+}
+]
+}
+},
+"armor_stand": {
+"trigger": "minecraft:inventory_changed",
+"conditions": {
+"items": [
+{
+"items": "minecraft:shulker_box",
+"components": {
+"minecraft:container": [
+{"slot": 0, "item": {"id": "minecraft:armor_stand", "count": 16}},
+{"slot": 1, "item": {"id": "minecraft:armor_stand", "count": 16}},
+{"slot": 2, "item": {"id": "minecraft:armor_stand", "count": 16}},
+{"slot": 3, "item": {"id": "minecraft:armor_stand", "count": 16}},
+{"slot": 4, "item": {"id": "minecraft:armor_stand", "count": 16}},
+{"slot": 5, "item": {"id": "minecraft:armor_stand", "count": 16}},
+{"slot": 6, "item": {"id": "minecraft:armor_stand", "count": 16}},
+{"slot": 7, "item": {"id": "minecraft:armor_stand", "count": 16}},
+{"slot": 8, "item": {"id": "minecraft:armor_stand", "count": 16}},
+{"slot": 9, "item": {"id": "minecraft:armor_stand", "count": 16}},
+{"slot": 10, "item": {"id": "minecraft:armor_stand", "count": 16}},
+{"slot": 11, "item": {"id": "minecraft:armor_stand", "count": 16}},
+{"slot": 12, "item": {"id": "minecraft:armor_stand", "count": 16}},
+{"slot": 13, "item": {"id": "minecraft:armor_stand", "count": 16}},
+{"slot": 14, "item": {"id": "minecraft:armor_stand", "count": 16}},
+{"slot": 15, "item": {"id": "minecraft:armor_stand", "count": 16}},
+{"slot": 16, "item": {"id": "minecraft:armor_stand", "count": 16}},
+{"slot": 17, "item": {"id": "minecraft:armor_stand", "count": 16}},
+{"slot": 18, "item": {"id": "minecraft:armor_stand", "count": 16}},
+{"slot": 19, "item": {"id": "minecraft:armor_stand", "count": 16}},
+{"slot": 20, "item": {"id": "minecraft:armor_stand", "count": 16}},
+{"slot": 21, "item": {"id": "minecraft:armor_stand", "count": 16}},
+{"slot": 22, "item": {"id": "minecraft:armor_stand", "count": 16}},
+{"slot": 23, "item": {"id": "minecraft:armor_stand", "count": 16}},
+{"slot": 24, "item": {"id": "minecraft:armor_stand", "count": 16}},
+{"slot": 25, "item": {"id": "minecraft:armor_stand", "count": 16}},
+{"slot": 26, "item": {"id": "minecraft:armor_stand", "count": 16}}
+]
+}
+}
+]
+}
+},
+"ender_pearl": {
+"trigger": "minecraft:inventory_changed",
+"conditions": {
+"items": [
+{
+"items": "minecraft:shulker_box",
+"components": {
+"minecraft:container": [
+{"slot": 0, "item": {"id": "minecraft:ender_pearl", "count": 16}},
+{"slot": 1, "item": {"id": "minecraft:ender_pearl", "count": 16}},
+{"slot": 2, "item": {"id": "minecraft:ender_pearl", "count": 16}},
+{"slot": 3, "item": {"id": "minecraft:ender_pearl", "count": 16}},
+{"slot": 4, "item": {"id": "minecraft:ender_pearl", "count": 16}},
+{"slot": 5, "item": {"id": "minecraft:ender_pearl", "count": 16}},
+{"slot": 6, "item": {"id": "minecraft:ender_pearl", "count": 16}},
+{"slot": 7, "item": {"id": "minecraft:ender_pearl", "count": 16}},
+{"slot": 8, "item": {"id": "minecraft:ender_pearl", "count": 16}},
+{"slot": 9, "item": {"id": "minecraft:ender_pearl", "count": 16}},
+{"slot": 10, "item": {"id": "minecraft:ender_pearl", "count": 16}},
+{"slot": 11, "item": {"id": "minecraft:ender_pearl", "count": 16}},
+{"slot": 12, "item": {"id": "minecraft:ender_pearl", "count": 16}},
+{"slot": 13, "item": {"id": "minecraft:ender_pearl", "count": 16}},
+{"slot": 14, "item": {"id": "minecraft:ender_pearl", "count": 16}},
+{"slot": 15, "item": {"id": "minecraft:ender_pearl", "count": 16}},
+{"slot": 16, "item": {"id": "minecraft:ender_pearl", "count": 16}},
+{"slot": 17, "item": {"id": "minecraft:ender_pearl", "count": 16}},
+{"slot": 18, "item": {"id": "minecraft:ender_pearl", "count": 16}},
+{"slot": 19, "item": {"id": "minecraft:ender_pearl", "count": 16}},
+{"slot": 20, "item": {"id": "minecraft:ender_pearl", "count": 16}},
+{"slot": 21, "item": {"id": "minecraft:ender_pearl", "count": 16}},
+{"slot": 22, "item": {"id": "minecraft:ender_pearl", "count": 16}},
+{"slot": 23, "item": {"id": "minecraft:ender_pearl", "count": 16}},
+{"slot": 24, "item": {"id": "minecraft:ender_pearl", "count": 16}},
+{"slot": 25, "item": {"id": "minecraft:ender_pearl", "count": 16}},
+{"slot": 26, "item": {"id": "minecraft:ender_pearl", "count": 16}}
+]
+}
+}
+]
+}
+},
+"written_book": {
+"trigger": "minecraft:inventory_changed",
+"conditions": {
+"items": [
+{
+"items": "minecraft:shulker_box",
+"components": {
+"minecraft:container": [
+{"slot": 0, "item": {"id": "minecraft:written_book", "count": 16}},
+{"slot": 1, "item": {"id": "minecraft:written_book", "count": 16}},
+{"slot": 2, "item": {"id": "minecraft:written_book", "count": 16}},
+{"slot": 3, "item": {"id": "minecraft:written_book", "count": 16}},
+{"slot": 4, "item": {"id": "minecraft:written_book", "count": 16}},
+{"slot": 5, "item": {"id": "minecraft:written_book", "count": 16}},
+{"slot": 6, "item": {"id": "minecraft:written_book", "count": 16}},
+{"slot": 7, "item": {"id": "minecraft:written_book", "count": 16}},
+{"slot": 8, "item": {"id": "minecraft:written_book", "count": 16}},
+{"slot": 9, "item": {"id": "minecraft:written_book", "count": 16}},
+{"slot": 10, "item": {"id": "minecraft:written_book", "count": 16}},
+{"slot": 11, "item": {"id": "minecraft:written_book", "count": 16}},
+{"slot": 12, "item": {"id": "minecraft:written_book", "count": 16}},
+{"slot": 13, "item": {"id": "minecraft:written_book", "count": 16}},
+{"slot": 14, "item": {"id": "minecraft:written_book", "count": 16}},
+{"slot": 15, "item": {"id": "minecraft:written_book", "count": 16}},
+{"slot": 16, "item": {"id": "minecraft:written_book", "count": 16}},
+{"slot": 17, "item": {"id": "minecraft:written_book", "count": 16}},
+{"slot": 18, "item": {"id": "minecraft:written_book", "count": 16}},
+{"slot": 19, "item": {"id": "minecraft:written_book", "count": 16}},
+{"slot": 20, "item": {"id": "minecraft:written_book", "count": 16}},
+{"slot": 21, "item": {"id": "minecraft:written_book", "count": 16}},
+{"slot": 22, "item": {"id": "minecraft:written_book", "count": 16}},
+{"slot": 23, "item": {"id": "minecraft:written_book", "count": 16}},
+{"slot": 24, "item": {"id": "minecraft:written_book", "count": 16}},
+{"slot": 25, "item": {"id": "minecraft:written_book", "count": 16}},
+{"slot": 26, "item": {"id": "minecraft:written_book", "count": 16}}
+]
+}
+}
+]
+}
+},
+"pale_oak_hanging_sign": {
+"trigger": "minecraft:inventory_changed",
+"conditions": {
+"items": [
+{
+"items": "minecraft:shulker_box",
+"components": {
+"minecraft:container": [
+{"slot": 0, "item": {"id": "minecraft:pale_oak_hanging_sign", "count": 16}},
+{"slot": 1, "item": {"id": "minecraft:pale_oak_hanging_sign", "count": 16}},
+{"slot": 2, "item": {"id": "minecraft:pale_oak_hanging_sign", "count": 16}},
+{"slot": 3, "item": {"id": "minecraft:pale_oak_hanging_sign", "count": 16}},
+{"slot": 4, "item": {"id": "minecraft:pale_oak_hanging_sign", "count": 16}},
+{"slot": 5, "item": {"id": "minecraft:pale_oak_hanging_sign", "count": 16}},
+{"slot": 6, "item": {"id": "minecraft:pale_oak_hanging_sign", "count": 16}},
+{"slot": 7, "item": {"id": "minecraft:pale_oak_hanging_sign", "count": 16}},
+{"slot": 8, "item": {"id": "minecraft:pale_oak_hanging_sign", "count": 16}},
+{"slot": 9, "item": {"id": "minecraft:pale_oak_hanging_sign", "count": 16}},
+{"slot": 10, "item": {"id": "minecraft:pale_oak_hanging_sign", "count": 16}},
+{"slot": 11, "item": {"id": "minecraft:pale_oak_hanging_sign", "count": 16}},
+{"slot": 12, "item": {"id": "minecraft:pale_oak_hanging_sign", "count": 16}},
+{"slot": 13, "item": {"id": "minecraft:pale_oak_hanging_sign", "count": 16}},
+{"slot": 14, "item": {"id": "minecraft:pale_oak_hanging_sign", "count": 16}},
+{"slot": 15, "item": {"id": "minecraft:pale_oak_hanging_sign", "count": 16}},
+{"slot": 16, "item": {"id": "minecraft:pale_oak_hanging_sign", "count": 16}},
+{"slot": 17, "item": {"id": "minecraft:pale_oak_hanging_sign", "count": 16}},
+{"slot": 18, "item": {"id": "minecraft:pale_oak_hanging_sign", "count": 16}},
+{"slot": 19, "item": {"id": "minecraft:pale_oak_hanging_sign", "count": 16}},
+{"slot": 20, "item": {"id": "minecraft:pale_oak_hanging_sign", "count": 16}},
+{"slot": 21, "item": {"id": "minecraft:pale_oak_hanging_sign", "count": 16}},
+{"slot": 22, "item": {"id": "minecraft:pale_oak_hanging_sign", "count": 16}},
+{"slot": 23, "item": {"id": "minecraft:pale_oak_hanging_sign", "count": 16}},
+{"slot": 24, "item": {"id": "minecraft:pale_oak_hanging_sign", "count": 16}},
+{"slot": 25, "item": {"id": "minecraft:pale_oak_hanging_sign", "count": 16}},
+{"slot": 26, "item": {"id": "minecraft:pale_oak_hanging_sign", "count": 16}}
+]
+}
+}
+]
+}
+},
+"brown_egg": {
+"trigger": "minecraft:inventory_changed",
+"conditions": {
+"items": [
+{
+"items": "minecraft:shulker_box",
+"components": {
+"minecraft:container": [
+{"slot": 0, "item": {"id": "minecraft:brown_egg", "count": 16}},
+{"slot": 1, "item": {"id": "minecraft:brown_egg", "count": 16}},
+{"slot": 2, "item": {"id": "minecraft:brown_egg", "count": 16}},
+{"slot": 3, "item": {"id": "minecraft:brown_egg", "count": 16}},
+{"slot": 4, "item": {"id": "minecraft:brown_egg", "count": 16}},
+{"slot": 5, "item": {"id": "minecraft:brown_egg", "count": 16}},
+{"slot": 6, "item": {"id": "minecraft:brown_egg", "count": 16}},
+{"slot": 7, "item": {"id": "minecraft:brown_egg", "count": 16}},
+{"slot": 8, "item": {"id": "minecraft:brown_egg", "count": 16}},
+{"slot": 9, "item": {"id": "minecraft:brown_egg", "count": 16}},
+{"slot": 10, "item": {"id": "minecraft:brown_egg", "count": 16}},
+{"slot": 11, "item": {"id": "minecraft:brown_egg", "count": 16}},
+{"slot": 12, "item": {"id": "minecraft:brown_egg", "count": 16}},
+{"slot": 13, "item": {"id": "minecraft:brown_egg", "count": 16}},
+{"slot": 14, "item": {"id": "minecraft:brown_egg", "count": 16}},
+{"slot": 15, "item": {"id": "minecraft:brown_egg", "count": 16}},
+{"slot": 16, "item": {"id": "minecraft:brown_egg", "count": 16}},
+{"slot": 17, "item": {"id": "minecraft:brown_egg", "count": 16}},
+{"slot": 18, "item": {"id": "minecraft:brown_egg", "count": 16}},
+{"slot": 19, "item": {"id": "minecraft:brown_egg", "count": 16}},
+{"slot": 20, "item": {"id": "minecraft:brown_egg", "count": 16}},
+{"slot": 21, "item": {"id": "minecraft:brown_egg", "count": 16}},
+{"slot": 22, "item": {"id": "minecraft:brown_egg", "count": 16}},
+{"slot": 23, "item": {"id": "minecraft:brown_egg", "count": 16}},
+{"slot": 24, "item": {"id": "minecraft:brown_egg", "count": 16}},
+{"slot": 25, "item": {"id": "minecraft:brown_egg", "count": 16}},
+{"slot": 26, "item": {"id": "minecraft:brown_egg", "count": 16}}
+]
+}
+}
+]
+}
+}
         
         
 }

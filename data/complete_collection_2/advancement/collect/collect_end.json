@@ -8,17 +8,57 @@
 
         },
         "title":{
-            "translate": "CC2 - End Items"
+            "translate": "CC2 - Stacks of 1"
         },
         "description":{
-            "translate": "Obtain a shulker filled with stacks of each item for every item that comes from the end"
+            "translate": "Obtain a shulker filled with stacks of each item for every item that stacks to 1"
         },
         "frame":"challenge",
         "announce_to_chat":true
         },
         "parent": "complete_collection_2:collect/collect_nether",
         "criteria":{
-            ""
+            "end_stone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:shulker_box",
+            "components": {
+              "minecraft:container": [
+                {"slot": 0, "item": {"id": "minecraft:end_stone", "count": 64}},
+                {"slot": 1, "item": {"id": "minecraft:end_stone", "count": 64}},
+                {"slot": 2, "item": {"id": "minecraft:end_stone", "count": 64}},
+                {"slot": 3, "item": {"id": "minecraft:end_stone", "count": 64}},
+                {"slot": 4, "item": {"id": "minecraft:end_stone", "count": 64}},
+                {"slot": 5, "item": {"id": "minecraft:end_stone", "count": 64}},
+                {"slot": 6, "item": {"id": "minecraft:end_stone", "count": 64}},
+                {"slot": 7, "item": {"id": "minecraft:end_stone", "count": 64}},
+                {"slot": 8, "item": {"id": "minecraft:end_stone", "count": 64}},
+                {"slot": 9, "item": {"id": "minecraft:end_stone", "count": 64}},
+                {"slot": 10, "item": {"id": "minecraft:end_stone", "count": 64}},
+                {"slot": 11, "item": {"id": "minecraft:end_stone", "count": 64}},
+                {"slot": 12, "item": {"id": "minecraft:end_stone", "count": 64}},
+                {"slot": 13, "item": {"id": "minecraft:end_stone", "count": 64}},
+                {"slot": 14, "item": {"id": "minecraft:end_stone", "count": 64}},
+                {"slot": 15, "item": {"id": "minecraft:end_stone", "count": 64}},
+                {"slot": 16, "item": {"id": "minecraft:end_stone", "count": 64}},
+                {"slot": 17, "item": {"id": "minecraft:end_stone", "count": 64}},
+                {"slot": 18, "item": {"id": "minecraft:end_stone", "count": 64}},
+                {"slot": 19, "item": {"id": "minecraft:end_stone", "count": 64}},
+                {"slot": 20, "item": {"id": "minecraft:end_stone", "count": 64}},
+                {"slot": 21, "item": {"id": "minecraft:end_stone", "count": 64}},
+                {"slot": 22, "item": {"id": "minecraft:end_stone", "count": 64}},
+                {"slot": 23, "item": {"id": "minecraft:end_stone", "count": 64}},
+                {"slot": 24, "item": {"id": "minecraft:end_stone", "count": 64}},
+                {"slot": 25, "item": {"id": "minecraft:end_stone", "count": 64}},
+                {"slot": 26, "item": {"id": "minecraft:end_stone", "count": 64}}
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    }
         
         
 }
