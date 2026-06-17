@@ -31,6 +31,7 @@ public class items_copper_golem {
                 poses.add(pose);
             }
     }
+        
         sc.close();
         return output;
     }
@@ -49,6 +50,7 @@ public class items_copper_golem {
             
     }
     System.out.println(finals);
+    finals.add("waxed_copper_golem_statue");
     System.out.println(poses);
     poses.removeLast();
     poses.removeLast();
