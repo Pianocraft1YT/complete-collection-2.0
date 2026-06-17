@@ -16,7 +16,7 @@
         "frame":"challenge",
         "announce_to_chat":true
         },
-        "parent": "complete_collection_2:collect/collect_nether",
+        "parent": "complete_collection_2:collect/collect_stack_16",
         "criteria":{
             "end_stone": {
       "trigger": "minecraft:inventory_changed",

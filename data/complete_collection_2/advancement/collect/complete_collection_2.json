@@ -16,42 +16,42 @@
         "frame":"challenge",
         "announce_to_chat":true
         },
-        "parent": "complete_collection_2:collect/collect_end",
+        "parent": "complete_collection_2:collect/collect_stack_1",
         "criteria":{
-            "overworld": {
+            "stacks_64": {
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"complete_collection_2:collect/collect_overworld": true
+							"complete_collection_2:collect/collect_stack_64": true
 						}
 					}
 				}
 			}
 		},
-                        "nether": {
+                        "stacks_16": {
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"complete_collection_2:collect/collect_nether": true
+							"complete_collection_2:collect/collect_stack_16": true
 						}
 					}
 				}
 			}
 		},
-                        "end": {
+                        "stacks_1": {
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"complete_collection_2:collect/collect_end": true
+							"complete_collection_2:collect/collect_stack_1": true
 						}
 					}
 				}

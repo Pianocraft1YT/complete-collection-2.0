@@ -16,7 +16,7 @@
         "frame":"challenge",
         "announce_to_chat":true
         },
-        "parent": "complete_collection_2:collect/collect_overworld",
+        "parent": "complete_collection_2:collect/collect_stack_64",
         "criteria":{
 "black_banner": {
 "trigger": "minecraft:inventory_changed",

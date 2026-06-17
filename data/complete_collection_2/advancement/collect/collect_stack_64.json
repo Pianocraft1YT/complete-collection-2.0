@@ -22116,7 +22116,1362 @@
 }
 ]
 }
+},
+"copper_golem_statue_standing": {
+"trigger": "minecraft:inventory_changed",
+"conditions": {
+"items": [
+{
+"items": "minecraft:shulker_box",
+"components": {
+"minecraft:container": [
+{"slot": 0, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 1, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 2, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 3, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 4, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 5, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 6, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 7, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 8, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 9, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 10, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 11, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 12, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 13, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 14, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 15, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 16, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 17, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 18, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 19, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 20, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 21, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 22, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 23, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 24, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 25, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 26, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}}
+]
 }
+}
+]
+}
+},
+"copper_golem_statue_sitting": {
+"trigger": "minecraft:inventory_changed",
+"conditions": {
+"items": [
+{
+"items": "minecraft:shulker_box",
+"components": {
+"minecraft:container": [
+{"slot": 0, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 1, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 2, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 3, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 4, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 5, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 6, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 7, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 8, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 9, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 10, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 11, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 12, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 13, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 14, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 15, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 16, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 17, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 18, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 19, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 20, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 21, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 22, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 23, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 24, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 25, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 26, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}}
+]
+}
+}
+]
+}
+},
+"copper_golem_statue_running": {
+"trigger": "minecraft:inventory_changed",
+"conditions": {
+"items": [
+{
+"items": "minecraft:shulker_box",
+"components": {
+"minecraft:container": [
+{"slot": 0, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 1, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 2, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 3, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 4, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 5, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 6, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 7, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 8, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 9, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 10, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 11, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 12, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 13, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 14, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 15, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 16, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 17, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 18, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 19, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 20, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 21, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 22, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 23, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 24, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 25, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 26, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}}
+]
+}
+}
+]
+}
+},
+"copper_golem_statue_star": {
+"trigger": "minecraft:inventory_changed",
+"conditions": {
+"items": [
+{
+"items": "minecraft:shulker_box",
+"components": {
+"minecraft:container": [
+{"slot": 0, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 1, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 2, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 3, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 4, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 5, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 6, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 7, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 8, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 9, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 10, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 11, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 12, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 13, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 14, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 15, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 16, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 17, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 18, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 19, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 20, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 21, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 22, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 23, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 24, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 25, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 26, "item": {"id": "minecraft:copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}}
+]
+}
+}
+]
+}
+},
+"exposed_copper_golem_statue_standing": {
+"trigger": "minecraft:inventory_changed",
+"conditions": {
+"items": [
+{
+"items": "minecraft:shulker_box",
+"components": {
+"minecraft:container": [
+{"slot": 0, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 1, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 2, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 3, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 4, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 5, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 6, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 7, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 8, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 9, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 10, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 11, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 12, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 13, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 14, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 15, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 16, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 17, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 18, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 19, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 20, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 21, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 22, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 23, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 24, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 25, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 26, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}}
+]
+}
+}
+]
+}
+},
+"exposed_copper_golem_statue_sitting": {
+"trigger": "minecraft:inventory_changed",
+"conditions": {
+"items": [
+{
+"items": "minecraft:shulker_box",
+"components": {
+"minecraft:container": [
+{"slot": 0, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 1, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 2, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 3, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 4, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 5, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 6, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 7, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 8, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 9, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 10, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 11, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 12, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 13, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 14, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 15, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 16, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 17, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 18, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 19, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 20, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 21, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 22, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 23, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 24, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 25, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 26, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}}
+]
+}
+}
+]
+}
+},
+"exposed_copper_golem_statue_running": {
+"trigger": "minecraft:inventory_changed",
+"conditions": {
+"items": [
+{
+"items": "minecraft:shulker_box",
+"components": {
+"minecraft:container": [
+{"slot": 0, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 1, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 2, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 3, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 4, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 5, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 6, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 7, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 8, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 9, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 10, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 11, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 12, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 13, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 14, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 15, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 16, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 17, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 18, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 19, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 20, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 21, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 22, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 23, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 24, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 25, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 26, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}}
+]
+}
+}
+]
+}
+},
+"exposed_copper_golem_statue_star": {
+"trigger": "minecraft:inventory_changed",
+"conditions": {
+"items": [
+{
+"items": "minecraft:shulker_box",
+"components": {
+"minecraft:container": [
+{"slot": 0, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 1, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 2, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 3, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 4, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 5, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 6, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 7, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 8, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 9, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 10, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 11, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 12, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 13, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 14, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 15, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 16, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 17, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 18, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 19, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 20, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 21, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 22, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 23, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 24, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 25, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 26, "item": {"id": "minecraft:exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}}
+]
+}
+}
+]
+}
+},
+"weathered_copper_golem_statue_standing": {
+"trigger": "minecraft:inventory_changed",
+"conditions": {
+"items": [
+{
+"items": "minecraft:shulker_box",
+"components": {
+"minecraft:container": [
+{"slot": 0, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 1, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 2, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 3, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 4, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 5, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 6, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 7, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 8, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 9, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 10, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 11, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 12, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 13, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 14, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 15, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 16, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 17, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 18, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 19, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 20, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 21, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 22, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 23, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 24, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 25, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 26, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}}
+]
+}
+}
+]
+}
+},
+"weathered_copper_golem_statue_sitting": {
+"trigger": "minecraft:inventory_changed",
+"conditions": {
+"items": [
+{
+"items": "minecraft:shulker_box",
+"components": {
+"minecraft:container": [
+{"slot": 0, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 1, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 2, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 3, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 4, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 5, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 6, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 7, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 8, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 9, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 10, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 11, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 12, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 13, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 14, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 15, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 16, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 17, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 18, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 19, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 20, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 21, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 22, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 23, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 24, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 25, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 26, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}}
+]
+}
+}
+]
+}
+},
+"weathered_copper_golem_statue_running": {
+"trigger": "minecraft:inventory_changed",
+"conditions": {
+"items": [
+{
+"items": "minecraft:shulker_box",
+"components": {
+"minecraft:container": [
+{"slot": 0, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 1, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 2, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 3, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 4, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 5, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 6, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 7, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 8, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 9, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 10, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 11, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 12, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 13, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 14, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 15, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 16, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 17, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 18, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 19, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 20, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 21, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 22, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 23, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 24, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 25, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 26, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}}
+]
+}
+}
+]
+}
+},
+"weathered_copper_golem_statue_star": {
+"trigger": "minecraft:inventory_changed",
+"conditions": {
+"items": [
+{
+"items": "minecraft:shulker_box",
+"components": {
+"minecraft:container": [
+{"slot": 0, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 1, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 2, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 3, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 4, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 5, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 6, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 7, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 8, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 9, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 10, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 11, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 12, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 13, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 14, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 15, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 16, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 17, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 18, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 19, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 20, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 21, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 22, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 23, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 24, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 25, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 26, "item": {"id": "minecraft:weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}}
+]
+}
+}
+]
+}
+},
+"oxidized_copper_golem_statue_standing": {
+"trigger": "minecraft:inventory_changed",
+"conditions": {
+"items": [
+{
+"items": "minecraft:shulker_box",
+"components": {
+"minecraft:container": [
+{"slot": 0, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 1, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 2, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 3, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 4, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 5, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 6, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 7, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 8, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 9, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 10, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 11, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 12, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 13, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 14, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 15, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 16, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 17, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 18, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 19, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 20, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 21, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 22, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 23, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 24, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 25, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 26, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}}
+]
+}
+}
+]
+}
+},
+"oxidized_copper_golem_statue_sitting": {
+"trigger": "minecraft:inventory_changed",
+"conditions": {
+"items": [
+{
+"items": "minecraft:shulker_box",
+"components": {
+"minecraft:container": [
+{"slot": 0, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 1, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 2, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 3, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 4, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 5, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 6, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 7, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 8, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 9, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 10, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 11, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 12, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 13, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 14, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 15, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 16, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 17, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 18, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 19, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 20, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 21, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 22, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 23, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 24, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 25, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 26, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}}
+]
+}
+}
+]
+}
+},
+"oxidized_copper_golem_statue_running": {
+"trigger": "minecraft:inventory_changed",
+"conditions": {
+"items": [
+{
+"items": "minecraft:shulker_box",
+"components": {
+"minecraft:container": [
+{"slot": 0, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 1, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 2, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 3, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 4, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 5, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 6, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 7, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 8, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 9, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 10, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 11, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 12, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 13, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 14, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 15, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 16, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 17, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 18, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 19, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 20, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 21, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 22, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 23, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 24, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 25, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 26, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}}
+]
+}
+}
+]
+}
+},
+"oxidized_copper_golem_statue_star": {
+"trigger": "minecraft:inventory_changed",
+"conditions": {
+"items": [
+{
+"items": "minecraft:shulker_box",
+"components": {
+"minecraft:container": [
+{"slot": 0, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 1, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 2, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 3, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 4, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 5, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 6, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 7, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 8, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 9, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 10, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 11, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 12, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 13, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 14, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 15, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 16, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 17, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 18, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 19, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 20, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 21, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 22, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 23, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 24, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 25, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 26, "item": {"id": "minecraft:oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}}
+]
+}
+}
+]
+}
+},
+"waxed_exposed_copper_golem_statue_standing": {
+"trigger": "minecraft:inventory_changed",
+"conditions": {
+"items": [
+{
+"items": "minecraft:shulker_box",
+"components": {
+"minecraft:container": [
+{"slot": 0, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 1, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 2, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 3, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 4, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 5, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 6, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 7, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 8, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 9, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 10, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 11, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 12, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 13, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 14, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 15, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 16, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 17, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 18, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 19, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 20, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 21, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 22, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 23, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 24, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 25, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 26, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}}
+]
+}
+}
+]
+}
+},
+"waxed_exposed_copper_golem_statue_sitting": {
+"trigger": "minecraft:inventory_changed",
+"conditions": {
+"items": [
+{
+"items": "minecraft:shulker_box",
+"components": {
+"minecraft:container": [
+{"slot": 0, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 1, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 2, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 3, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 4, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 5, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 6, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 7, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 8, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 9, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 10, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 11, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 12, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 13, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 14, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 15, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 16, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 17, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 18, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 19, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 20, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 21, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 22, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 23, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 24, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 25, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 26, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}}
+]
+}
+}
+]
+}
+},
+"waxed_exposed_copper_golem_statue_running": {
+"trigger": "minecraft:inventory_changed",
+"conditions": {
+"items": [
+{
+"items": "minecraft:shulker_box",
+"components": {
+"minecraft:container": [
+{"slot": 0, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 1, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 2, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 3, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 4, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 5, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 6, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 7, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 8, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 9, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 10, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 11, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 12, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 13, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 14, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 15, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 16, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 17, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 18, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 19, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 20, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 21, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 22, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 23, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 24, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 25, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 26, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}}
+]
+}
+}
+]
+}
+},
+"waxed_exposed_copper_golem_statue_star": {
+"trigger": "minecraft:inventory_changed",
+"conditions": {
+"items": [
+{
+"items": "minecraft:shulker_box",
+"components": {
+"minecraft:container": [
+{"slot": 0, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 1, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 2, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 3, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 4, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 5, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 6, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 7, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 8, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 9, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 10, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 11, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 12, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 13, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 14, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 15, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 16, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 17, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 18, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 19, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 20, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 21, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 22, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 23, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 24, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 25, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 26, "item": {"id": "minecraft:waxed_exposed_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}}
+]
+}
+}
+]
+}
+},
+"waxed_weathered_copper_golem_statue_standing": {
+"trigger": "minecraft:inventory_changed",
+"conditions": {
+"items": [
+{
+"items": "minecraft:shulker_box",
+"components": {
+"minecraft:container": [
+{"slot": 0, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 1, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 2, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 3, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 4, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 5, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 6, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 7, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 8, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 9, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 10, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 11, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 12, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 13, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 14, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 15, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 16, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 17, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 18, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 19, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 20, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 21, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 22, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 23, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 24, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 25, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 26, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}}
+]
+}
+}
+]
+}
+},
+"waxed_weathered_copper_golem_statue_sitting": {
+"trigger": "minecraft:inventory_changed",
+"conditions": {
+"items": [
+{
+"items": "minecraft:shulker_box",
+"components": {
+"minecraft:container": [
+{"slot": 0, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 1, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 2, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 3, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 4, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 5, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 6, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 7, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 8, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 9, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 10, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 11, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 12, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 13, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 14, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 15, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 16, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 17, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 18, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 19, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 20, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 21, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 22, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 23, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 24, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 25, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 26, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}}
+]
+}
+}
+]
+}
+},
+"waxed_weathered_copper_golem_statue_running": {
+"trigger": "minecraft:inventory_changed",
+"conditions": {
+"items": [
+{
+"items": "minecraft:shulker_box",
+"components": {
+"minecraft:container": [
+{"slot": 0, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 1, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 2, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 3, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 4, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 5, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 6, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 7, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 8, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 9, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 10, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 11, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 12, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 13, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 14, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 15, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 16, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 17, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 18, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 19, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 20, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 21, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 22, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 23, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 24, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 25, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 26, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}}
+]
+}
+}
+]
+}
+},
+"waxed_weathered_copper_golem_statue_star": {
+"trigger": "minecraft:inventory_changed",
+"conditions": {
+"items": [
+{
+"items": "minecraft:shulker_box",
+"components": {
+"minecraft:container": [
+{"slot": 0, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 1, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 2, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 3, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 4, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 5, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 6, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 7, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 8, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 9, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 10, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 11, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 12, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 13, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 14, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 15, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 16, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 17, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 18, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 19, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 20, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 21, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 22, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 23, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 24, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 25, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 26, "item": {"id": "minecraft:waxed_weathered_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}}
+]
+}
+}
+]
+}
+},
+"waxed_oxidized_copper_golem_statue_standing": {
+"trigger": "minecraft:inventory_changed",
+"conditions": {
+"items": [
+{
+"items": "minecraft:shulker_box",
+"components": {
+"minecraft:container": [
+{"slot": 0, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 1, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 2, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 3, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 4, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 5, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 6, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 7, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 8, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 9, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 10, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 11, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 12, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 13, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 14, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 15, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 16, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 17, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 18, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 19, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 20, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 21, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 22, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 23, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 24, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 25, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}},
+{"slot": 26, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"standing"}}}}
+]
+}
+}
+]
+}
+},
+"waxed_oxidized_copper_golem_statue_sitting": {
+"trigger": "minecraft:inventory_changed",
+"conditions": {
+"items": [
+{
+"items": "minecraft:shulker_box",
+"components": {
+"minecraft:container": [
+{"slot": 0, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 1, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 2, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 3, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 4, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 5, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 6, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 7, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 8, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 9, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 10, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 11, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 12, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 13, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 14, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 15, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 16, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 17, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 18, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 19, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 20, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 21, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 22, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 23, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 24, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 25, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}},
+{"slot": 26, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"sitting"}}}}
+]
+}
+}
+]
+}
+},
+"waxed_oxidized_copper_golem_statue_running": {
+"trigger": "minecraft:inventory_changed",
+"conditions": {
+"items": [
+{
+"items": "minecraft:shulker_box",
+"components": {
+"minecraft:container": [
+{"slot": 0, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 1, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 2, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 3, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 4, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 5, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 6, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 7, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 8, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 9, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 10, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 11, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 12, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 13, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 14, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 15, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 16, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 17, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 18, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 19, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 20, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 21, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 22, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 23, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 24, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 25, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}},
+{"slot": 26, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"running"}}}}
+]
+}
+}
+]
+}
+},
+"waxed_oxidized_copper_golem_statue_star": {
+"trigger": "minecraft:inventory_changed",
+"conditions": {
+"items": [
+{
+"items": "minecraft:shulker_box",
+"components": {
+"minecraft:container": [
+{"slot": 0, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 1, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 2, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 3, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 4, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 5, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 6, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 7, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 8, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 9, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 10, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 11, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 12, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 13, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 14, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 15, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 16, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 17, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 18, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 19, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 20, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 21, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 22, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 23, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 24, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 25, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}},
+{"slot": 26, "item": {"id": "minecraft:waxed_oxidized_copper_golem_statue", "count": 64, "components":{"minecraft:block_state":{								"copper_golem_pose":"star"}}}}
+]
+}
+}
+]
+}
+},
+"ominous_bottle_1": {
+"trigger": "minecraft:inventory_changed",
+"conditions": {
+"items": [
+{
+"items": "minecraft:shulker_box",
+"components": {
+"minecraft:container": [
+{"slot": 0, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 0}}},
+{"slot": 1, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 0}}},
+{"slot": 2, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 0}}},
+{"slot": 3, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 0}}},
+{"slot": 4, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 0}}},
+{"slot": 5, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 0}}},
+{"slot": 6, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 0}}},
+{"slot": 7, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 0}}},
+{"slot": 8, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 0}}},
+{"slot": 9, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 0}}},
+{"slot": 10, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 0}}},
+{"slot": 11, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 0}}},
+{"slot": 12, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 0}}},
+{"slot": 13, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 0}}},
+{"slot": 14, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 0}}},
+{"slot": 15, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 0}}},
+{"slot": 16, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 0}}},
+{"slot": 17, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 0}}},
+{"slot": 18, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 0}}},
+{"slot": 19, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 0}}},
+{"slot": 20, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 0}}},
+{"slot": 21, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 0}}},
+{"slot": 22, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 0}}},
+{"slot": 23, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 0}}},
+{"slot": 24, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 0}}},
+{"slot": 25, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 0}}},
+{"slot": 26, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 0}}}
+]
+}
+}
+]
+}
+},
+"ominous_bottle_2": {
+"trigger": "minecraft:inventory_changed",
+"conditions": {
+"items": [
+{
+"items": "minecraft:shulker_box",
+"components": {
+"minecraft:container": [
+{"slot": 0, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 1}}},
+{"slot": 1, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 1}}},
+{"slot": 2, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 1}}},
+{"slot": 3, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 1}}},
+{"slot": 4, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 1}}},
+{"slot": 5, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 1}}},
+{"slot": 6, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 1}}},
+{"slot": 7, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 1}}},
+{"slot": 8, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 1}}},
+{"slot": 9, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 1}}},
+{"slot": 10, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 1}}},
+{"slot": 11, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 1}}},
+{"slot": 12, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 1}}},
+{"slot": 13, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 1}}},
+{"slot": 14, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 1}}},
+{"slot": 15, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 1}}},
+{"slot": 16, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 1}}},
+{"slot": 17, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 1}}},
+{"slot": 18, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 1}}},
+{"slot": 19, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 1}}},
+{"slot": 20, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 1}}},
+{"slot": 21, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 1}}},
+{"slot": 22, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 1}}},
+{"slot": 23, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 1}}},
+{"slot": 24, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 1}}},
+{"slot": 25, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 1}}},
+{"slot": 26, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 1}}}
+]
+}
+}
+]
+}
+},
+"ominous_bottle_3": {
+"trigger": "minecraft:inventory_changed",
+"conditions": {
+"items": [
+{
+"items": "minecraft:shulker_box",
+"components": {
+"minecraft:container": [
+{"slot": 0, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 2}}},
+{"slot": 1, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 2}}},
+{"slot": 2, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 2}}},
+{"slot": 3, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 2}}},
+{"slot": 4, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 2}}},
+{"slot": 5, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 2}}},
+{"slot": 6, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 2}}},
+{"slot": 7, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 2}}},
+{"slot": 8, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 2}}},
+{"slot": 9, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 2}}},
+{"slot": 10, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 2}}},
+{"slot": 11, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 2}}},
+{"slot": 12, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 2}}},
+{"slot": 13, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 2}}},
+{"slot": 14, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 2}}},
+{"slot": 15, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 2}}},
+{"slot": 16, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 2}}},
+{"slot": 17, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 2}}},
+{"slot": 18, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 2}}},
+{"slot": 19, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 2}}},
+{"slot": 20, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 2}}},
+{"slot": 21, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 2}}},
+{"slot": 22, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 2}}},
+{"slot": 23, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 2}}},
+{"slot": 24, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 2}}},
+{"slot": 25, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 2}}},
+{"slot": 26, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 2}}}
+]
+}
+}
+]
+}
+},
+"ominous_bottle_4": {
+"trigger": "minecraft:inventory_changed",
+"conditions": {
+"items": [
+{
+"items": "minecraft:shulker_box",
+"components": {
+"minecraft:container": [
+{"slot": 0, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 3}}},
+{"slot": 1, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 3}}},
+{"slot": 2, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 3}}},
+{"slot": 3, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 3}}},
+{"slot": 4, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 3}}},
+{"slot": 5, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 3}}},
+{"slot": 6, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 3}}},
+{"slot": 7, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 3}}},
+{"slot": 8, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 3}}},
+{"slot": 9, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 3}}},
+{"slot": 10, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 3}}},
+{"slot": 11, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 3}}},
+{"slot": 12, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 3}}},
+{"slot": 13, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 3}}},
+{"slot": 14, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 3}}},
+{"slot": 15, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 3}}},
+{"slot": 16, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 3}}},
+{"slot": 17, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 3}}},
+{"slot": 18, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 3}}},
+{"slot": 19, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 3}}},
+{"slot": 20, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 3}}},
+{"slot": 21, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 3}}},
+{"slot": 22, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 3}}},
+{"slot": 23, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 3}}},
+{"slot": 24, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 3}}},
+{"slot": 25, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 3}}},
+{"slot": 26, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 3}}}
+]
+}
+}
+]
+}
+},
+"ominous_bottle_5": {
+"trigger": "minecraft:inventory_changed",
+"conditions": {
+"items": [
+{
+"items": "minecraft:shulker_box",
+"components": {
+"minecraft:container": [
+{"slot": 0, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 4}}},
+{"slot": 1, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 4}}},
+{"slot": 2, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 4}}},
+{"slot": 3, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 4}}},
+{"slot": 4, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 4}}},
+{"slot": 5, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 4}}},
+{"slot": 6, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 4}}},
+{"slot": 7, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 4}}},
+{"slot": 8, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 4}}},
+{"slot": 9, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 4}}},
+{"slot": 10, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 4}}},
+{"slot": 11, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 4}}},
+{"slot": 12, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 4}}},
+{"slot": 13, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 4}}},
+{"slot": 14, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 4}}},
+{"slot": 15, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 4}}},
+{"slot": 16, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 4}}},
+{"slot": 17, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 4}}},
+{"slot": 18, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 4}}},
+{"slot": 19, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 4}}},
+{"slot": 20, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 4}}},
+{"slot": 21, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 4}}},
+{"slot": 22, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 4}}},
+{"slot": 23, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 4}}},
+{"slot": 24, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 4}}},
+{"slot": 25, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 4}}},
+{"slot": 26, "item": {"id": "minecraft:ominous_bottle", "count": 64, "components":{							"minecraft:ominous_bottle_amplifier": 4}}}
+]
+}
+}
+]
+}
+}
+
                   }
-                
                 }
+                
+                
