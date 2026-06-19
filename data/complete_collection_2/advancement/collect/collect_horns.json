@@ -1,0 +1,350 @@
+{
+    "display":{
+        "icon":{
+            "id":"minecraft:goat_horn",
+            "components":{
+                "minecraft:enchantment_glint_override":true
+            }
+
+        },
+        "title":{
+            "translate": "CC2 - Goat Horns"
+        },
+        "description":{
+            "translate": "Obtain a shulker filled with each goat horn"
+        },
+        "frame":"challenge",
+        "announce_to_chat":true
+        },
+        "parent": "complete_collection_2:collect/collect_stack_16",
+        "criteria":{
+"admire_goat_horn": {
+"trigger": "minecraft:inventory_changed",
+"conditions": {
+"items": [
+{
+"items": "minecraft:shulker_box",
+"components": {
+"minecraft:container": [
+{"slot": 0, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "admire_goat_horn"}}},
+{"slot": 1, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "admire_goat_horn"}}},
+{"slot": 2, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "admire_goat_horn"}}},
+{"slot": 3, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "admire_goat_horn"}}},
+{"slot": 4, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "admire_goat_horn"}}},
+{"slot": 5, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "admire_goat_horn"}}},
+{"slot": 6, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "admire_goat_horn"}}},
+{"slot": 7, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "admire_goat_horn"}}},
+{"slot": 8, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "admire_goat_horn"}}},
+{"slot": 9, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "admire_goat_horn"}}},
+{"slot": 10, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "admire_goat_horn"}}},
+{"slot": 11, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "admire_goat_horn"}}},
+{"slot": 12, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "admire_goat_horn"}}},
+{"slot": 13, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "admire_goat_horn"}}},
+{"slot": 14, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "admire_goat_horn"}}},
+{"slot": 15, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "admire_goat_horn"}}},
+{"slot": 16, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "admire_goat_horn"}}},
+{"slot": 17, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "admire_goat_horn"}}},
+{"slot": 18, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "admire_goat_horn"}}},
+{"slot": 19, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "admire_goat_horn"}}},
+{"slot": 20, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "admire_goat_horn"}}},
+{"slot": 21, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "admire_goat_horn"}}},
+{"slot": 22, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "admire_goat_horn"}}},
+{"slot": 23, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "admire_goat_horn"}}},
+{"slot": 24, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "admire_goat_horn"}}},
+{"slot": 25, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "admire_goat_horn"}}},
+{"slot": 26, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "admire_goat_horn"}}}
+]
+}
+}
+]
+}
+},
+"sing_goat_horn": {
+"trigger": "minecraft:inventory_changed",
+"conditions": {
+"items": [
+{
+"items": "minecraft:shulker_box",
+"components": {
+"minecraft:container": [
+{"slot": 0, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "sing_goat_horn"}}},
+{"slot": 1, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "sing_goat_horn"}}},
+{"slot": 2, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "sing_goat_horn"}}},
+{"slot": 3, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "sing_goat_horn"}}},
+{"slot": 4, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "sing_goat_horn"}}},
+{"slot": 5, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "sing_goat_horn"}}},
+{"slot": 6, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "sing_goat_horn"}}},
+{"slot": 7, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "sing_goat_horn"}}},
+{"slot": 8, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "sing_goat_horn"}}},
+{"slot": 9, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "sing_goat_horn"}}},
+{"slot": 10, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "sing_goat_horn"}}},
+{"slot": 11, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "sing_goat_horn"}}},
+{"slot": 12, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "sing_goat_horn"}}},
+{"slot": 13, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "sing_goat_horn"}}},
+{"slot": 14, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "sing_goat_horn"}}},
+{"slot": 15, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "sing_goat_horn"}}},
+{"slot": 16, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "sing_goat_horn"}}},
+{"slot": 17, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "sing_goat_horn"}}},
+{"slot": 18, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "sing_goat_horn"}}},
+{"slot": 19, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "sing_goat_horn"}}},
+{"slot": 20, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "sing_goat_horn"}}},
+{"slot": 21, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "sing_goat_horn"}}},
+{"slot": 22, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "sing_goat_horn"}}},
+{"slot": 23, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "sing_goat_horn"}}},
+{"slot": 24, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "sing_goat_horn"}}},
+{"slot": 25, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "sing_goat_horn"}}},
+{"slot": 26, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "sing_goat_horn"}}}
+]
+}
+}
+]
+}
+},
+"ponder_goat_horn": {
+"trigger": "minecraft:inventory_changed",
+"conditions": {
+"items": [
+{
+"items": "minecraft:shulker_box",
+"components": {
+"minecraft:container": [
+{"slot": 0, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "ponder_goat_horn"}}},
+{"slot": 1, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "ponder_goat_horn"}}},
+{"slot": 2, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "ponder_goat_horn"}}},
+{"slot": 3, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "ponder_goat_horn"}}},
+{"slot": 4, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "ponder_goat_horn"}}},
+{"slot": 5, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "ponder_goat_horn"}}},
+{"slot": 6, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "ponder_goat_horn"}}},
+{"slot": 7, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "ponder_goat_horn"}}},
+{"slot": 8, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "ponder_goat_horn"}}},
+{"slot": 9, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "ponder_goat_horn"}}},
+{"slot": 10, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "ponder_goat_horn"}}},
+{"slot": 11, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "ponder_goat_horn"}}},
+{"slot": 12, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "ponder_goat_horn"}}},
+{"slot": 13, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "ponder_goat_horn"}}},
+{"slot": 14, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "ponder_goat_horn"}}},
+{"slot": 15, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "ponder_goat_horn"}}},
+{"slot": 16, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "ponder_goat_horn"}}},
+{"slot": 17, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "ponder_goat_horn"}}},
+{"slot": 18, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "ponder_goat_horn"}}},
+{"slot": 19, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "ponder_goat_horn"}}},
+{"slot": 20, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "ponder_goat_horn"}}},
+{"slot": 21, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "ponder_goat_horn"}}},
+{"slot": 22, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "ponder_goat_horn"}}},
+{"slot": 23, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "ponder_goat_horn"}}},
+{"slot": 24, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "ponder_goat_horn"}}},
+{"slot": 25, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "ponder_goat_horn"}}},
+{"slot": 26, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "ponder_goat_horn"}}}
+]
+}
+}
+]
+}
+},
+"feel_goat_horn": {
+"trigger": "minecraft:inventory_changed",
+"conditions": {
+"items": [
+{
+"items": "minecraft:shulker_box",
+"components": {
+"minecraft:container": [
+{"slot": 0, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "feel_goat_horn"}}},
+{"slot": 1, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "feel_goat_horn"}}},
+{"slot": 2, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "feel_goat_horn"}}},
+{"slot": 3, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "feel_goat_horn"}}},
+{"slot": 4, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "feel_goat_horn"}}},
+{"slot": 5, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "feel_goat_horn"}}},
+{"slot": 6, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "feel_goat_horn"}}},
+{"slot": 7, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "feel_goat_horn"}}},
+{"slot": 8, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "feel_goat_horn"}}},
+{"slot": 9, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "feel_goat_horn"}}},
+{"slot": 10, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "feel_goat_horn"}}},
+{"slot": 11, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "feel_goat_horn"}}},
+{"slot": 12, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "feel_goat_horn"}}},
+{"slot": 13, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "feel_goat_horn"}}},
+{"slot": 14, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "feel_goat_horn"}}},
+{"slot": 15, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "feel_goat_horn"}}},
+{"slot": 16, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "feel_goat_horn"}}},
+{"slot": 17, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "feel_goat_horn"}}},
+{"slot": 18, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "feel_goat_horn"}}},
+{"slot": 19, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "feel_goat_horn"}}},
+{"slot": 20, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "feel_goat_horn"}}},
+{"slot": 21, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "feel_goat_horn"}}},
+{"slot": 22, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "feel_goat_horn"}}},
+{"slot": 23, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "feel_goat_horn"}}},
+{"slot": 24, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "feel_goat_horn"}}},
+{"slot": 25, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "feel_goat_horn"}}},
+{"slot": 26, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "feel_goat_horn"}}}
+]
+}
+}
+]
+}
+},
+"dream_goat_horn": {
+"trigger": "minecraft:inventory_changed",
+"conditions": {
+"items": [
+{
+"items": "minecraft:shulker_box",
+"components": {
+"minecraft:container": [
+{"slot": 0, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "dream_goat_horn"}}},
+{"slot": 1, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "dream_goat_horn"}}},
+{"slot": 2, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "dream_goat_horn"}}},
+{"slot": 3, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "dream_goat_horn"}}},
+{"slot": 4, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "dream_goat_horn"}}},
+{"slot": 5, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "dream_goat_horn"}}},
+{"slot": 6, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "dream_goat_horn"}}},
+{"slot": 7, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "dream_goat_horn"}}},
+{"slot": 8, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "dream_goat_horn"}}},
+{"slot": 9, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "dream_goat_horn"}}},
+{"slot": 10, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "dream_goat_horn"}}},
+{"slot": 11, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "dream_goat_horn"}}},
+{"slot": 12, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "dream_goat_horn"}}},
+{"slot": 13, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "dream_goat_horn"}}},
+{"slot": 14, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "dream_goat_horn"}}},
+{"slot": 15, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "dream_goat_horn"}}},
+{"slot": 16, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "dream_goat_horn"}}},
+{"slot": 17, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "dream_goat_horn"}}},
+{"slot": 18, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "dream_goat_horn"}}},
+{"slot": 19, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "dream_goat_horn"}}},
+{"slot": 20, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "dream_goat_horn"}}},
+{"slot": 21, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "dream_goat_horn"}}},
+{"slot": 22, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "dream_goat_horn"}}},
+{"slot": 23, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "dream_goat_horn"}}},
+{"slot": 24, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "dream_goat_horn"}}},
+{"slot": 25, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "dream_goat_horn"}}},
+{"slot": 26, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "dream_goat_horn"}}}
+]
+}
+}
+]
+}
+},
+"call_goat_horn": {
+"trigger": "minecraft:inventory_changed",
+"conditions": {
+"items": [
+{
+"items": "minecraft:shulker_box",
+"components": {
+"minecraft:container": [
+{"slot": 0, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "call_goat_horn"}}},
+{"slot": 1, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "call_goat_horn"}}},
+{"slot": 2, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "call_goat_horn"}}},
+{"slot": 3, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "call_goat_horn"}}},
+{"slot": 4, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "call_goat_horn"}}},
+{"slot": 5, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "call_goat_horn"}}},
+{"slot": 6, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "call_goat_horn"}}},
+{"slot": 7, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "call_goat_horn"}}},
+{"slot": 8, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "call_goat_horn"}}},
+{"slot": 9, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "call_goat_horn"}}},
+{"slot": 10, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "call_goat_horn"}}},
+{"slot": 11, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "call_goat_horn"}}},
+{"slot": 12, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "call_goat_horn"}}},
+{"slot": 13, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "call_goat_horn"}}},
+{"slot": 14, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "call_goat_horn"}}},
+{"slot": 15, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "call_goat_horn"}}},
+{"slot": 16, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "call_goat_horn"}}},
+{"slot": 17, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "call_goat_horn"}}},
+{"slot": 18, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "call_goat_horn"}}},
+{"slot": 19, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "call_goat_horn"}}},
+{"slot": 20, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "call_goat_horn"}}},
+{"slot": 21, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "call_goat_horn"}}},
+{"slot": 22, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "call_goat_horn"}}},
+{"slot": 23, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "call_goat_horn"}}},
+{"slot": 24, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "call_goat_horn"}}},
+{"slot": 25, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "call_goat_horn"}}},
+{"slot": 26, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "call_goat_horn"}}}
+]
+}
+}
+]
+}
+},
+"seek_goat_horn": {
+"trigger": "minecraft:inventory_changed",
+"conditions": {
+"items": [
+{
+"items": "minecraft:shulker_box",
+"components": {
+"minecraft:container": [
+{"slot": 0, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "seek_goat_horn"}}},
+{"slot": 1, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "seek_goat_horn"}}},
+{"slot": 2, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "seek_goat_horn"}}},
+{"slot": 3, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "seek_goat_horn"}}},
+{"slot": 4, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "seek_goat_horn"}}},
+{"slot": 5, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "seek_goat_horn"}}},
+{"slot": 6, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "seek_goat_horn"}}},
+{"slot": 7, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "seek_goat_horn"}}},
+{"slot": 8, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "seek_goat_horn"}}},
+{"slot": 9, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "seek_goat_horn"}}},
+{"slot": 10, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "seek_goat_horn"}}},
+{"slot": 11, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "seek_goat_horn"}}},
+{"slot": 12, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "seek_goat_horn"}}},
+{"slot": 13, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "seek_goat_horn"}}},
+{"slot": 14, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "seek_goat_horn"}}},
+{"slot": 15, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "seek_goat_horn"}}},
+{"slot": 16, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "seek_goat_horn"}}},
+{"slot": 17, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "seek_goat_horn"}}},
+{"slot": 18, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "seek_goat_horn"}}},
+{"slot": 19, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "seek_goat_horn"}}},
+{"slot": 20, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "seek_goat_horn"}}},
+{"slot": 21, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "seek_goat_horn"}}},
+{"slot": 22, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "seek_goat_horn"}}},
+{"slot": 23, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "seek_goat_horn"}}},
+{"slot": 24, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "seek_goat_horn"}}},
+{"slot": 25, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "seek_goat_horn"}}},
+{"slot": 26, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "seek_goat_horn"}}}
+]
+}
+}
+]
+}
+},
+"yearn_goat_horn": {
+"trigger": "minecraft:inventory_changed",
+"conditions": {
+"items": [
+{
+"items": "minecraft:shulker_box",
+"components": {
+"minecraft:container": [
+{"slot": 0, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "yearn_goat_horn"}}},
+{"slot": 1, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "yearn_goat_horn"}}},
+{"slot": 2, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "yearn_goat_horn"}}},
+{"slot": 3, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "yearn_goat_horn"}}},
+{"slot": 4, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "yearn_goat_horn"}}},
+{"slot": 5, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "yearn_goat_horn"}}},
+{"slot": 6, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "yearn_goat_horn"}}},
+{"slot": 7, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "yearn_goat_horn"}}},
+{"slot": 8, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "yearn_goat_horn"}}},
+{"slot": 9, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "yearn_goat_horn"}}},
+{"slot": 10, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "yearn_goat_horn"}}},
+{"slot": 11, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "yearn_goat_horn"}}},
+{"slot": 12, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "yearn_goat_horn"}}},
+{"slot": 13, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "yearn_goat_horn"}}},
+{"slot": 14, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "yearn_goat_horn"}}},
+{"slot": 15, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "yearn_goat_horn"}}},
+{"slot": 16, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "yearn_goat_horn"}}},
+{"slot": 17, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "yearn_goat_horn"}}},
+{"slot": 18, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "yearn_goat_horn"}}},
+{"slot": 19, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "yearn_goat_horn"}}},
+{"slot": 20, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "yearn_goat_horn"}}},
+{"slot": 21, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "yearn_goat_horn"}}},
+{"slot": 22, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "yearn_goat_horn"}}},
+{"slot": 23, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "yearn_goat_horn"}}},
+{"slot": 24, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "yearn_goat_horn"}}},
+{"slot": 25, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "yearn_goat_horn"}}},
+{"slot": 26, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "yearn_goat_horn"}}}
+]
+}
+}
+]
+}
+}
+        }
+    }

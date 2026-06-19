@@ -11,19 +11,18 @@ public class items {
         while (sc.hasNextLine()){
             String item = sc.nextLine();
             int index = item.indexOf("\"items\": \"minecraft:");
-            if (sc.hasNextLine()){
+            if (index >= 0){
                 count = sc.nextLine();
             }
-            if (index >= 0 && count.contains("\"count\": 16")){
+            if (index >= 0 && count.contains("16")){
                 output.add(item.substring(index+20,item.length()));
-        }
+            }
     }
         sc.close();
         return output;
     }
     public static void main(String[] args) throws java.io.FileNotFoundException, java.util.NoSuchElementException{
-        ArrayList<String> items = new ArrayList<>();
-        items.add("obsidian");
+       
         
     ArrayList<String> toChange = findItem(new File("C:\\Users\\lucca\\Downloads\\ProgramFiles\\complete-collection-2.0\\BAC Torture Edition 1-8-7\\data\\blackbirds_torture_chamber\\advancement\\stuff\\a_complete_collection.json"));
     ArrayList<String> finals = new ArrayList<>();

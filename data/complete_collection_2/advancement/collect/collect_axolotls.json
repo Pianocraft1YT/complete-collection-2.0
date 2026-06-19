@@ -1,0 +1,226 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:axolotl_bucket",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": {
+      "translate": "CC2 - Axolotls"
+    },
+    "description": {
+      "translate": "Obtain a shulker filled with each axolotl bucket"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "complete_collection_2:collect/collect_arrows",
+  "criteria": {
+    "wild_axolotl_bucket": {
+"trigger": "minecraft:inventory_changed",
+"conditions": {
+"items": [
+{
+"items": "minecraft:shulker_box",
+"components": {
+"minecraft:container": [
+{"slot": 0, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "wild"}}}},
+{"slot": 1, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "wild"}}}},
+{"slot": 2, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "wild"}}}},
+{"slot": 3, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "wild"}}}},
+{"slot": 4, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "wild"}}}},
+{"slot": 5, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "wild"}}}},
+{"slot": 6, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "wild"}}}},
+{"slot": 7, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "wild"}}}},
+{"slot": 8, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "wild"}}}},
+{"slot": 9, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "wild"}}}},
+{"slot": 10, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "wild"}}}},
+{"slot": 11, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "wild"}}}},
+{"slot": 12, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "wild"}}}},
+{"slot": 13, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "wild"}}}},
+{"slot": 14, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "wild"}}}},
+{"slot": 15, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "wild"}}}},
+{"slot": 16, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "wild"}}}},
+{"slot": 17, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "wild"}}}},
+{"slot": 18, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "wild"}}}},
+{"slot": 19, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "wild"}}}},
+{"slot": 20, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "wild"}}}},
+{"slot": 21, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "wild"}}}},
+{"slot": 22, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "wild"}}}},
+{"slot": 23, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "wild"}}}},
+{"slot": 24, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "wild"}}}},
+{"slot": 25, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "wild"}}}},
+{"slot": 26, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "wild"}}}}
+]
+}
+}
+]
+}
+},
+"cyan_axolotl_bucket": {
+"trigger": "minecraft:inventory_changed",
+"conditions": {
+"items": [
+{
+"items": "minecraft:shulker_box",
+"components": {
+"minecraft:container": [
+{"slot": 0, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "cyan"}}}},
+{"slot": 1, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "cyan"}}}},
+{"slot": 2, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "cyan"}}}},
+{"slot": 3, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "cyan"}}}},
+{"slot": 4, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "cyan"}}}},
+{"slot": 5, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "cyan"}}}},
+{"slot": 6, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "cyan"}}}},
+{"slot": 7, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "cyan"}}}},
+{"slot": 8, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "cyan"}}}},
+{"slot": 9, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "cyan"}}}},
+{"slot": 10, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "cyan"}}}},
+{"slot": 11, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "cyan"}}}},
+{"slot": 12, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "cyan"}}}},
+{"slot": 13, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "cyan"}}}},
+{"slot": 14, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "cyan"}}}},
+{"slot": 15, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "cyan"}}}},
+{"slot": 16, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "cyan"}}}},
+{"slot": 17, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "cyan"}}}},
+{"slot": 18, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "cyan"}}}},
+{"slot": 19, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "cyan"}}}},
+{"slot": 20, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "cyan"}}}},
+{"slot": 21, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "cyan"}}}},
+{"slot": 22, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "cyan"}}}},
+{"slot": 23, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "cyan"}}}},
+{"slot": 24, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "cyan"}}}},
+{"slot": 25, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "cyan"}}}},
+{"slot": 26, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "cyan"}}}}
+]
+}
+}
+]
+}
+},
+"lucy_axolotl_bucket": {
+"trigger": "minecraft:inventory_changed",
+"conditions": {
+"items": [
+{
+"items": "minecraft:shulker_box",
+"components": {
+"minecraft:container": [
+{"slot": 0, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "lucy"}}}},
+{"slot": 1, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "lucy"}}}},
+{"slot": 2, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "lucy"}}}},
+{"slot": 3, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "lucy"}}}},
+{"slot": 4, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "lucy"}}}},
+{"slot": 5, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "lucy"}}}},
+{"slot": 6, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "lucy"}}}},
+{"slot": 7, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "lucy"}}}},
+{"slot": 8, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "lucy"}}}},
+{"slot": 9, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "lucy"}}}},
+{"slot": 10, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "lucy"}}}},
+{"slot": 11, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "lucy"}}}},
+{"slot": 12, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "lucy"}}}},
+{"slot": 13, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "lucy"}}}},
+{"slot": 14, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "lucy"}}}},
+{"slot": 15, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "lucy"}}}},
+{"slot": 16, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "lucy"}}}},
+{"slot": 17, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "lucy"}}}},
+{"slot": 18, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "lucy"}}}},
+{"slot": 19, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "lucy"}}}},
+{"slot": 20, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "lucy"}}}},
+{"slot": 21, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "lucy"}}}},
+{"slot": 22, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "lucy"}}}},
+{"slot": 23, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "lucy"}}}},
+{"slot": 24, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "lucy"}}}},
+{"slot": 25, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "lucy"}}}},
+{"slot": 26, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "lucy"}}}}
+]
+}
+}
+]
+}
+},
+"blue_axolotl_bucket": {
+"trigger": "minecraft:inventory_changed",
+"conditions": {
+"items": [
+{
+"items": "minecraft:shulker_box",
+"components": {
+"minecraft:container": [
+{"slot": 0, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "blue"}}}},
+{"slot": 1, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "blue"}}}},
+{"slot": 2, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "blue"}}}},
+{"slot": 3, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "blue"}}}},
+{"slot": 4, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "blue"}}}},
+{"slot": 5, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "blue"}}}},
+{"slot": 6, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "blue"}}}},
+{"slot": 7, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "blue"}}}},
+{"slot": 8, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "blue"}}}},
+{"slot": 9, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "blue"}}}},
+{"slot": 10, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "blue"}}}},
+{"slot": 11, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "blue"}}}},
+{"slot": 12, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "blue"}}}},
+{"slot": 13, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "blue"}}}},
+{"slot": 14, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "blue"}}}},
+{"slot": 15, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "blue"}}}},
+{"slot": 16, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "blue"}}}},
+{"slot": 17, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "blue"}}}},
+{"slot": 18, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "blue"}}}},
+{"slot": 19, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "blue"}}}},
+{"slot": 20, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "blue"}}}},
+{"slot": 21, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "blue"}}}},
+{"slot": 22, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "blue"}}}},
+{"slot": 23, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "blue"}}}},
+{"slot": 24, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "blue"}}}},
+{"slot": 25, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "blue"}}}},
+{"slot": 26, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "blue"}}}}
+]
+}
+}
+]
+}
+},
+"gold_axolotl_bucket": {
+"trigger": "minecraft:inventory_changed",
+"conditions": {
+"items": [
+{
+"items": "minecraft:shulker_box",
+"components": {
+"minecraft:container": [
+{"slot": 0, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "gold"}}}},
+{"slot": 1, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "gold"}}}},
+{"slot": 2, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "gold"}}}},
+{"slot": 3, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "gold"}}}},
+{"slot": 4, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "gold"}}}},
+{"slot": 5, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "gold"}}}},
+{"slot": 6, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "gold"}}}},
+{"slot": 7, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "gold"}}}},
+{"slot": 8, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "gold"}}}},
+{"slot": 9, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "gold"}}}},
+{"slot": 10, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "gold"}}}},
+{"slot": 11, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "gold"}}}},
+{"slot": 12, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "gold"}}}},
+{"slot": 13, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "gold"}}}},
+{"slot": 14, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "gold"}}}},
+{"slot": 15, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "gold"}}}},
+{"slot": 16, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "gold"}}}},
+{"slot": 17, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "gold"}}}},
+{"slot": 18, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "gold"}}}},
+{"slot": 19, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "gold"}}}},
+{"slot": 20, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "gold"}}}},
+{"slot": 21, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "gold"}}}},
+{"slot": 22, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "gold"}}}},
+{"slot": 23, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "gold"}}}},
+{"slot": 24, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "gold"}}}},
+{"slot": 25, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "gold"}}}},
+{"slot": 26, "item": {"id": "minecraft:axolotl_bucket", "components":{"minecraft:bucket_entity_data":{							"minecraft:axolotl/variant": "gold"}}}}
+]
+}
+}
+]
+}
+}
+  }
+}

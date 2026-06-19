@@ -18,6 +18,19 @@
         },
         "parent": "blackbirds_torture_chamber:stuff/a_complete_collection",
         "criteria":{
+            "tipped_arrows": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"complete_collection_2:collect/collect_arrows": true
+						}
+					}
+				}
+			}
+		},
 "acacia_button": {
 "trigger": "minecraft:inventory_changed",
 "conditions": {
