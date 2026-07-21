@@ -1,2 +1,0 @@
-give @s prismarine_bricks 32
-tellraw @s {"color":"green","text":" +32 ","extra":[{"translate":"block.minecraft.prismarine_bricks"}]}

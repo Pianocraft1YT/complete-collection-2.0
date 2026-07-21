@@ -14,7 +14,7 @@ public class items {
             if (index >= 0){
                 count = sc.nextLine();
             }
-            if (index >= 0 && count.contains("16")){
+            if (index >= 0 && count.contains("64")){
                 output.add(item.substring(index+20,item.length()));
             }
     }
@@ -24,7 +24,7 @@ public class items {
     public static void main(String[] args) throws java.io.FileNotFoundException, java.util.NoSuchElementException{
        
         
-    ArrayList<String> toChange = findItem(new File("C:\\Users\\lucca\\Downloads\\ProgramFiles\\complete-collection-2.0\\BAC Torture Edition 1-8-7\\data\\blackbirds_torture_chamber\\advancement\\stuff\\a_complete_collection.json"));
+    ArrayList<String> toChange = findItem(new File("C:\\Users\\lucca\\Downloads\\complete-collection-2.0\\BAC Torture Edition 1-9\\data\\blackbirds_torture_chamber\\advancement\\stuff\\a_complete_collection.json"));
     ArrayList<String> finals = new ArrayList<>();
     for (String i : toChange){
         if (!(i.contains("tropical_fish_bucket") || i.contains("potion") || i.contains("goat_horn") || i.contains("ominous_bottle") || i.contains("copper_golem_statue"))){
@@ -47,9 +47,9 @@ public class items {
             System.out.println("\"components\": {");
             System.out.println("\"minecraft:container\": [");
             for (int j = 0; j < 26; j++){
-                System.out.println("{\"slot\": " + j + ", \"item\": {\"id\": \"minecraft:" + finals.get(i) + "\", \"count\": 16}},");
+                System.out.println("{\"slot\": " + j + ", \"item\": {\"id\": \"minecraft:" + finals.get(i) + "\", \"count\": 64}},");
             }
-            System.out.println("{\"slot\": " + 26 + ", \"item\": {\"id\": \"minecraft:" + finals.get(i) + "\", \"count\": 16}}");
+            System.out.println("{\"slot\": " + 26 + ", \"item\": {\"id\": \"minecraft:" + finals.get(i) + "\", \"count\": 64}}");
             System.out.println("]");
             System.out.println("}");
             System.out.println("}");

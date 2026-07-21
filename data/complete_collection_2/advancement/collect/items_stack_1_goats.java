@@ -35,7 +35,7 @@ public class items_stack_1_goats {
     }
     public static void main(String[] args) throws java.io.FileNotFoundException, java.util.NoSuchElementException{
         
-    ArrayList<String> toChange = findItem(new File("C:\\Users\\lucca\\Downloads\\ProgramFiles\\complete-collection-2.0\\BAC Torture Edition 1-8-7\\data\\blackbirds_torture_chamber\\advancement\\stuff\\a_complete_collection.json"));
+    ArrayList<String> toChange = findItem(new File("C:\\Users\\lucca\\Downloads\\complete-collection-2.0\\BAC Torture Edition 1-9\\data\\blackbirds_torture_chamber\\advancement\\stuff\\a_complete_collection.json"));
     ArrayList<String> finals = new ArrayList<>();
     for (String i : toChange){
         if (!(i.contains("potion") || i.contains("ominous_bottle"))){
