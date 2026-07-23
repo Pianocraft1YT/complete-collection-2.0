@@ -23,7 +23,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:acacia_sign", "count": 16}},
@@ -64,7 +64,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:birch_sign", "count": 16}},
@@ -105,7 +105,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:black_banner", "count": 16}},
@@ -146,7 +146,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:blue_banner", "count": 16}},
@@ -187,7 +187,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:brown_banner", "count": 16}},
@@ -228,7 +228,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:cyan_banner", "count": 16}},
@@ -269,7 +269,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:dark_oak_sign", "count": 16}},
@@ -310,7 +310,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:gray_banner", "count": 16}},
@@ -351,7 +351,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:green_banner", "count": 16}},
@@ -392,7 +392,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:jungle_sign", "count": 16}},
@@ -433,7 +433,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:light_blue_banner", "count": 16}},
@@ -474,7 +474,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:light_gray_banner", "count": 16}},
@@ -515,7 +515,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:lime_banner", "count": 16}},
@@ -556,7 +556,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:magenta_banner", "count": 16}},
@@ -597,7 +597,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:oak_sign", "count": 16}},
@@ -638,7 +638,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:orange_banner", "count": 16}},
@@ -679,7 +679,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:pink_banner", "count": 16}},
@@ -720,7 +720,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:purple_banner", "count": 16}},
@@ -761,7 +761,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:red_banner", "count": 16}},
@@ -802,7 +802,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:spruce_sign", "count": 16}},
@@ -843,7 +843,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:white_banner", "count": 16}},
@@ -884,7 +884,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:yellow_banner", "count": 16}},
@@ -925,7 +925,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:crimson_sign", "count": 16}},
@@ -966,7 +966,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:warped_sign", "count": 16}},
@@ -1007,7 +1007,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:mangrove_sign", "count": 16}},
@@ -1048,7 +1048,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:bamboo_sign", "count": 16}},
@@ -1089,7 +1089,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:cherry_sign", "count": 16}},
@@ -1130,7 +1130,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:oak_hanging_sign", "count": 16}},
@@ -1171,7 +1171,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:spruce_hanging_sign", "count": 16}},
@@ -1212,7 +1212,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:birch_hanging_sign", "count": 16}},
@@ -1253,7 +1253,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:jungle_hanging_sign", "count": 16}},
@@ -1294,7 +1294,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:acacia_hanging_sign", "count": 16}},
@@ -1335,7 +1335,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:dark_oak_hanging_sign", "count": 16}},
@@ -1376,7 +1376,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:mangrove_hanging_sign", "count": 16}},
@@ -1417,7 +1417,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:crimson_hanging_sign", "count": 16}},
@@ -1458,7 +1458,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:warped_hanging_sign", "count": 16}},
@@ -1499,7 +1499,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:bamboo_hanging_sign", "count": 16}},
@@ -1540,7 +1540,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:cherry_hanging_sign", "count": 16}},
@@ -1581,7 +1581,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:armor_stand", "count": 16}},
@@ -1622,7 +1622,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:bucket", "count": 16}},
@@ -1663,7 +1663,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:egg", "count": 16}},
@@ -1704,7 +1704,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:ender_pearl", "count": 16}},
@@ -1745,7 +1745,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:snowball", "count": 16}},
@@ -1786,7 +1786,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:written_book", "count": 16}},
@@ -1827,7 +1827,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:honey_bottle", "count": 16}},
@@ -1868,7 +1868,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:pale_oak_sign", "count": 16}},
@@ -1909,7 +1909,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:pale_oak_hanging_sign", "count": 16}},
@@ -1950,7 +1950,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:blue_egg", "count": 16}},
@@ -1991,7 +1991,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:brown_egg", "count": 16}},

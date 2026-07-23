@@ -27,13 +27,14 @@
           "entity": "this",
           "predicate": {
             "type_specific": {
-              "type": "player",
+              "minecraft:type_specific/player": {
               "advancements": {
                 "complete_collection_2:collect/collect_potions": true
               }
             }
           }
         }
+      }
       ]
     }
   },
@@ -46,13 +47,14 @@
           "entity": "this",
           "predicate": {
             "type_specific": {
-              "type": "player",
+              "minecraft:type_specific/player": {
               "advancements": {
                 "complete_collection_2:collect/collect_horns": true
               }
             }
           }
         }
+      }
       ]
     }
   },
@@ -65,12 +67,13 @@
           "entity": "this",
           "predicate": {
             "type_specific": {
-              "type": "player",
+              "minecraft:type_specific/player": {
               "advancements": {
                 "complete_collection_2:collect/collect_tropical_fish": true
               }
             }
           }
+        }
         }
       ]
     }
@@ -84,21 +87,23 @@
           "entity": "this",
           "predicate": {
             "type_specific": {
-              "type": "player",
+              "minecraft:type_specific/player": {
               "advancements": {
                 "complete_collection_2:collect/collect_axolotls": true
               }
             }
           }
         }
+        }
       ]
-    },
+    }
+  },
 "black_bed": {
 "trigger": "minecraft:inventory_changed",
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:black_bed" }},
@@ -139,7 +144,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:blue_bed" }},
@@ -180,7 +185,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:brown_bed" }},
@@ -221,7 +226,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:cake" }},
@@ -262,7 +267,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:cyan_bed" }},
@@ -303,7 +308,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:gray_bed" }},
@@ -344,7 +349,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:green_bed" }},
@@ -385,7 +390,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:light_blue_bed" }},
@@ -426,7 +431,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:light_gray_bed" }},
@@ -467,7 +472,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:lime_bed" }},
@@ -508,7 +513,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:magenta_bed" }},
@@ -549,7 +554,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:orange_bed" }},
@@ -590,7 +595,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:pink_bed" }},
@@ -631,7 +636,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:purple_bed" }},
@@ -672,7 +677,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:red_bed" }},
@@ -713,7 +718,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:shulker_box" }},
@@ -754,7 +759,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:white_bed" }},
@@ -795,7 +800,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:yellow_bed" }},
@@ -836,7 +841,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:acacia_boat" }},
@@ -877,7 +882,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:birch_boat" }},
@@ -918,7 +923,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:cod_bucket" }},
@@ -959,7 +964,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:pufferfish_bucket" }},
@@ -1000,7 +1005,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:dark_oak_boat" }},
@@ -1041,7 +1046,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:jungle_boat" }},
@@ -1082,7 +1087,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:lava_bucket" }},
@@ -1123,7 +1128,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:minecart" }},
@@ -1164,7 +1169,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:chest_minecart" }},
@@ -1205,7 +1210,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:furnace_minecart" }},
@@ -1246,7 +1251,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:hopper_minecart" }},
@@ -1287,7 +1292,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:tnt_minecart" }},
@@ -1328,7 +1333,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:oak_boat" }},
@@ -1369,7 +1374,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:spruce_boat" }},
@@ -1410,7 +1415,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:trident" }},
@@ -1451,7 +1456,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:water_bucket" }},
@@ -1492,7 +1497,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:beetroot_soup" }},
@@ -1533,7 +1538,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:writable_book" }},
@@ -1574,7 +1579,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:bow" }},
@@ -1615,7 +1620,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:carrot_on_a_stick" }},
@@ -1656,7 +1661,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:chainmail_boots" }},
@@ -1697,7 +1702,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:chainmail_chestplate" }},
@@ -1738,7 +1743,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:chainmail_helmet" }},
@@ -1779,7 +1784,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:chainmail_leggings" }},
@@ -1820,7 +1825,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:crossbow" }},
@@ -1861,7 +1866,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:diamond_axe" }},
@@ -1902,7 +1907,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:diamond_boots" }},
@@ -1943,7 +1948,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:diamond_chestplate" }},
@@ -1984,7 +1989,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:diamond_helmet" }},
@@ -2025,7 +2030,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:diamond_hoe" }},
@@ -2066,7 +2071,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:diamond_horse_armor" }},
@@ -2107,7 +2112,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:diamond_leggings" }},
@@ -2148,7 +2153,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:diamond_pickaxe" }},
@@ -2189,7 +2194,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:diamond_shovel" }},
@@ -2230,7 +2235,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:diamond_sword" }},
@@ -2271,7 +2276,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:enchanted_book" }},
@@ -2312,7 +2317,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:fishing_rod" }},
@@ -2353,7 +2358,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:golden_axe" }},
@@ -2394,7 +2399,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:golden_boots" }},
@@ -2435,7 +2440,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:golden_chestplate" }},
@@ -2476,7 +2481,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:golden_helmet" }},
@@ -2517,7 +2522,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:golden_hoe" }},
@@ -2558,7 +2563,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:golden_horse_armor" }},
@@ -2599,7 +2604,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:golden_leggings" }},
@@ -2640,7 +2645,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:golden_pickaxe" }},
@@ -2681,7 +2686,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:golden_shovel" }},
@@ -2722,7 +2727,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:golden_sword" }},
@@ -2763,7 +2768,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:iron_axe" }},
@@ -2804,7 +2809,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:iron_boots" }},
@@ -2845,7 +2850,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:iron_chestplate" }},
@@ -2886,7 +2891,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:iron_helmet" }},
@@ -2927,7 +2932,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:iron_hoe" }},
@@ -2968,7 +2973,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:iron_horse_armor" }},
@@ -3009,7 +3014,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:iron_leggings" }},
@@ -3050,7 +3055,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:iron_pickaxe" }},
@@ -3091,7 +3096,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:iron_shovel" }},
@@ -3132,7 +3137,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:iron_sword" }},
@@ -3173,7 +3178,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:leather_boots" }},
@@ -3214,7 +3219,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:leather_helmet" }},
@@ -3255,7 +3260,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:leather_horse_armor" }},
@@ -3296,7 +3301,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:leather_leggings" }},
@@ -3337,7 +3342,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:leather_chestplate" }},
@@ -3378,7 +3383,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:milk_bucket" }},
@@ -3419,7 +3424,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:mushroom_stew" }},
@@ -3460,7 +3465,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:music_disc_ward" }},
@@ -3501,7 +3506,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:music_disc_wait" }},
@@ -3542,7 +3547,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:music_disc_stal" }},
@@ -3583,7 +3588,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:music_disc_mellohi" }},
@@ -3624,7 +3629,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:music_disc_mall" }},
@@ -3665,7 +3670,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:music_disc_far" }},
@@ -3706,7 +3711,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:music_disc_chirp" }},
@@ -3747,7 +3752,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:music_disc_cat" }},
@@ -3788,7 +3793,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:music_disc_blocks" }},
@@ -3829,7 +3834,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:music_disc_13" }},
@@ -3870,7 +3875,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:music_disc_11" }},
@@ -3911,7 +3916,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:music_disc_strad" }},
@@ -3952,7 +3957,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:rabbit_stew" }},
@@ -3993,7 +3998,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:saddle" }},
@@ -4034,7 +4039,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:shears" }},
@@ -4075,7 +4080,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:shield" }},
@@ -4116,7 +4121,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:stone_axe" }},
@@ -4157,7 +4162,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:stone_hoe" }},
@@ -4198,7 +4203,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:stone_pickaxe" }},
@@ -4239,7 +4244,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:stone_shovel" }},
@@ -4280,7 +4285,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:stone_sword" }},
@@ -4321,7 +4326,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:totem_of_undying" }},
@@ -4362,7 +4367,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:turtle_helmet" }},
@@ -4403,7 +4408,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:wooden_axe" }},
@@ -4444,7 +4449,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:wooden_hoe" }},
@@ -4485,7 +4490,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:wooden_pickaxe" }},
@@ -4526,7 +4531,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:wooden_shovel" }},
@@ -4567,7 +4572,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:wooden_sword" }},
@@ -4608,7 +4613,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:mojang_banner_pattern" }},
@@ -4649,7 +4654,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:skull_banner_pattern" }},
@@ -4690,7 +4695,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:creeper_banner_pattern" }},
@@ -4731,7 +4736,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:globe_banner_pattern" }},
@@ -4772,7 +4777,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:flower_banner_pattern" }},
@@ -4813,7 +4818,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:flint_and_steel" }},
@@ -4854,7 +4859,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:netherite_helmet" }},
@@ -4895,7 +4900,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:netherite_chestplate" }},
@@ -4936,7 +4941,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:netherite_leggings" }},
@@ -4977,7 +4982,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:netherite_boots" }},
@@ -5018,7 +5023,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:netherite_axe" }},
@@ -5059,7 +5064,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:netherite_hoe" }},
@@ -5100,7 +5105,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:netherite_sword" }},
@@ -5141,7 +5146,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:netherite_pickaxe" }},
@@ -5182,7 +5187,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:netherite_shovel" }},
@@ -5223,7 +5228,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:warped_fungus_on_a_stick" }},
@@ -5264,7 +5269,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:piglin_banner_pattern" }},
@@ -5305,7 +5310,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:elytra" }},
@@ -5346,7 +5351,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:music_disc_pigstep" }},
@@ -5387,7 +5392,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:powder_snow_bucket" }},
@@ -5428,7 +5433,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:spyglass" }},
@@ -5469,7 +5474,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:music_disc_otherside" }},
@@ -5510,7 +5515,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:tadpole_bucket" }},
@@ -5551,7 +5556,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:mangrove_boat" }},
@@ -5592,7 +5597,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:music_disc_5" }},
@@ -5633,7 +5638,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:oak_chest_boat" }},
@@ -5674,7 +5679,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:spruce_chest_boat" }},
@@ -5715,7 +5720,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:birch_chest_boat" }},
@@ -5756,7 +5761,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:jungle_chest_boat" }},
@@ -5797,7 +5802,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:acacia_chest_boat" }},
@@ -5838,7 +5843,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:dark_oak_chest_boat" }},
@@ -5879,7 +5884,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:mangrove_chest_boat" }},
@@ -5920,7 +5925,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:brush" }},
@@ -5961,7 +5966,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:music_disc_relic" }},
@@ -6002,7 +6007,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:bamboo_raft" }},
@@ -6043,7 +6048,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:bamboo_chest_raft" }},
@@ -6084,7 +6089,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:cherry_boat" }},
@@ -6125,7 +6130,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:cherry_chest_boat" }},
@@ -6166,7 +6171,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:dragon_egg" }},
@@ -6207,7 +6212,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:wolf_armor" }},
@@ -6248,7 +6253,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:mace" }},
@@ -6289,7 +6294,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:music_disc_creator" }},
@@ -6330,7 +6335,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:music_disc_creator_music_box" }},
@@ -6371,7 +6376,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:music_disc_precipice" }},
@@ -6412,7 +6417,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:flow_banner_pattern" }},
@@ -6453,7 +6458,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:guster_banner_pattern" }},
@@ -6494,7 +6499,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:field_masoned_banner_pattern" }},
@@ -6535,7 +6540,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:bordure_indented_banner_pattern" }},
@@ -6576,7 +6581,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:bundle" }},
@@ -6617,7 +6622,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:white_bundle" }},
@@ -6658,7 +6663,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:light_gray_bundle" }},
@@ -6699,7 +6704,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:gray_bundle" }},
@@ -6740,7 +6745,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:black_bundle" }},
@@ -6781,7 +6786,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:brown_bundle" }},
@@ -6822,7 +6827,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:red_bundle" }},
@@ -6863,7 +6868,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:orange_bundle" }},
@@ -6904,7 +6909,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:yellow_bundle" }},
@@ -6945,7 +6950,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:lime_bundle" }},
@@ -6986,7 +6991,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:green_bundle" }},
@@ -7027,7 +7032,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:cyan_bundle" }},
@@ -7068,7 +7073,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:light_blue_bundle" }},
@@ -7109,7 +7114,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:blue_bundle" }},
@@ -7150,7 +7155,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:purple_bundle" }},
@@ -7191,7 +7196,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:magenta_bundle" }},
@@ -7232,7 +7237,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:pink_bundle" }},
@@ -7273,7 +7278,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:pale_oak_boat" }},
@@ -7314,7 +7319,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:pale_oak_chest_boat" }},
@@ -7355,7 +7360,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:white_harness" }},
@@ -7396,7 +7401,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:light_gray_harness" }},
@@ -7437,7 +7442,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:gray_harness" }},
@@ -7478,7 +7483,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:black_harness" }},
@@ -7519,7 +7524,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:brown_harness" }},
@@ -7560,7 +7565,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:red_harness" }},
@@ -7601,7 +7606,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:orange_harness" }},
@@ -7642,7 +7647,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:yellow_harness" }},
@@ -7683,7 +7688,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:lime_harness" }},
@@ -7724,7 +7729,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:green_harness" }},
@@ -7765,7 +7770,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:cyan_harness" }},
@@ -7806,7 +7811,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:light_blue_harness" }},
@@ -7847,7 +7852,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:blue_harness" }},
@@ -7888,7 +7893,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:purple_harness" }},
@@ -7929,7 +7934,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:magenta_harness" }},
@@ -7970,7 +7975,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:pink_harness" }},
@@ -8011,7 +8016,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:music_disc_tears" }},
@@ -8052,7 +8057,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:music_disc_lava_chicken" }},
@@ -8093,7 +8098,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:copper_helmet" }},
@@ -8134,7 +8139,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:copper_chestplate" }},
@@ -8175,7 +8180,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:copper_leggings" }},
@@ -8216,7 +8221,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:copper_boots" }},
@@ -8257,7 +8262,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:copper_horse_armor" }},
@@ -8298,7 +8303,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:copper_axe" }},
@@ -8339,7 +8344,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:copper_hoe" }},
@@ -8380,7 +8385,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:copper_pickaxe" }},
@@ -8421,7 +8426,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:copper_shovel" }},
@@ -8462,7 +8467,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:copper_sword" }},
@@ -8503,7 +8508,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:copper_nautilus_armor" }},
@@ -8544,7 +8549,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:iron_nautilus_armor" }},
@@ -8585,7 +8590,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:golden_nautilus_armor" }},
@@ -8626,7 +8631,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:diamond_nautilus_armor" }},
@@ -8667,7 +8672,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:netherite_nautilus_armor" }},
@@ -8708,7 +8713,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:netherite_horse_armor" }},
@@ -8749,7 +8754,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:wooden_spear" }},
@@ -8790,7 +8795,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:stone_spear" }},
@@ -8831,7 +8836,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:copper_spear" }},
@@ -8872,7 +8877,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:iron_spear" }},
@@ -8913,7 +8918,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:golden_spear" }},
@@ -8954,7 +8959,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:diamond_spear" }},
@@ -8995,7 +9000,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:salmon_bucket", "components": {"minecraft:salmon/size":"medium"} }},
@@ -9036,7 +9041,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:salmon_bucket", "components": {"minecraft:salmon/size":"small"} }},
@@ -9077,7 +9082,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:salmon_bucket", "components": {"minecraft:salmon/size":"large"} }},
@@ -9118,7 +9123,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:netherite_spear" }},
@@ -9159,7 +9164,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "chiseled_polished_blackstone"}}}},
@@ -9200,7 +9205,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "stripped_warped_stem"}}}},
@@ -9241,7 +9246,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "stone"}}}},
@@ -9282,7 +9287,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "soul_soil"}}}},
@@ -9323,7 +9328,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "lime_concrete"}}}},
@@ -9364,7 +9369,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "brown_mushroom_block"}}}},
@@ -9405,7 +9410,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "waxed_oxidized_cut_copper"}}}},
@@ -9446,7 +9451,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "stripped_cherry_log"}}}},
@@ -9487,7 +9492,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "sponge"}}}},
@@ -9528,7 +9533,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "waxed_cut_copper"}}}},
@@ -9569,7 +9574,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "dead_fire_coral_block"}}}},
@@ -9610,7 +9615,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "pink_wool"}}}},
@@ -9651,7 +9656,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "observer"}}}},
@@ -9692,7 +9697,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "waxed_exposed_chiseled_copper"}}}},
@@ -9733,7 +9738,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "spruce_log"}}}},
@@ -9774,7 +9779,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "pumpkin"}}}},
@@ -9815,7 +9820,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "cut_sandstone"}}}},
@@ -9856,7 +9861,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "bone_block"}}}},
@@ -9897,7 +9902,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "green_concrete_powder"}}}},
@@ -9938,7 +9943,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "rooted_dirt"}}}},
@@ -9979,7 +9984,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "dead_brain_coral_block"}}}},
@@ -10020,7 +10025,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "deepslate_coal_ore"}}}},
@@ -10061,7 +10066,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "moss_block"}}}},
@@ -10102,7 +10107,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "brown_concrete"}}}},
@@ -10143,7 +10148,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "cyan_terracotta"}}}},
@@ -10184,7 +10189,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "end_stone_bricks"}}}},
@@ -10225,7 +10230,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "raw_gold_block"}}}},
@@ -10266,7 +10271,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "dead_horn_coral_block"}}}},
@@ -10307,7 +10312,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "mud_bricks"}}}},
@@ -10348,7 +10353,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "light_gray_concrete_powder"}}}},
@@ -10389,7 +10394,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "chiseled_deepslate"}}}},
@@ -10430,7 +10435,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "pink_concrete"}}}},
@@ -10471,7 +10476,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "jungle_planks"}}}},
@@ -10512,7 +10517,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "mangrove_wood"}}}},
@@ -10553,7 +10558,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "lime_glazed_terracotta"}}}},
@@ -10594,7 +10599,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "purple_wool"}}}},
@@ -10635,7 +10640,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "dead_tube_coral_block"}}}},
@@ -10676,7 +10681,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "hay_block"}}}},
@@ -10717,7 +10722,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "coarse_dirt"}}}},
@@ -10758,7 +10763,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "packed_ice"}}}},
@@ -10799,7 +10804,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "blackstone"}}}},
@@ -10840,7 +10845,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "deepslate_redstone_ore"}}}},
@@ -10881,7 +10886,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "green_terracotta"}}}},
@@ -10922,7 +10927,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "calcite"}}}},
@@ -10963,7 +10968,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "smooth_quartz"}}}},
@@ -11004,7 +11009,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "stripped_oak_wood"}}}},
@@ -11045,7 +11050,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "chiseled_sulfur"}}}},
@@ -11086,7 +11091,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "blue_ice"}}}},
@@ -11127,7 +11132,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "stripped_birch_wood"}}}},
@@ -11168,7 +11173,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "end_stone"}}}},
@@ -11209,7 +11214,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "basalt"}}}},
@@ -11250,7 +11255,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "red_terracotta"}}}},
@@ -11291,7 +11296,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "copper_block"}}}},
@@ -11332,7 +11337,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "jungle_log"}}}},
@@ -11373,7 +11378,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "waxed_weathered_chiseled_copper"}}}},
@@ -11414,7 +11419,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "red_sandstone"}}}},
@@ -11455,7 +11460,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "cracked_nether_bricks"}}}},
@@ -11496,7 +11501,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "waxed_oxidized_copper"}}}},
@@ -11537,7 +11542,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "purple_concrete_powder"}}}},
@@ -11578,7 +11583,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "yellow_concrete_powder"}}}},
@@ -11619,7 +11624,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "dark_oak_log"}}}},
@@ -11660,7 +11665,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "stripped_dark_oak_log"}}}},
@@ -11701,7 +11706,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "pale_oak_log"}}}},
@@ -11742,7 +11747,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "black_concrete_powder"}}}},
@@ -11783,7 +11788,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "lapis_ore"}}}},
@@ -11824,7 +11829,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "bubble_coral_block"}}}},
@@ -11865,7 +11870,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "red_wool"}}}},
@@ -11906,7 +11911,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "chiseled_resin_bricks"}}}},
@@ -11947,7 +11952,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "waxed_exposed_copper_bulb"}}}},
@@ -11988,7 +11993,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "stripped_pale_oak_log"}}}},
@@ -12029,7 +12034,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "sea_lantern"}}}},
@@ -12070,7 +12075,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "bamboo_block"}}}},
@@ -12111,7 +12116,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "dirt"}}}},
@@ -12152,7 +12157,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "raw_iron_block"}}}},
@@ -12193,7 +12198,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "blue_terracotta"}}}},
@@ -12234,7 +12239,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "bamboo_mosaic"}}}},
@@ -12275,7 +12280,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "bricks"}}}},
@@ -12316,7 +12321,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "orange_wool"}}}},
@@ -12357,7 +12362,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "mangrove_planks"}}}},
@@ -12398,7 +12403,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "netherite_block"}}}},
@@ -12439,7 +12444,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "melon"}}}},
@@ -12480,7 +12485,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "stripped_pale_oak_wood"}}}},
@@ -12521,7 +12526,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "netherrack"}}}},
@@ -12562,7 +12567,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "weathered_copper_bulb"}}}},
@@ -12603,7 +12608,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "oak_log"}}}},
@@ -12644,7 +12649,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "cherry_log"}}}},
@@ -12685,7 +12690,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "magenta_glazed_terracotta"}}}},
@@ -12726,7 +12731,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "acacia_planks"}}}},
@@ -12767,7 +12772,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "pink_glazed_terracotta"}}}},
@@ -12808,7 +12813,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "cinnabar"}}}},
@@ -12849,7 +12854,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "warped_wart_block"}}}},
@@ -12890,7 +12895,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "smooth_sandstone"}}}},
@@ -12931,7 +12936,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "iron_ore"}}}},
@@ -12972,7 +12977,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "blue_concrete_powder"}}}},
@@ -13013,7 +13018,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "waxed_copper_bulb"}}}},
@@ -13054,7 +13059,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "deepslate_lapis_ore"}}}},
@@ -13095,7 +13100,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "chiseled_red_sandstone"}}}},
@@ -13136,7 +13141,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "sandstone"}}}},
@@ -13177,7 +13182,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "granite"}}}},
@@ -13218,7 +13223,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "red_nether_bricks"}}}},
@@ -13259,7 +13264,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "cobbled_deepslate"}}}},
@@ -13300,7 +13305,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "stripped_acacia_wood"}}}},
@@ -13341,7 +13346,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "gray_glazed_terracotta"}}}},
@@ -13382,7 +13387,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "quartz_pillar"}}}},
@@ -13423,7 +13428,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "light_blue_concrete_powder"}}}},
@@ -13464,7 +13469,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "orange_terracotta"}}}},
@@ -13505,7 +13510,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "sulfur"}}}},
@@ -13546,7 +13551,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "lime_wool"}}}},
@@ -13587,7 +13592,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "light_gray_glazed_terracotta"}}}},
@@ -13628,7 +13633,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "cyan_concrete"}}}},
@@ -13669,7 +13674,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "brown_glazed_terracotta"}}}},
@@ -13710,7 +13715,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "pale_oak_wood"}}}},
@@ -13751,7 +13756,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "dead_bubble_coral_block"}}}},
@@ -13792,7 +13797,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "diamond_ore"}}}},
@@ -13833,7 +13838,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "stripped_spruce_log"}}}},
@@ -13874,7 +13879,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "polished_blackstone_bricks"}}}},
@@ -13915,7 +13920,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "stripped_dark_oak_wood"}}}},
@@ -13956,7 +13961,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "polished_deepslate"}}}},
@@ -13997,7 +14002,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "polished_tuff"}}}},
@@ -14038,7 +14043,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "copper_ore"}}}},
@@ -14079,7 +14084,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "carved_pumpkin"}}}},
@@ -14120,7 +14125,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "oxidized_copper"}}}},
@@ -14161,7 +14166,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "polished_sulfur"}}}},
@@ -14202,7 +14207,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "acacia_wood"}}}},
@@ -14243,7 +14248,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "pink_concrete_powder"}}}},
@@ -14284,7 +14289,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "wet_sponge"}}}},
@@ -14325,7 +14330,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "chiseled_sandstone"}}}},
@@ -14366,7 +14371,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "stripped_warped_hyphae"}}}},
@@ -14407,7 +14412,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "crimson_planks"}}}},
@@ -14448,7 +14453,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "lime_concrete_powder"}}}},
@@ -14489,7 +14494,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "pink_terracotta"}}}},
@@ -14530,7 +14535,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "deepslate_tiles"}}}},
@@ -14571,7 +14576,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "lapis_block"}}}},
@@ -14612,7 +14617,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "gold_ore"}}}},
@@ -14653,7 +14658,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "magenta_concrete"}}}},
@@ -14694,7 +14699,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "dried_kelp_block"}}}},
@@ -14735,7 +14740,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "acacia_log"}}}},
@@ -14776,7 +14781,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "polished_basalt"}}}},
@@ -14817,7 +14822,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "nether_quartz_ore"}}}},
@@ -14858,7 +14863,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "exposed_copper_bulb"}}}},
@@ -14899,7 +14904,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "grass_block"}}}},
@@ -14940,7 +14945,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "redstone_ore"}}}},
@@ -14981,7 +14986,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "waxed_exposed_copper"}}}},
@@ -15022,7 +15027,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "mycelium"}}}},
@@ -15063,7 +15068,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "cyan_glazed_terracotta"}}}},
@@ -15104,7 +15109,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "cyan_concrete_powder"}}}},
@@ -15145,7 +15150,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "shroomlight"}}}},
@@ -15186,7 +15191,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "polished_cinnabar"}}}},
@@ -15227,7 +15232,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "polished_diorite"}}}},
@@ -15268,7 +15273,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "dark_oak_wood"}}}},
@@ -15309,7 +15314,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "gray_concrete_powder"}}}},
@@ -15350,7 +15355,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "birch_planks"}}}},
@@ -15391,7 +15396,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "waxed_copper_block"}}}},
@@ -15432,7 +15437,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "ancient_debris"}}}},
@@ -15473,7 +15478,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "oxidized_copper_bulb"}}}},
@@ -15514,7 +15519,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "horn_coral_block"}}}},
@@ -15555,7 +15560,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "crimson_nylium"}}}},
@@ -15596,7 +15601,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "raw_copper_block"}}}},
@@ -15637,7 +15642,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "tuff_bricks"}}}},
@@ -15678,7 +15683,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "chiseled_tuff"}}}},
@@ -15719,7 +15724,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "orange_glazed_terracotta"}}}},
@@ -15760,7 +15765,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "blue_wool"}}}},
@@ -15801,7 +15806,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "blue_concrete"}}}},
@@ -15842,7 +15847,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "white_concrete_powder"}}}},
@@ -15883,7 +15888,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "resin_bricks"}}}},
@@ -15924,7 +15929,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "stone_bricks"}}}},
@@ -15965,7 +15970,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "light_gray_concrete"}}}},
@@ -16006,7 +16011,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "exposed_copper"}}}},
@@ -16047,7 +16052,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "deepslate_diamond_ore"}}}},
@@ -16088,7 +16093,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "deepslate_iron_ore"}}}},
@@ -16129,7 +16134,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "ochre_froglight"}}}},
@@ -16170,7 +16175,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "amethyst_block"}}}},
@@ -16211,7 +16216,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "magma_block"}}}},
@@ -16252,7 +16257,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "stripped_mangrove_log"}}}},
@@ -16293,7 +16298,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "deepslate_emerald_ore"}}}},
@@ -16334,7 +16339,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "warped_hyphae"}}}},
@@ -16375,7 +16380,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "dark_prismarine"}}}},
@@ -16416,7 +16421,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "light_gray_wool"}}}},
@@ -16457,7 +16462,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "jungle_wood"}}}},
@@ -16498,7 +16503,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "dripstone_block"}}}},
@@ -16539,7 +16544,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "oxidized_cut_copper"}}}},
@@ -16580,7 +16585,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "polished_blackstone"}}}},
@@ -16621,7 +16626,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "tuff"}}}},
@@ -16662,7 +16667,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "cut_copper"}}}},
@@ -16703,7 +16708,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "weathered_cut_copper"}}}},
@@ -16744,7 +16749,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "stripped_oak_log"}}}},
@@ -16785,7 +16790,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "brown_terracotta"}}}},
@@ -16826,7 +16831,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "light_blue_glazed_terracotta"}}}},
@@ -16867,7 +16872,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "quartz_bricks"}}}},
@@ -16908,7 +16913,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "red_glazed_terracotta"}}}},
@@ -16949,7 +16954,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "iron_block"}}}},
@@ -16990,7 +16995,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "pearlescent_froglight"}}}},
@@ -17031,7 +17036,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "light_gray_terracotta"}}}},
@@ -17072,7 +17077,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "obsidian"}}}},
@@ -17113,7 +17118,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "stripped_jungle_log"}}}},
@@ -17154,7 +17159,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "yellow_terracotta"}}}},
@@ -17195,7 +17200,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "stripped_acacia_log"}}}},
@@ -17236,7 +17241,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "stripped_jungle_wood"}}}},
@@ -17277,7 +17282,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "redstone_lamp"}}}},
@@ -17318,7 +17323,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "mossy_cobblestone"}}}},
@@ -17359,7 +17364,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "stripped_cherry_wood"}}}},
@@ -17400,7 +17405,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "coal_block"}}}},
@@ -17441,7 +17446,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "deepslate_copper_ore"}}}},
@@ -17482,7 +17487,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "light_blue_concrete"}}}},
@@ -17523,7 +17528,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "tnt"}}}},
@@ -17564,7 +17569,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "waxed_weathered_copper_bulb"}}}},
@@ -17605,7 +17610,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "jack_o_lantern"}}}},
@@ -17646,7 +17651,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "weathered_chiseled_copper"}}}},
@@ -17687,7 +17692,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "nether_wart_block"}}}},
@@ -17728,7 +17733,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "smooth_red_sandstone"}}}},
@@ -17769,7 +17774,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "waxed_chiseled_copper"}}}},
@@ -17810,7 +17815,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "resin_block"}}}},
@@ -17851,7 +17856,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "white_wool"}}}},
@@ -17892,7 +17897,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "waxed_weathered_cut_copper"}}}},
@@ -17933,7 +17938,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "spruce_planks"}}}},
@@ -17974,7 +17979,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "exposed_cut_copper"}}}},
@@ -18015,7 +18020,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "deepslate"}}}},
@@ -18056,7 +18061,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "diamond_block"}}}},
@@ -18097,7 +18102,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "yellow_wool"}}}},
@@ -18138,7 +18143,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "oak_wood"}}}},
@@ -18179,7 +18184,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "snow_block"}}}},
@@ -18220,7 +18225,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "verdant_froglight"}}}},
@@ -18261,7 +18266,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "crying_obsidian"}}}},
@@ -18302,7 +18307,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "coal_ore"}}}},
@@ -18343,7 +18348,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "terracotta"}}}},
@@ -18384,7 +18389,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "cherry_wood"}}}},
@@ -18425,7 +18430,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "magenta_concrete_powder"}}}},
@@ -18466,7 +18471,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "cherry_planks"}}}},
@@ -18507,7 +18512,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "smooth_basalt"}}}},
@@ -18548,7 +18553,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "yellow_concrete"}}}},
@@ -18589,7 +18594,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "purple_concrete"}}}},
@@ -18630,7 +18635,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "fire_coral_block"}}}},
@@ -18671,7 +18676,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "podzol"}}}},
@@ -18712,7 +18717,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "cyan_wool"}}}},
@@ -18753,7 +18758,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "chiseled_nether_bricks"}}}},
@@ -18794,7 +18799,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "dark_oak_planks"}}}},
@@ -18835,7 +18840,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "nether_bricks"}}}},
@@ -18876,7 +18881,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "black_concrete"}}}},
@@ -18917,7 +18922,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "purple_terracotta"}}}},
@@ -18958,7 +18963,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "cracked_deepslate_bricks"}}}},
@@ -18999,7 +19004,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "stripped_mangrove_wood"}}}},
@@ -19040,7 +19045,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "weathered_copper"}}}},
@@ -19081,7 +19086,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "tube_coral_block"}}}},
@@ -19122,7 +19127,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "black_glazed_terracotta"}}}},
@@ -19163,7 +19168,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "emerald_ore"}}}},
@@ -19204,7 +19209,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "quartz_block"}}}},
@@ -19245,7 +19250,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "chiseled_stone_bricks"}}}},
@@ -19286,7 +19291,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "cracked_stone_bricks"}}}},
@@ -19327,7 +19332,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "waxed_exposed_cut_copper"}}}},
@@ -19368,7 +19373,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "crimson_stem"}}}},
@@ -19409,7 +19414,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "packed_mud"}}}},
@@ -19450,7 +19455,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "stripped_bamboo_block"}}}},
@@ -19491,7 +19496,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "deepslate_gold_ore"}}}},
@@ -19532,7 +19537,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "birch_log"}}}},
@@ -19573,7 +19578,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "blue_glazed_terracotta"}}}},
@@ -19614,7 +19619,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "chiseled_cinnabar"}}}},
@@ -19655,7 +19660,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "light_blue_wool"}}}},
@@ -19696,7 +19701,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "brown_concrete_powder"}}}},
@@ -19737,7 +19742,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "white_terracotta"}}}},
@@ -19778,7 +19783,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "stripped_crimson_stem"}}}},
@@ -19819,7 +19824,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "clay"}}}},
@@ -19860,7 +19865,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "light_blue_terracotta"}}}},
@@ -19901,7 +19906,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "emerald_block"}}}},
@@ -19942,7 +19947,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "sulfur_bricks"}}}},
@@ -19983,7 +19988,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "spruce_wood"}}}},
@@ -20024,7 +20029,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "magenta_terracotta"}}}},
@@ -20065,7 +20070,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "oxidized_chiseled_copper"}}}},
@@ -20106,7 +20111,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "chiseled_copper"}}}},
@@ -20147,7 +20152,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "green_glazed_terracotta"}}}},
@@ -20188,7 +20193,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "gilded_blackstone"}}}},
@@ -20229,7 +20234,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "glowstone"}}}},
@@ -20270,7 +20275,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "pale_oak_planks"}}}},
@@ -20311,7 +20316,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "chiseled_tuff_bricks"}}}},
@@ -20352,7 +20357,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "mangrove_log"}}}},
@@ -20393,7 +20398,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "cracked_deepslate_tiles"}}}},
@@ -20434,7 +20439,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "warped_planks"}}}},
@@ -20475,7 +20480,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "crimson_hyphae"}}}},
@@ -20516,7 +20521,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "lime_terracotta"}}}},
@@ -20557,7 +20562,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "purpur_block"}}}},
@@ -20598,7 +20603,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "magenta_wool"}}}},
@@ -20639,7 +20644,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "mushroom_stem"}}}},
@@ -20680,7 +20685,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "birch_wood"}}}},
@@ -20721,7 +20726,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "honeycomb_block"}}}},
@@ -20762,7 +20767,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "stripped_spruce_wood"}}}},
@@ -20803,7 +20808,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "purple_glazed_terracotta"}}}},
@@ -20844,7 +20849,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "nether_gold_ore"}}}},
@@ -20885,7 +20890,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "soul_sand"}}}},
@@ -20926,7 +20931,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "stripped_birch_log"}}}},
@@ -20967,7 +20972,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "gray_wool"}}}},
@@ -21008,7 +21013,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "gold_block"}}}},
@@ -21049,7 +21054,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "prismarine"}}}},
@@ -21090,7 +21095,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "cinnabar_bricks"}}}},
@@ -21131,7 +21136,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "polished_andesite"}}}},
@@ -21172,7 +21177,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "black_wool"}}}},
@@ -21213,7 +21218,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "purpur_pillar"}}}},
@@ -21254,7 +21259,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "muddy_mangrove_roots"}}}},
@@ -21295,7 +21300,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "white_concrete"}}}},
@@ -21336,7 +21341,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "cobblestone"}}}},
@@ -21377,7 +21382,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "gray_terracotta"}}}},
@@ -21418,7 +21423,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "gray_concrete"}}}},
@@ -21459,7 +21464,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "bamboo_planks"}}}},
@@ -21500,7 +21505,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "polished_granite"}}}},
@@ -21541,7 +21546,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "warped_nylium"}}}},
@@ -21582,7 +21587,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "smooth_stone"}}}},
@@ -21623,7 +21628,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "chiseled_quartz_block"}}}},
@@ -21664,7 +21669,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "black_terracotta"}}}},
@@ -21705,7 +21710,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "pale_moss_block"}}}},
@@ -21746,7 +21751,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "red_concrete_powder"}}}},
@@ -21787,7 +21792,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "brain_coral_block"}}}},
@@ -21828,7 +21833,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "orange_concrete_powder"}}}},
@@ -21869,7 +21874,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "cut_red_sandstone"}}}},
@@ -21910,7 +21915,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "red_mushroom_block"}}}},
@@ -21951,7 +21956,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "brown_wool"}}}},
@@ -21992,7 +21997,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "waxed_weathered_copper"}}}},
@@ -22033,7 +22038,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "copper_bulb"}}}},
@@ -22074,7 +22079,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "cracked_polished_blackstone_bricks"}}}},
@@ -22115,7 +22120,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "waxed_oxidized_copper_bulb"}}}},
@@ -22156,7 +22161,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "oak_planks"}}}},
@@ -22197,7 +22202,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "orange_concrete"}}}},
@@ -22238,7 +22243,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "deepslate_bricks"}}}},
@@ -22279,7 +22284,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "prismarine_bricks"}}}},
@@ -22320,7 +22325,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "warped_stem"}}}},
@@ -22361,7 +22366,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "mossy_stone_bricks"}}}},
@@ -22402,7 +22407,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "red_concrete"}}}},
@@ -22443,7 +22448,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "andesite"}}}},
@@ -22484,7 +22489,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "mud"}}}},
@@ -22525,7 +22530,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "exposed_chiseled_copper"}}}},
@@ -22566,7 +22571,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "white_glazed_terracotta"}}}},
@@ -22607,7 +22612,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "green_concrete"}}}},
@@ -22648,7 +22653,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "green_wool"}}}},
@@ -22689,7 +22694,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "stripped_crimson_hyphae"}}}},
@@ -22730,7 +22735,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "waxed_oxidized_chiseled_copper"}}}},
@@ -22771,7 +22776,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "yellow_glazed_terracotta"}}}},
@@ -22812,7 +22817,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:sulfur_cube_bucket", "components":{"minecraft:sulfur_cube_content":{								"id": "diorite"}}}},
@@ -22853,7 +22858,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:music_disc_bounce" }},
@@ -22892,4 +22897,3 @@
 
         }
       }
-	}

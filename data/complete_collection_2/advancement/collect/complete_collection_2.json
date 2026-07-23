@@ -26,8 +26,7 @@
         "condition": "minecraft:entity_properties",
         "entity": "this",
         "predicate": {
-          "type_specific": {
-            "type": "player",
+          "minecraft:type_specific/player": {
             "advancements": {
               "complete_collection_2:collect/collect_stack_64": true
             }
@@ -46,13 +45,14 @@
         "entity": "this",
         "predicate": {
           "type_specific": {
-            "type": "player",
+            "minecraft:type_specific/player": {
             "advancements": {
               "complete_collection_2:collect/collect_stack_16": true
             }
           }
         }
       }
+    }
     ]
   }
 },
@@ -65,13 +65,14 @@
         "entity": "this",
         "predicate": {
           "type_specific": {
-            "type": "player",
+            "minecraft:type_specific/player": {
             "advancements": {
               "complete_collection_2:collect/collect_stack_1": true
             }
           }
         }
       }
+    }
     ]
   }
 }

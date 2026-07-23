@@ -24,7 +24,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:tipped_arrow", "components":{							"potion_contents": "minecraft:strong_regeneration"},"count":64}},
@@ -65,7 +65,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:tipped_arrow", "components":{							"potion_contents": "minecraft:wind_charged"},"count":64}},
@@ -106,7 +106,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:tipped_arrow", "components":{							"potion_contents": "minecraft:water_breathing"},"count":64}},
@@ -147,7 +147,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:tipped_arrow", "components":{							"potion_contents": "minecraft:long_water_breathing"},"count":64}},
@@ -188,7 +188,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:tipped_arrow", "components":{							"potion_contents": "minecraft:night_vision"},"count":64}},
@@ -229,7 +229,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:tipped_arrow", "components":{							"potion_contents": "minecraft:water"},"count":64}},
@@ -270,7 +270,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:tipped_arrow", "components":{							"potion_contents": "minecraft:thick"},"count":64}},
@@ -311,7 +311,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:tipped_arrow", "components":{							"potion_contents": "minecraft:regeneration"},"count":64}},
@@ -352,7 +352,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:tipped_arrow", "components":{							"potion_contents": "minecraft:long_invisibility"},"count":64}},
@@ -393,7 +393,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:tipped_arrow", "components":{							"potion_contents": "minecraft:long_strength"},"count":64}},
@@ -434,7 +434,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:tipped_arrow", "components":{							"potion_contents": "minecraft:long_turtle_master"},"count":64}},
@@ -475,7 +475,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:tipped_arrow", "components":{							"potion_contents": "minecraft:long_poison"},"count":64}},
@@ -516,7 +516,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:tipped_arrow", "components":{							"potion_contents": "minecraft:long_fire_resistance"},"count":64}},
@@ -557,7 +557,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:tipped_arrow", "components":{							"potion_contents": "minecraft:strong_slowness"},"count":64}},
@@ -598,7 +598,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:tipped_arrow", "components":{							"potion_contents": "minecraft:swiftness"},"count":64}},
@@ -639,7 +639,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:tipped_arrow", "components":{							"potion_contents": "minecraft:infested"},"count":64}},
@@ -680,7 +680,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:tipped_arrow", "components":{							"potion_contents": "minecraft:weaving"},"count":64}},
@@ -721,7 +721,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:tipped_arrow", "components":{							"potion_contents": "minecraft:long_weakness"},"count":64}},
@@ -762,7 +762,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:tipped_arrow", "components":{							"potion_contents": "minecraft:strong_harming"},"count":64}},
@@ -803,7 +803,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:tipped_arrow", "components":{							"potion_contents": "minecraft:long_slow_falling"},"count":64}},
@@ -844,7 +844,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:tipped_arrow", "components":{							"potion_contents": "minecraft:strong_strength"},"count":64}},
@@ -885,7 +885,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:tipped_arrow", "components":{							"potion_contents": "minecraft:healing"},"count":64}},
@@ -926,7 +926,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:tipped_arrow", "components":{							"potion_contents": "minecraft:strong_turtle_master"},"count":64}},
@@ -967,7 +967,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:tipped_arrow", "components":{							"potion_contents": "minecraft:strength"},"count":64}},
@@ -1008,7 +1008,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:tipped_arrow", "components":{							"potion_contents": "minecraft:strong_poison"},"count":64}},
@@ -1049,7 +1049,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:tipped_arrow", "components":{							"potion_contents": "minecraft:slow_falling"},"count":64}},
@@ -1090,7 +1090,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:tipped_arrow", "components":{							"potion_contents": "minecraft:strong_healing"},"count":64}},
@@ -1131,7 +1131,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:tipped_arrow", "components":{							"potion_contents": "minecraft:strong_swiftness"},"count":64}},
@@ -1172,7 +1172,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:tipped_arrow", "components":{							"potion_contents": "minecraft:harming"},"count":64}},
@@ -1213,7 +1213,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:tipped_arrow", "components":{							"potion_contents": "minecraft:long_leaping"},"count":64}},
@@ -1254,7 +1254,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:tipped_arrow", "components":{							"potion_contents": "minecraft:long_slowness"},"count":64}},
@@ -1295,7 +1295,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:tipped_arrow", "components":{							"potion_contents": "minecraft:turtle_master"},"count":64}},
@@ -1336,7 +1336,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:tipped_arrow", "components":{							"potion_contents": "minecraft:mundane"},"count":64}},
@@ -1377,7 +1377,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:tipped_arrow", "components":{							"potion_contents": "minecraft:leaping"},"count":64}},
@@ -1418,7 +1418,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:tipped_arrow", "components":{							"potion_contents": "minecraft:long_night_vision"},"count":64}},
@@ -1459,7 +1459,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:tipped_arrow", "components":{							"potion_contents": "minecraft:long_regeneration"},"count":64}},
@@ -1500,7 +1500,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:tipped_arrow", "components":{							"potion_contents": "minecraft:long_swiftness"},"count":64}},
@@ -1541,7 +1541,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:tipped_arrow", "components":{							"potion_contents": "minecraft:strong_leaping"},"count":64}},
@@ -1582,7 +1582,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:tipped_arrow", "components":{							"potion_contents": "minecraft:awkward"},"count":64}},
@@ -1623,7 +1623,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:tipped_arrow", "components":{							"potion_contents": "minecraft:fire_resistance"},"count":64}},
@@ -1664,7 +1664,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:tipped_arrow", "components":{							"potion_contents": "minecraft:slowness"},"count":64}},
@@ -1705,7 +1705,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:tipped_arrow", "components":{							"potion_contents": "minecraft:invisibility"},"count":64}},
@@ -1746,7 +1746,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:tipped_arrow", "components":{							"potion_contents": "minecraft:weakness"},"count":64}},
@@ -1787,7 +1787,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:tipped_arrow", "components":{							"potion_contents": "minecraft:poison"},"count":64}},
@@ -1828,7 +1828,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:tipped_arrow", "components":{							"potion_contents": "minecraft:oozing"},"count":64}},

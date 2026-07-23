@@ -23,7 +23,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "admire_goat_horn"}}},
@@ -64,7 +64,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "sing_goat_horn"}}},
@@ -105,7 +105,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "ponder_goat_horn"}}},
@@ -146,7 +146,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "feel_goat_horn"}}},
@@ -187,7 +187,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "dream_goat_horn"}}},
@@ -228,7 +228,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "call_goat_horn"}}},
@@ -269,7 +269,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "seek_goat_horn"}}},
@@ -310,7 +310,7 @@
 "conditions": {
 "items": [
 {
-"items": "minecraft:shulker_box",
+"items": "#minecraft:shulker_boxes",
 "components": {
 "minecraft:container": [
 {"slot": 0, "item": {"id": "minecraft:goat_horn", "components":{							"instrument": "yearn_goat_horn"}}},
