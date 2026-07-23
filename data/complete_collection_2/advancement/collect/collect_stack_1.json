@@ -19,85 +19,57 @@
         "parent": "complete_collection_2:collect/collect_tropical_fish",
         "criteria": {
   "potions": {
-    "trigger": "minecraft:tick",
-    "conditions": {
-      "player": [
-        {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "type_specific": {
-              "minecraft:type_specific/player": {
-              "advancements": {
-                "complete_collection_2:collect/collect_potions": true
-              }
-            }
-          }
-        }
-      }
-      ]
-    }
-  },
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"minecraft:type_specific/player": {
+
+						"advancements": {
+							"complete_collection_2:collect/collect_potions": true
+						}
+					}
+				}
+			}
+		},
   "goat_horns": {
-    "trigger": "minecraft:tick",
-    "conditions": {
-      "player": [
-        {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "type_specific": {
-              "minecraft:type_specific/player": {
-              "advancements": {
-                "complete_collection_2:collect/collect_horns": true
-              }
-            }
-          }
-        }
-      }
-      ]
-    }
-  },
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"minecraft:type_specific/player": {
+
+						"advancements": {
+							"complete_collection_2:collect/collect_horns": true
+						}
+					}
+				}
+			}
+		},
   "tropical_fish_buckets": {
-    "trigger": "minecraft:tick",
-    "conditions": {
-      "player": [
-        {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "type_specific": {
-              "minecraft:type_specific/player": {
-              "advancements": {
-                "complete_collection_2:collect/collect_tropical_fish": true
-              }
-            }
-          }
-        }
-        }
-      ]
-    }
-  },
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"minecraft:type_specific/player": {
+
+						"advancements": {
+							"complete_collection_2:collect/collect_tropical_fish": true
+						}
+					}
+				}
+			}
+		},
   "axolotls": {
-    "trigger": "minecraft:tick",
-    "conditions": {
-      "player": [
-        {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "type_specific": {
-              "minecraft:type_specific/player": {
-              "advancements": {
-                "complete_collection_2:collect/collect_axolotls": true
-              }
-            }
-          }
-        }
-        }
-      ]
-    }
-  },
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"minecraft:type_specific/player": {
+
+						"advancements": {
+							"complete_collection_2:collect/collect_axolotls": true
+						}
+					}
+				}
+			}
+		},
 "black_bed": {
 "trigger": "minecraft:inventory_changed",
 "conditions": {

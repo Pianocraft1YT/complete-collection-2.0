@@ -19,25 +19,18 @@
         "parent": "blackbirds_torture_chamber:stuff/a_complete_collection",
         "criteria":{
             "tipped_arrows": {
-  "trigger": "minecraft:tick",
-  "conditions": {
-    "player": [
-      {
-        "condition": "minecraft:entity_properties",
-        "entity": "this",
-        "predicate": {
-          "type_specific": {
-            "minecraft:type_specific/player": {
-            "advancements": {
-              "complete_collection_2:collect/collect_arrows": true
-            }
-          }
-        }
-      }
-      }
-    ]
-  }
-},
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"minecraft:type_specific/player": {
+
+						"advancements": {
+							"complete_collection_2:collect/collect_arrows": true
+						}
+					}
+				}
+			}
+		},
 "acacia_button": {
 "trigger": "minecraft:inventory_changed",
 "conditions": {
