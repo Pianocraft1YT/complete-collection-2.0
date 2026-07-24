@@ -32,7 +32,7 @@ public class items_stack_1 {
     ArrayList<String> toChange = findItem(new File("C:\\Users\\lucca\\Downloads\\complete-collection-2.0\\BAC Torture Edition 1-9\\data\\blackbirds_torture_chamber\\advancement\\stuff\\a_complete_collection.json"));
     ArrayList<String> finals = new ArrayList<>();
     for (String i : toChange){
-        if (!(i.contains("potion") || i.contains("ominous_bottle"))){
+        if (!(i.contains("potion") || i.contains("ominous_bottle") || i.contains("shulker_box"))){
             if (i.endsWith("\""))
                i = i.substring(0, i.length()-1);
             if (i.endsWith("\","))
@@ -53,7 +53,7 @@ public class items_stack_1 {
                     System.out.println("\"conditions\": {");
                     System.out.println("\"items\": [");
                     System.out.println("{");
-                    System.out.println("\"items\": \"minecraft:shulker_box\",");
+                    System.out.println("\"items\": \"#minecraft:shulker_boxes\",");
                     System.out.println("\"components\": {");
                     System.out.println("\"minecraft:container\": [");
                         for (int j = 0; j < 26; j++){

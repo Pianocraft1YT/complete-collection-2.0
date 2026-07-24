@@ -59,7 +59,7 @@ public class items_stack_1_sulfur_cube {
                     System.out.println("\"conditions\": {");
                     System.out.println("\"items\": [");
                     System.out.println("{");
-                    System.out.println("\"items\": \"minecraft:shulker_box\",");
+                    System.out.println("\"items\": \"#minecraft:shulker_boxes\",");
                     System.out.println("\"components\": {");
                     System.out.println("\"minecraft:container\": [");
                         for (int j = 0; j < 26; j++){

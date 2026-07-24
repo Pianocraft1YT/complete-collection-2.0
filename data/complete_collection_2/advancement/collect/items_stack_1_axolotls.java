@@ -58,14 +58,14 @@ public class items_stack_1_axolotls {
                     System.out.println("\"conditions\": {");
                     System.out.println("\"items\": [");
                     System.out.println("{");
-                    System.out.println("\"items\": \"minecraft:shulker_box\",");
+                    System.out.println("\"items\": \"#minecraft:shulker_boxes\",");
                     System.out.println("\"components\": {");
                     System.out.println("\"minecraft:container\": [");
                         for (int j = 0; j < 26; j++){
                             //{"slot":0,"item":{"id":"minecraft:copper_golem_statue","count":64,"components":{"minecraft:block_state":{"copper_golem_pat":"standing"}}}},
-                            System.out.println("{\"slot\": " + j + ", \"item\": {\"id\": \"minecraft:" + finals.get(i) + "\", \"components\":{\"minecraft:bucket_entity_data\":{" + pat + "}}}},");
+                            System.out.println("{\"slot\": " + j + ", \"item\": {\"id\": \"minecraft:" + finals.get(i) + "\", \"components\":{\"minecraft:bucket_entity_data\":{}," + pat + "}}},");
                         }                                                                                                                       
-                            System.out.println("{\"slot\": 26, \"item\": {\"id\": \"minecraft:" + finals.get(i) + "\", \"components\":{\"minecraft:bucket_entity_data\":{" + pat + "}}}}");
+                            System.out.println("{\"slot\": 26, \"item\": {\"id\": \"minecraft:" + finals.get(i) + "\", \"components\":{\"minecraft:bucket_entity_data\":{}," + pat + "}}}");
                     System.out.println("]");
                     System.out.println("}");
                     System.out.println("}");

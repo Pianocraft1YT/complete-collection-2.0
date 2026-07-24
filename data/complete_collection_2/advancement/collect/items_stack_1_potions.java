@@ -71,7 +71,7 @@ public class items_stack_1_potions {
                     System.out.println("\"conditions\": {");
                     System.out.println("\"items\": [");
                     System.out.println("{");
-                    System.out.println("\"items\": \"minecraft:shulker_box\",");
+                    System.out.println("\"items\": \"#minecraft:shulker_boxes\",");
                     System.out.println("\"components\": {");
                     System.out.println("\"minecraft:container\": [");
                                                 String temp = finals.get(i).substring(15);
